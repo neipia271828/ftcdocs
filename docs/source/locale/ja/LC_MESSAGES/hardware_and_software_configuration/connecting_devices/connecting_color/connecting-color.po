@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:2
+msgid "Connecting a Color-Distance Sensor to the Hub"
+msgstr "Hub へのカラー・距離センサーの接続"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:4
+msgid ""
+"The Hub has 4 independent I2C buses. Each bus has its own port on the Hub. "
+"We will connect a REV Robotics Color-Distance sensor to the I2C bus #0 on "
+"the Hub."
+msgstr ""
+"Hub には独立した I2C バスが 4 系統あり、それぞれ専用のポートがあります。ここでは REV Robotics カラー・距離センサーを Hub "
+"の I2C バス #0 に接続します。"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:8
+msgid "Note that it will take an estimated 2.5 minutes to complete this task."
+msgstr "このタスクの完了には約 2.5 分かかります。"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:12
+msgid "Connecting a Color-Distance Sensor to the Hub Instructions"
+msgstr "Hub へのカラー・距離センサー接続手順"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:14
+msgid ""
+"1. Connect one end of the 4-pin JST PH cable to the REV Robotics Color-"
+"Distance sensor."
+msgstr "1. 4 ピン JST PH ケーブルの一端を REV Robotics カラー・距離センサーに接続します。"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:22
+msgid ""
+"2. Plug the other end of the 4-pin JST PH cable to the I2C port labeled "
+"\"0\" on the Hub."
+msgstr "2. 4 ピン JST PH ケーブルのもう一端を Hub 上の「0」と表示された I2C ポートに接続します。"

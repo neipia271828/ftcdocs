@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:2
+msgid "Configuring an External Webcam with a Control Hub"
+msgstr "Control Hub を使用した外部 Web カメラの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:5
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:7
+msgid ""
+"The Competition Manual allows the use of USB Video Class (UVC) compatible"
+" cameras for computer vision-related tasks. If you are using a REV "
+"Robotics Control Hub, then you will need to use an external webcam, since"
+" the Control Hub does not include a built-in camera. This document "
+"describes how to connect, configure and use an external webcam with a "
+"Control Hub."
+msgstr ""
+"競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）対応カメラの使用を認めています。"
+"REV Robotics Control Hub を使用している場合は外部 Web カメラが必要です。"
+"Control Hub には内蔵カメラが搭載されていないためです。"
+"このドキュメントでは、Control Hub に外部 Web カメラを接続・設定・使用する方法を説明します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:14
+msgid ""
+"Special thanks to Chris Johannesen of Westside Robotics (Los Angeles) for"
+" putting together this documentation."
+msgstr "このドキュメントをまとめてくださった Westside Robotics（ロサンゼルス）の Chris Johannesen 氏に特別な感謝を申し上げます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:18
+msgid "Type of External Camera"
+msgstr "外部カメラの種類"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:20
+msgid ""
+"Theoretically, any USB Video Class (UVC) camera should work with the "
+"system. However, *FIRST* recommends using UVC web cameras from Logitech. "
+"The following cameras have been tested and calibrated to work accurately "
+"with SDK software:"
+msgstr ""
+"理論上、USB Video Class（UVC）カメラであればシステムで動作するはずです。"
+"ただし、*FIRST* は Logitech 製の UVC Web カメラの使用を推奨しています。"
+"以下のカメラは SDK ソフトウェアで正確に動作するようテスト・較正済みです。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:25
+msgid ":ref:`logitech_c270_label`"
+msgstr ":ref:`logitech_c270_label`"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:26
+msgid ":ref:`logitech_c310_label`"
+msgstr ":ref:`logitech_c310_label`"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:27
+msgid ":ref:`logitech_c920_label`"
+msgstr ":ref:`logitech_c920_label`"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:29
+msgid ""
+"Calibrating a UVC camera is an optional, advanced task. Instructions for "
+"creating a calibration file are in the comments of the "
+"`teamwebcamcalibrations.xml "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" file in the ftc_app project folder (visit this `link "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" for an online copy of the file)."
+msgstr ""
+"UVC カメラの較正はオプションの高度なタスクです。較正ファイルの作成手順は"
+"ftc_app プロジェクトフォルダーの `teamwebcamcalibrations.xml "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" ファイルのコメントに記載されています"
+"（ファイルのオンラインコピーはこちらの `リンク "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" からご覧いただけます）。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:37
+msgid "Connecting the Camera"
+msgstr "カメラの接続"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:39
+msgid ""
+"The UVC camera can plug directly into the USB 3.0 port on the REV Control"
+" Hub. Unlike the REV Expansion Hub, there is no need for an external "
+"powered USB hub."
+msgstr ""
+"UVC カメラは REV Control Hub の USB 3.0 ポートに直接接続できます。"
+"REV Expansion Hub とは異なり、外部電源付き USB ハブは不要です。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:43
+msgid "Control Hub with UVC camera connected."
+msgstr "UVC カメラが接続された Control Hub"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:46
+msgid ""
+"An electrostatic discharge (ESD) event on the USB 2.0 port on the Control"
+" Hub can cause Wi-Fi disconnects."
+msgstr "Control Hub の USB 2.0 ポートでの静電気放電（ESD）は Wi-Fi 接続切断を引き起こすことがあります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:48
+msgid ""
+"The REV Control Hub has a `known ESD issue <https://docs.revrobotics.com"
+"/duo-control/troubleshooting-the-control-system/troubleshooting-the-"
+"control-system#esd-mitigation-techniques>`_ with devices plugged into the"
+" USB 2.0 port. Using the USB 2.0 Port may cause ESD to affect your "
+"Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub)."
+" Ensure that you plug USB devices, such as a Camera, into the USB 3.0 "
+"Port on your Control Hub."
+msgstr ""
+"REV Control Hub には USB 2.0 ポートに接続されたデバイスに関する "
+"`既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ があります。"
+"USB 2.0 ポートを使用すると ESD が Control Hub の Wi-Fi チップに影響し（Driver Hub との Wi-Fi 接続切断を引き起こす）、"
+"問題が発生することがあります。カメラなどの USB デバイスは Control Hub の USB 3.0 ポートに接続してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:54
+msgid "If you wish to connect two webcams see `Cameras and USB Hubs`_."
+msgstr "2 台の Web カメラを接続したい場合は `カメラと USB ハブ`_ を参照してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:57
+msgid "Camera Configuration"
+msgstr "カメラの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:59
+msgid ""
+"Before using the external camera, it must be added to the active "
+"configuration file as a USB-connected device."
+msgstr "外部カメラを使用する前に、アクティブな設定ファイルに USB 接続デバイスとして追加する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:62
+msgid ""
+"Use the Configure Robot menu item on the paired DRIVER STATION device to "
+"add the webcam as a USB-connected device to an existing or newly created "
+"configuration file. Note that the Scan operation for the Configure Robot "
+"activity should detect the webcam and give it a default name of \"Webcam "
+"1\"."
+msgstr ""
+"ペアリングされた DRIVER STATION デバイスの Configure Robot メニューを使用して、"
+"既存または新規作成した設定ファイルに Web カメラを USB 接続デバイスとして追加します。"
+"Configure Robot アクティビティのスキャン操作で Web カメラが検出され、"
+"デフォルト名「Webcam 1」が付与されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:68
+msgid ""
+"Screen shot showing the Scan button circled in yellow and the resulting "
+"USB device listed as Webcam 1."
+msgstr "Scan ボタンが黄色の丸で示され、USB デバイスが Webcam 1 としてリストされているスクリーンショット"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:71
+msgid ""
+"You can keep this default name (the sample Op Modes reference this name) "
+"or change it. If you change the webcam name, make sure your Op Modes "
+"refer to this new name."
+msgstr ""
+"このデフォルト名（サンプル Op Mode はこの名前を参照）はそのまま使用するか変更できます。"
+"Web カメラ名を変更した場合は、Op Mode が新しい名前を参照していることを確認してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:76
+msgid "Sample Op Modes"
+msgstr "サンプル Op Mode"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:78
+msgid ""
+"When the configuration has been saved and activated, the external UVC "
+"camera can be programmed for robot vision tasks."
+msgstr "設定が保存・アクティブ化されると、外部 UVC カメラをロボットのビジョンタスク用にプログラムできます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:81
+msgid ""
+"The SDK software offers \"webcam\" versions of its sample Blocks and Java "
+"Op Modes, showing how to use the external UVC camera for VisionPortal "
+"operations."
+msgstr ""
+"SDK ソフトウェアには、外部 UVC カメラを VisionPortal 操作に使用する方法を示す"
+"「webcam」バージョンのサンプル Blocks および Java Op Mode が用意されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:84
+msgid "Blocks code for initializing a webcam."
+msgstr "Web カメラを初期化するための Blocks コード"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:87
+msgid ""
+"Before opening and editing an Op Mode, verify that the intended "
+"configuration (with camera) is active. Also verify that the name "
+"referenced in the Op Mode matches the name specified in the configuration"
+" file."
+msgstr ""
+"Op Mode を開いて編集する前に、目的の設定（カメラを含む）がアクティブであることを確認してください。"
+"また、Op Mode で参照されている名前が設定ファイルで指定した名前と一致していることを確認してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:93
+msgid "Image Preview"
+msgstr "画像プレビュー"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:95
+msgid ""
+"The *FIRST* Tech Challenge apps provide camera preview for 'stream-"
+"enabled' Op Modes using VisionPortal."
+msgstr "*FIRST* Tech Challenge アプリは VisionPortal を使用する「ストリーミング対応」Op Mode のカメラプレビューを提供します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:98
+msgid ""
+"On a paired DRIVER STATION device, with the camera connected and "
+"configured, select a stream-enabled Op Mode. Press the INIT button, and "
+"wait briefly for streaming software to initialize; do not press the START"
+" button. Instead open the main menu (the 3 dots in upper right hand "
+"corner of the screen) and select Camera Stream. This option appears only "
+"at this time, during which the game pads and START button are disabled "
+"for safety."
+msgstr ""
+"カメラが接続・設定されたペアリング済みの DRIVER STATION デバイスで、ストリーミング対応の Op Mode を選択します。"
+"INIT ボタンを押し、ストリーミングソフトウェアが初期化されるまで少し待ちます（START ボタンは押さないでください）。"
+"代わりにメインメニュー（画面右上の 3 点アイコン）を開き、Camera Stream を選択します。"
+"このオプションはこの時点のみ表示され、この間ゲームパッドと START ボタンは安全のため無効化されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:106
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:122
+msgid ""
+"Driver Station screen shot showing the menu with the Camera Stream option"
+" circled in yellow."
+msgstr "Camera Stream オプションが黄色の丸で示されたメニューが表示された Driver Station のスクリーンショット"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:109
+msgid ""
+"The camera image will appear on the DRIVER STATION screen. Manually touch"
+" the image to refresh it. To preserve bandwidth, only one frame is sent "
+"at a time."
+msgstr ""
+"DRIVER STATION 画面にカメラ画像が表示されます。画像をタップして手動で更新してください。"
+"帯域幅を節約するため、一度に 1 フレームのみ送信されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:113
+msgid "Driver Station screen shot showing the camera image."
+msgstr "カメラ画像が表示された Driver Station のスクリーンショット"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:116
+msgid ""
+"This option may be used to adjust the camera, with frequent manual image "
+"refreshing as needed. When finished, open the main menu and select Camera"
+" Stream again to turn off the preview. The preview image will close, the "
+"game pads will be enabled, and the START button may be pressed to "
+"continue running the Op Mode."
+msgstr ""
+"このオプションは、必要に応じて手動で画像を更新しながらカメラを調整するために使用できます。"
+"完了したら、メインメニューを開いて再度 Camera Stream を選択してプレビューをオフにします。"
+"プレビュー画像が閉じ、ゲームパッドが有効化され、START ボタンを押して Op Mode の実行を続けることができます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:125
+msgid ""
+"Because the Camera Stream feature is only available during the INIT phase"
+" of an Op Mode, you must ensure that the VisionPortal is activated in "
+"your Op Mode **before** the waitForStart command:"
+msgstr ""
+"Camera Stream 機能は Op Mode の INIT フェーズでのみ利用可能なため、"
+"Op Mode で VisionPortal が waitForStart コマンドの**前に**アクティブ化されていることを確認してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:129
+msgid ""
+"Blocks code showing the INIT code for the webcam is called before wait "
+"for start."
+msgstr "Web カメラの INIT コードが wait for start の前に呼び出されることを示す Blocks コード"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:132
+msgid ""
+"If you do not see the Camera Stream option in your main menu on your "
+"DRIVER STATION, then verify that the VisionPortal is activated before the"
+" waitForStart command in your Op Mode. Also make sure you've given the "
+"system enough time to initialize the VisionPortal software before you "
+"check to see if Camera Stream is available."
+msgstr ""
+"DRIVER STATION のメインメニューに Camera Stream オプションが表示されない場合は、"
+"Op Mode で VisionPortal が waitForStart コマンドの前にアクティブ化されていることを確認してください。"
+"また、Camera Stream が利用可能かどうかを確認する前に、"
+"システムに VisionPortal ソフトウェアを初期化するのに十分な時間を与えたことを確認してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:139
+msgid "Scrcpy"
+msgstr "Scrcpy"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:141
+msgid ""
+"To view the camera output from a computer while an OpMode is running, you"
+" can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this, "
+"you will first need to obtain an ADB connection with your Control Hub. "
+"This can be done by connecting a USB-A to USB-C cable to the USB-C port "
+"on your Control Hub. If on Windows, you may also connect to your Control "
+"Hub WiFi network and open the `REV Hardware Client "
+"<https://docs.revrobotics.com/rev-hardware-client/gs/install>`__. Once "
+"connected, use `these instructions "
+"<https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ "
+"to install and run scrcpy on your computer."
+msgstr ""
+"OpMode の実行中にコンピューターからカメラ出力を表示するには "
+"`scrcpy <https://github.com/Genymobile/scrcpy>`__ を使用できます。"
+"これには、まず Control Hub との ADB 接続を確立する必要があります。"
+"USB-A to USB-C ケーブルを Control Hub の USB-C ポートに接続することで実現できます。"
+"Windows の場合は Control Hub の WiFi ネットワークに接続して "
+"`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__ を起動することもできます。"
+"接続後、`こちらの手順 <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ に従って"
+"コンピューターに scrcpy をインストール・実行してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:150
+msgid "Screen shot showing the camera output viewed with scrcpy."
+msgstr "scrcpy で表示されたカメラ出力のスクリーンショット"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:153
+msgid ""
+"While scrcpy is a great way to view the camera output, the Competition "
+"Manual does not allow teams to have any devices other than the DRIVER "
+"STATION connected to your Control Hub during a match."
+msgstr ""
+"scrcpy はカメラ出力を表示する優れた方法ですが、試合中は競技マニュアルにより"
+"DRIVER STATION 以外のデバイスを Control Hub に接続することは許可されていません。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:159
+msgid "External HDMI Monitor"
+msgstr "外部 HDMI モニター"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:161
+msgid ""
+"Alternatively, camera output can be viewed on a display monitor or other "
+"device plugged into the HDMI port on the REV Control Hub."
+msgstr "また、REV Control Hub の HDMI ポートに接続したディスプレイモニターやその他のデバイスでカメラ出力を表示することもできます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:164
+msgid ""
+"Photo showing an external HDMI monitor displaying the camera output from "
+"a connected control hub."
+msgstr "接続された Control Hub のカメラ出力を表示する外部 HDMI モニターの写真"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:167
+msgid ""
+"While a portable display monitor can be used to view or troubleshoot the "
+"camera stream on your Control Hub, teams are not allowed to have a "
+"portable display monitor connected to their Control Hub during a match."
+msgstr ""
+"ポータブルディスプレイモニターは Control Hub のカメラストリームの表示やトラブルシューティングに使用できますが、"
+"試合中はポータブルディスプレイモニターを Control Hub に接続することは許可されていません。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:173
+msgid "Advanced Users"
+msgstr "上級ユーザー向け"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:175
+msgid ""
+"For custom streams, advanced users of Android Studio may consult the `API"
+" documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ for "
+"`CameraStreamClient "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__,"
+" `CameraStreamServer "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__"
+" and `CameraStreamSource "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__"
+" classes."
+msgstr ""
+"カスタムストリームについては、Android Studio の上級ユーザーは "
+"`API ドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__ の "
+"`CameraStreamClient "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__、"
+"`CameraStreamServer "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__、"
+"`CameraStreamSource "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__"
+" クラスを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:184
+msgid "Cameras and USB Hubs"
+msgstr "カメラと USB ハブ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:186
+msgid ""
+"You can already connect a UVC webcam into the USB 3.0 port of a Control "
+"Hub. But what if you want to use two webcams? Perhaps you want the robot "
+"to be able to look forward and/or behind without having to spin the "
+"robot. In order to use two webcams on the Control Hub's USB 3.0 port you "
+"can add a USB Hub. This avoid the ESD issue with devices on the USB 2.0 "
+"port."
+msgstr ""
+"UVC Web カメラは Control Hub の USB 3.0 ポートに接続できます。"
+"しかし 2 台の Web カメラを使用したい場合はどうすればよいでしょうか？"
+"ロボットを回転させずに前方や後方を見られるようにしたいかもしれません。"
+"Control Hub の USB 3.0 ポートで 2 台の Web カメラを使用するには USB ハブを追加します。"
+"これにより USB 2.0 ポートのデバイスに関する ESD の問題を回避できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:192
+msgid ""
+"If you're using two standard UVC webcams you are not required to use a "
+"powered USB hub."
+msgstr "標準の UVC Web カメラを 2 台使用する場合は電源付き USB ハブは不要です。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:194
+msgid ""
+"However, some webcams like the Logitech C920 draw more power than others "
+"and there are reports of them drawing too much power from the USB port "
+"when used at the same time. Therefore, you should probably use a powered "
+"USB hub for the C920."
+msgstr ""
+"ただし、Logitech C920 などの一部の Web カメラは他より多くの電力を消費するため、"
+"同時に使用すると USB ポートから過大な電力を引き出すという報告があります。"
+"そのため、C920 には電源付き USB ハブを使用することをお勧めします。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:197
+msgid ""
+"Another use case for a USB hub is if you have a `Limelight 3A "
+"<https://limelightvision.io/products/limelight-3a>`_ camera. This device "
+"has its own processor on board and one drawback of this is that the "
+"camera always draws power, even when an opMode is not running. By adding "
+"a powered USB hub the Limelight will not drain your robot's battery."
+msgstr ""
+"USB ハブの別のユースケースは `Limelight 3A "
+"<https://limelightvision.io/products/limelight-3a>`_ カメラを使用する場合です。"
+"このデバイスには独自のプロセッサが搭載されており、opMode が実行されていない場合でも常に電力を消費するという欠点があります。"
+"電源付き USB ハブを追加することで Limelight がロボットのバッテリーを消耗させることを防ぎます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:201
+msgid ""
+"One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. It "
+"has a USB C port that can supply power to all connected devices."
+msgstr ""
+"適切な電源付き USB ハブの 1 つは Acer ODK350 5-IN-1 USB 3.0 ハブです。"
+"接続されたすべてのデバイスに電力を供給できる USB C ポートが付いています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:204
+msgid ""
+"At the time this was written, the Acer ODK350 hub was not listed on "
+"Acer's website, but was available on Amazon's website."
+msgstr "このドキュメント作成時点では、Acer ODK350 ハブは Acer のウェブサイトに掲載されていませんでしたが、Amazon で購入可能でした。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:206
+msgid ""
+"Not all USB hubs are powered hubs. Typically, you can't just plug a power"
+" bank into any of the USB hub's ports. It must be a port that is designed"
+" to supply power. So if you looking for a powered USB hub there should be"
+" a note in the specifications something like the following: *Note: This "
+"USB C port (with IN 5V printed) can not be used for data transfer and "
+"charge other devices. It can only supply power for the other 4 USB "
+"ports.*"
+msgstr ""
+"すべての USB ハブが電源付きハブというわけではありません。通常、USB ハブのどのポートにも"
+"モバイルバッテリーを接続できるわけではありません。電力を供給するために設計されたポートである必要があります。"
+"電源付き USB ハブを探す場合は、仕様に次のような注記があるはずです。"
+"*注意：この USB C ポート（IN 5V と印刷）はデータ転送と他のデバイスへの充電には使用できません。"
+"他の 4 つの USB ポートへの電力供給のみに使用できます。*"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:211
+msgid "A REV Control Hub with a powered USB hub and two webcams."
+msgstr "電源付き USB ハブと 2 台の Web カメラが接続された REV Control Hub"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:214
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:228
+msgid "Acer ODK350 USB hub"
+msgstr "Acer ODK350 USB ハブ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:216
+msgid ""
+"The USB Hub is connected to the USB 3.0 port of the Control Hub. A "
+"powerbank is connected to the USB C port on the USB hub to supply power "
+"to the connected devices. Two Logitech C920 webcams are connected to the "
+"USB hub."
+msgstr ""
+"USB ハブは Control Hub の USB 3.0 ポートに接続されています。"
+"モバイルバッテリーが USB ハブの USB C ポートに接続され、接続されたデバイスに電力を供給しています。"
+"2 台の Logitech C920 Web カメラが USB ハブに接続されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:220
+msgid ""
+"See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_"
+" sample program that demonstrates swapping between the two cameras to "
+"detect AprilTags."
+msgstr ""
+"AprilTag を検出するために 2 台のカメラを切り替える方法を示す "
+"`AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_"
+" サンプルプログラムを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:222
+msgid ""
+"The other use case is using a Limelight a with a powered USB hub to "
+"reduce robot battery drain. This example shows both a Limelight and a "
+"webcam."
+msgstr ""
+"もう一つのユースケースは、ロボットのバッテリー消耗を減らすために Limelight を電源付き USB ハブと併用することです。"
+"この例では Limelight と Web カメラの両方を示しています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:225
+msgid "A USB hub with a webcam and a Limelight 3A connected to a REV Control Hub."
+msgstr "Web カメラと Limelight 3A が接続された USB ハブが REV Control Hub に接続されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:230
+msgid ""
+"The USB Hub is connected to the USB 3.0 port of the Control Hub. A "
+"powerbank is connected to the USB C port on the USB hub to supply power "
+"to the connected devices. A Logitech C270 webcam and a Limelight 3A are "
+"connected to the USB hub."
+msgstr ""
+"USB ハブは Control Hub の USB 3.0 ポートに接続されています。"
+"モバイルバッテリーが USB ハブの USB C ポートに接続され、接続されたデバイスに電力を供給しています。"
+"Logitech C270 Web カメラと Limelight 3A が USB ハブに接続されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:234
+msgid ""
+"The Limelight 3A is not a compatible VisionPortal device. So you can't "
+"use the AprilTag switchable camera sample code. But you can still get "
+"results from either the Limelight and/or the VisionPortal webcam and use "
+"them as required."
+msgstr ""
+"Limelight 3A は VisionPortal 互換デバイスではありません。そのため AprilTag の切り替えカメラサンプルコードは使用できません。"
+"しかし、Limelight または VisionPortal の Web カメラ（あるいは両方）から結果を取得し、必要に応じて使用することはできます。"

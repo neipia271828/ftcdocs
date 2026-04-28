@@ -1,0 +1,464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:2
+msgid "Adding an Expansion Hub"
+msgstr "Expansion Hub の追加"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:5
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:7
+msgid ""
+"A single REV Robotics Control or Expansion Hub has a limited amount of "
+"input/output (I/O) ports available. In some instances, you might want to "
+"use more devices than there are ports available. For these instances you "
+"might need to connect an Expansion Hub to your first Hub to add more I/O "
+"ports."
+msgstr ""
+"1 台の REV Robotics Control Hub または Expansion Hub で利用できる入出力（I/O）ポートの数は限られています。"
+"利用可能なポート数よりも多くのデバイスを使用したい場合は、最初の Hub に Expansion Hub を接続して"
+"I/O ポートを追加する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:13
+msgid ""
+"This document describes how to connect and configure an additional "
+"Expansion Hub for use in the FIRST Tech Challenge. Note that the FIRST "
+"Tech Challenge Competition Manual limits the maximum number of Control or"
+" Expansion Hubs on a single robot to two."
+msgstr ""
+"このドキュメントでは、FIRST Tech Challenge で使用する追加の Expansion Hub を接続・設定する方法を説明します。"
+"FIRST Tech Challenge 競技マニュアルでは、1 台のロボットに搭載できる Control Hub または Expansion Hub の"
+"最大数を 2 台に制限していることに注意してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:19
+msgid "Equipment Needed"
+msgstr "必要な機材"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:21
+msgid ""
+"To follow along with the instructional steps in this document, you will "
+"need the following items:"
+msgstr "このドキュメントの手順に従うには、以下のものが必要です。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:29
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:139
+msgid "Required Item(s)"
+msgstr "必要な部品"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:30
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:140
+msgid "Image"
+msgstr "画像"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:32
+msgid "REV Robotics Driver Hub (REV-31-1596)"
+msgstr "REV Robotics Driver Hub（REV-31-1596）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:35
+msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
+msgstr "REV Robotics スイッチ・ケーブル・ブラケット（REV-31-1387）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:38
+msgid "REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382)."
+msgstr "REV Robotics タミヤ to XT30 アダプターケーブル（REV-31-1382）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:41
+msgid ""
+"FIRST-approved 12V Battery (such as Tetrix W39057). For a list of FIRST-"
+"approved 12V batteries, refer to the current Competition Manual."
+msgstr ""
+"FIRST 承認の 12V バッテリー（Tetrix W39057 など）。FIRST 承認の 12V バッテリーの一覧については、"
+"現在の競技マニュアルを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:45
+msgid "REV Robotics Control Hub (REV-31-1595)."
+msgstr "REV Robotics Control Hub（REV-31-1595）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:48
+msgid "REV Robotics Expansion Hub (REV-31-1153)."
+msgstr "REV Robotics Expansion Hub（REV-31-1153）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:51
+msgid ""
+"REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack "
+"shown but only one needed)."
+msgstr "REV Robotics（または同等品）3 ピン JST PH ケーブル（REV-35-1414、3 本セット表示だが 1 本のみ必要）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:54
+msgid "REV Robotics XT30 Extension Cable (REV-31-1394)."
+msgstr "REV Robotics XT30 延長ケーブル（REV-31-1394）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:58
+msgid "Connecting the Expansion Hub"
+msgstr "Expansion Hub の接続"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:60
+msgid ""
+"1. The first step is to use the 3-pin JST PH cable and the XT30 cable to "
+"daisy chain the two Hubs together. Before you do this, ensure that "
+"neither Hub is powered on."
+msgstr ""
+"1. まず、3 ピン JST PH ケーブルと XT30 ケーブルを使用して 2 つの Hub をデイジーチェーン接続します。"
+"作業前に、どちらの Hub も電源が入っていないことを確認してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:64
+msgid ""
+"Use the XT30 extension cable to connect an XT30 power port on the Control"
+" Hubs to an XT30 power port on the other Expansion Hub."
+msgstr ""
+"XT30 延長ケーブルを使用して、Control Hub の XT30 電源ポートを Expansion Hub の XT30 電源ポートに接続します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:67
+msgid "<INSET IMAGE>"
+msgstr "<画像挿入>"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:69
+msgid ""
+"2. The Control Hub and Expansion Hub use the RS-485 serial bus standard "
+"to communicate between devices. You can use the 3-pin JST PH cable to "
+"connect one of the ports labeled “RS485” on the Control Hub to one of the"
+" ports labeled “RS485” on the Expansion Hub."
+msgstr ""
+"2. Control Hub と Expansion Hub はデバイス間通信に RS-485 シリアルバス規格を使用しています。"
+"3 ピン JST PH ケーブルを使用して、Control Hub の「RS485」ポートと Expansion Hub の「RS485」ポートを接続します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:74
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:86
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:106
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:111
+msgid "<INSERT IMAGE>"
+msgstr "<画像挿入>"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:76
+msgid ""
+"Note that it is not important which “RS485” port that you select on the "
+"Expansion Hub or Control Hub. Either port should work."
+msgstr ""
+"Expansion Hub または Control Hub でどちらの「RS485」ポートを選択しても構いません。"
+"どちらのポートでも機能します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:82
+msgid ""
+"3. Once you have the two devices daisy chained together (12V power and "
+"RS-485 signal) you can connect the battery and power switch, and power on"
+" the devices."
+msgstr ""
+"3. 2 つのデバイスをデイジーチェーン接続（12V 電源と RS-485 信号）したら、"
+"バッテリーと電源スイッチを接続してデバイスの電源を入れます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:89
+msgid "Configuring Both devices"
+msgstr "両デバイスの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:91
+msgid ""
+"If you successfully daisy chained your Expansion Hub and Control Hub, "
+"then you should be able to create a new configuration file that includes "
+"both devices."
+msgstr ""
+"Expansion Hub と Control Hub のデイジーチェーン接続が成功した場合、"
+"両デバイスを含む新しい設定ファイルを作成できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:95
+msgid ""
+"**Note:** If you already have a configuration that contains just the "
+"Control Hub, you can add the Expansion Hub by editing the configuration "
+"and pressing the \"Scan\" button."
+msgstr ""
+"**注意：** Control Hub のみを含む既存の設定がある場合は、設定を編集して「Scan」ボタンを押すことで"
+"Expansion Hub を追加できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:99
+msgid ""
+"Connect your Driver Hub to the Control Hub's WiFi network and select the "
+"Configure Robot option from the Driver Station app. Press the New button "
+"to create a new configuration file. When you first scan for hardware, "
+"your Robot Controller should detect the embedded Control Hub. The Robot "
+"Controller will automatically label this device as an Control Hub "
+"“Portal”. The Robot Controller will communicate through this portal to "
+"the individual Hubs."
+msgstr ""
+"Driver Hub を Control Hub の Wi-Fi ネットワークに接続し、Driver Station アプリから"
+"Configure Robot オプションを選択します。New ボタンを押して新しい設定ファイルを作成します。"
+"ハードウェアの初回スキャン時に、Robot Controller は内蔵の Control Hub を検出します。"
+"Robot Controller はこのデバイスを Control Hub「ポータル」として自動的にラベル付けします。"
+"Robot Controller はこのポータルを通じて各 Hub と通信します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:108
+msgid ""
+"If you click on the Portal item in the configuration screen, you should "
+"see both the Control Hub and the Expansion Hub listed."
+msgstr "設定画面でポータル項目をクリックすると、Control Hub と Expansion Hub の両方がリスト表示されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:113
+msgid ""
+"You can save this configuration file and return to the main screen of the"
+" Driver Station. After the robot has been restarted, both Hubs should "
+"have a solid green LED. On the Expansion Hub, the LED should blink blue "
+"every ~5 seconds."
+msgstr ""
+"この設定ファイルを保存して Driver Station のメイン画面に戻ります。"
+"ロボットを再起動すると、両方の Hub の LED が緑色に点灯します。"
+"Expansion Hub では LED が約 5 秒ごとに青色に点滅します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:118
+msgid ""
+"Congratulations, you are now ready to use your combination of Control and"
+" Expansion Hubs! You can configure and operate these Hubs as you would an"
+" individual Hub."
+msgstr ""
+"おめでとうございます！Control Hub と Expansion Hub の組み合わせを使用する準備ができました。"
+"これらの Hub は個別の Hub と同様に設定・操作できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:123
+msgid "Using Two Expansion Hubs"
+msgstr "2 つの Expansion Hub の使用"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:125
+msgid ""
+"Teams without access to a Control Hub may use two Expansion Hubs on their"
+" robot."
+msgstr "Control Hub を使用できないチームは、ロボットに 2 つの Expansion Hub を使用できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:129
+msgid "Additional Equipment Needed"
+msgstr "追加で必要な機材"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:131
+msgid ""
+"There is some additional equipment required for teams who aren't using a "
+"Control Hub on their robot."
+msgstr "ロボットに Control Hub を使用しないチームには、追加の機材が必要です。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:142
+msgid ""
+"A FIRST-approved Android smartphone with the FTC Robot Controller app "
+"installed. For a list of FIRST-approved Android smartphones, refer to the"
+" current Competition Manual."
+msgstr ""
+"FTC Robot Controller アプリがインストールされた FIRST 承認の Android スマートフォン。"
+"FIRST 承認の Android スマートフォンの一覧については、現在の競技マニュアルを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:147
+msgid "USB Type A male to type mini-B male cable."
+msgstr "USB Type A オス to Type mini-B オス ケーブル"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:150
+msgid "Micro USB OTG adapter."
+msgstr "Micro USB OTG アダプター"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:153
+msgid "An additional REV Robotics Expansion Hub (REV-31-1153)."
+msgstr "追加の REV Robotics Expansion Hub（REV-31-1153）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:157
+msgid "Changing the Address of an Expansion Hub"
+msgstr "Expansion Hub のアドレス変更"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:159
+msgid ""
+"You can use the Advanced Settings menu of the Robot Controller App to "
+"change the address of any connected Expansion Hubs."
+msgstr ""
+"Robot Controller アプリの Advanced Settings メニューを使用して、接続されている"
+"Expansion Hub のアドレスを変更できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:162
+msgid ""
+"**Important Note:** If both of your Expansion Hubs have the same address "
+"or were just removed from the box (by default, the address is set to 2), "
+"you need to change the address of one of them _before_ connecting them "
+"together. This guide assumes that you will be setting the address of the "
+"first Expansion Hub before connecting the second Expansion Hub."
+msgstr ""
+"**重要：** 両方の Expansion Hub が同じアドレスを持つ場合、または箱から取り出したばかりの場合"
+"（デフォルトでアドレスは 2 に設定されています）、接続する前にどちらか一方のアドレスを変更する必要があります。"
+"このガイドでは、2 台目の Expansion Hub を接続する前に 1 台目のアドレスを設定することを前提としています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:168
+msgid ""
+"With your first Expansion Hub connected to the 12V battery and to the "
+"Robot Controller, launch the Settings menu from the Robot Controller app "
+"(note you can also do this from the Driver Station app, if the DRIVER "
+"STATION is paired to the Robot Controller)."
+msgstr ""
+"1 台目の Expansion Hub を 12V バッテリーと Robot Controller に接続した状態で、"
+"Robot Controller アプリから Settings メニューを起動します"
+"（DRIVER STATION が Robot Controller とペアリングされている場合は Driver Station アプリからも操作可能です）。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:173
+msgid "Select the Advanced Settings item to display the Advanced Settings menu."
+msgstr "Advanced Settings 項目を選択して Advanced Settings メニューを表示します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:178
+msgid ""
+"2. Then select the Expansion Hub Address Change item to display the "
+"Expansion Hub address screen."
+msgstr "2. 次に Expansion Hub Address Change 項目を選択して Expansion Hub アドレス画面を表示します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:184
+msgid ""
+"3. The USB serial number of the Expansion Hub and its currently-assigned "
+"address should be displayed."
+msgstr "3. Expansion Hub の USB シリアル番号と現在割り当てられているアドレスが表示されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:187
+msgid ""
+"**Important Note:** If any Expansion Hubs that are physically connected "
+"and powered are not displayed, there may be an address conflict. If this "
+"happens, disconnect all Expansion Hubs except the one whose address you "
+"want to change."
+msgstr ""
+"**重要：** 物理的に接続・通電されている Expansion Hub が表示されない場合は、アドレスの競合が発生している可能性があります。"
+"この場合は、アドレスを変更したい Expansion Hub 以外をすべて取り外してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:194
+msgid ""
+"4. Use the dropdown list control on the right hand side to change an "
+"Expansion Hub's address. Addresses that conflict with other currently-"
+"connected Expansion Hubs won't be available."
+msgstr ""
+"4. 右側のドロップダウンリストを使用して Expansion Hub のアドレスを変更します。"
+"現在接続されている他の Expansion Hub と競合するアドレスは選択できません。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:201
+msgid ""
+"Push the “Done” button to change the address. You should see a message "
+"indicating that the Expansion Hub's address has been changed."
+msgstr ""
+"5.「Done」ボタンを押してアドレスを変更します。Expansion Hub のアドレスが変更されたことを示すメッセージが表示されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:208
+msgid "Connecting the Two Expansion Hubs"
+msgstr "2 つの Expansion Hub の接続"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:210
+msgid ""
+"5. After you have changed the address of one of the Hubs, you can use the"
+" 3-pin JST PH cable and the XT30 cable to daisy chain the two Hubs "
+"together. Before you do this, disconnect the 12V battery and power switch"
+" from the first Expansion Hub."
+msgstr ""
+"6. 一方の Hub のアドレスを変更したら、3 ピン JST PH ケーブルと XT30 ケーブルを使用して"
+"2 つの Hub をデイジーチェーン接続します。作業前に、1 台目の Expansion Hub から"
+"12V バッテリーと電源スイッチを取り外してください。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:215
+msgid ""
+"Use the XT30 extension cable to connect an XT30 power port on one of the "
+"Expansion Hubs to an XT30 power port on the other Hub."
+msgstr ""
+"XT30 延長ケーブルを使用して、一方の Expansion Hub の XT30 電源ポートともう一方の Hub の XT30 電源ポートを接続します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:221
+msgid ""
+"6. The Expansion Hubs use the RS-485 serial bus standard to communicate "
+"between devices. You can use the 3-pin JST PH cable to connect one of the"
+" ports labeled “RS485” on one Expansion Hub to one of the ports labeled "
+"“RS485” on the other Expansion Hub."
+msgstr ""
+"7. Expansion Hub はデバイス間通信に RS-485 シリアルバス規格を使用しています。"
+"3 ピン JST PH ケーブルを使用して、一方の Expansion Hub の「RS485」ポートと"
+"もう一方の Expansion Hub の「RS485」ポートを接続します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:229
+msgid ""
+"Note that it is not important which “RS485” port that you select on an "
+"Expansion Hub. Either port should work."
+msgstr ""
+"Expansion Hub でどちらの「RS485」ポートを選択しても構いません。どちらのポートでも機能します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:235
+msgid ""
+"7. Once you have the two devices daisy chained together (12V power and "
+"RS-485 signal) you can reconnect the battery and power switch, and then "
+"connect the Robot Controller and power on the devices."
+msgstr ""
+"8. 2 つのデバイスをデイジーチェーン接続（12V 電源と RS-485 信号）したら、"
+"バッテリーと電源スイッチを再接続し、Robot Controller を接続してデバイスの電源を入れます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:243
+msgid "Configuring Your Expansion Hubs"
+msgstr "Expansion Hub の設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:245
+msgid ""
+"If you successfully daisy chained your two Expansion Hubs, then you "
+"should be able to create a new configuration file that includes both "
+"devices."
+msgstr ""
+"2 つの Expansion Hub のデイジーチェーン接続が成功した場合、"
+"両デバイスを含む新しい設定ファイルを作成できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:249
+msgid ""
+"**Note:** If you already have a configuration that contains just the USB-"
+"connected Expansion Hub, you can add the second Expansion Hub by editing "
+"the configuration and pressing the \"Scan\" button."
+msgstr ""
+"**注意：** USB 接続の Expansion Hub のみを含む既存の設定がある場合は、"
+"設定を編集して「Scan」ボタンを押すことで 2 台目の Expansion Hub を追加できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:253
+msgid ""
+"Connect the Robot Controller and select the Configure Robot option from "
+"the Settings menu. Press the New button to create a new configuration "
+"file. When you first scan for hardware, your Robot Controller should "
+"detect the Expansion Hub that is immediately connected to the Robot "
+"Controller via the OTG adapter and USB cable. The Robot Controller will "
+"automatically label this device as an Expansion Hub “Portal”. The Robot "
+"Controller will communicate through this portal to the individual "
+"Expansion Hubs."
+msgstr ""
+"Robot Controller を接続し、Settings メニューから Configure Robot オプションを選択します。"
+"New ボタンを押して新しい設定ファイルを作成します。ハードウェアの初回スキャン時に、"
+"Robot Controller は OTG アダプターと USB ケーブルで直接接続された Expansion Hub を検出します。"
+"Robot Controller はこのデバイスを Expansion Hub「ポータル」として自動的にラベル付けします。"
+"Robot Controller はこのポータルを通じて各 Expansion Hub と通信します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:265
+msgid ""
+"If you click on the Portal item in the configuration screen, you should "
+"see two Expansion Hubs listed, each with their respective addresses as "
+"part of their default device name."
+msgstr ""
+"設定画面でポータル項目をクリックすると、2 つの Expansion Hub がリスト表示され、"
+"それぞれのデフォルトデバイス名にアドレスが含まれています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:272
+msgid ""
+"You can save this configuration file and return to the main screen of the"
+" Robot Controller. After the robot has been restarted, each Hub's LED "
+"should be blinking in the manner that indicates its individual address."
+msgstr ""
+"この設定ファイルを保存して Robot Controller のメイン画面に戻ります。"
+"ロボットを再起動すると、各 Hub の LED がそれぞれのアドレスを示す方法で点滅します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:276
+msgid ""
+"Congratulations, you are now ready to use your dual Expansion Hubs! You "
+"can configure and operate these Hubs as you would an individual Hub."
+msgstr ""
+"おめでとうございます！2 つの Expansion Hub を使用する準備ができました。"
+"これらの Hub は個別の Hub と同様に設定・操作できます。"

@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:2
+msgid "Configuring an External UVC Camera and a Powered USB Hub"
+msgstr "外部 UVC カメラおよび電源付き USB ハブの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:5
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:7
+msgid ""
+"The Competition Manual allows the use of USB Video Class (UVC) compatible"
+" cameras for computer vision-related tasks. Teams who are using an "
+"Android smartphone as their ROBOT CONTROLLER have the option of using an "
+"externally connected camera instead of the built-in camera for computer "
+"vision tasks."
+msgstr ""
+"競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）対応カメラの使用を認めています。"
+"ROBOT CONTROLLER として Android スマートフォンを使用しているチームは、"
+"コンピュータービジョンタスクに内蔵カメラの代わりに外部接続カメラを使用するオプションがあります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:13
+msgid ""
+"The advantage of using an external camera is that the camera can be "
+"mounted in a location that is convenient for vision-related tasks while "
+"the Android Robot Controller can be mounted where it is convenient for "
+"Robot Controller-related tasks."
+msgstr ""
+"外部カメラを使用する利点は、カメラをビジョン関連タスクに便利な場所に取り付けながら、"
+"Android Robot Controller を Robot Controller 関連タスクに便利な場所に取り付けられることです。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:18
+msgid ""
+"The disadvantage of using an external camera is there is additional "
+"complexity introduced with the USB-connected camera. An external camera "
+"adds costs and weight to a robot and it needs to be wired correctly to "
+"run properly."
+msgstr ""
+"外部カメラを使用する欠点は、USB 接続カメラによって複雑さが増すことです。"
+"外部カメラはロボットのコストと重量を増加させ、正しく配線する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:24
+msgid "What type of External Camera can be Used?"
+msgstr "どのような外部カメラを使用できるか？"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:26
+msgid ""
+"The system supports UVC cameras. Theoretically, if a camera is UVC "
+"compliant, then it should work with the system. However, there are a "
+"couple of recommended web cameras that have been tested with the *FIRST* "
+"Tech Challenge software and have been calibrated to work accurately with "
+"this software:"
+msgstr ""
+"このシステムは UVC カメラに対応しています。理論上、UVC 準拠のカメラであればシステムで動作するはずです。"
+"ただし、*FIRST* Tech Challenge ソフトウェアでテストされ、正確に動作するよう較正済みの"
+"推奨 Web カメラが 2 種類あります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:32
+msgid "Logitech HD Webcam C310"
+msgstr "Logitech HD Webcam C310"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:33
+msgid "Logitech HD Pro Webcam C920"
+msgstr "Logitech HD Pro Webcam C920"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:35
+msgid ""
+"There are notes on :doc:`other UVC webcams "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams>` that teams can use."
+msgstr ""
+"チームが使用できる :doc:`その他の UVC ウェブカメラ "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>` についての注記もあります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:38
+msgid ""
+"Note that calibrating a UVC camera is an advanced task. Details on how to"
+" create a calibration file can be found in the comments of the "
+"*teamwebcamcalibrations.xml* file that is available as part of the "
+"ftc_app project folder (visit this `link "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" for an online copy of the file)."
+msgstr ""
+"UVC カメラの較正は高度なタスクです。較正ファイルの作成方法の詳細は、"
+"ftc_app プロジェクトフォルダーの *teamwebcamcalibrations.xml* ファイルのコメントに記載されています"
+"（ファイルのオンラインコピーはこちらの `リンク "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ からご覧いただけます）。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:46
+msgid "REV Expansion Hub and Phone"
+msgstr "REV Expansion Hub とスマートフォン"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:48
+msgid ""
+"For teams using an Android phone and an Expansion Hub you are required to"
+" add a USB Hub to use a webcam."
+msgstr "Android スマートフォンと Expansion Hub を使用しているチームは、Web カメラを使用するために USB ハブを追加する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:50
+msgid ""
+"A REV expansion hub connected to an Android phone and a webcam via a USB "
+"Hub."
+msgstr "USB ハブを介して Android スマートフォンと Web カメラに接続された REV Expansion Hub"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:54
+msgid "USB Hub"
+msgstr "USB ハブ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:56
+msgid ""
+"Teams who would like to use an external camera will need a USB hub to "
+"connect their Android Robot Controller to the external camera and the REV"
+" Robotics Expansion Hub. To work properly, the USB hub should meet the "
+"following requirements:"
+msgstr ""
+"外部カメラを使用したいチームは、Android Robot Controller を外部カメラと REV Robotics Expansion Hub に"
+"接続するための USB ハブが必要です。正常に動作するには、USB ハブが以下の要件を満たす必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:61
+msgid ""
+"Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at"
+" the faster speed."
+msgstr "USB 2.0 に対応していること。注意：USB 3.0 ハブも動作しますが、高速通信はできません。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:62
+msgid "Supports a data transfer rate of 480Mbps."
+msgstr "480Mbps のデータ転送速度をサポートしていること。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:64
+msgid ""
+"Note that the Modern Robotics Core Power Distribution Module cannot be "
+"used for this task since its data transfer speed is not fast enough to "
+"work with the USB-connected webcam."
+msgstr ""
+"Modern Robotics Core Power Distribution Module はデータ転送速度が不十分なため、"
+"USB 接続の Web カメラとの使用には適していません。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:68
+msgid ""
+"Also note that the Competition Manual permits the use of a powered USB "
+"hub to make this connection. If a team uses a powered USB hub, the power "
+"to operate the USB hub can only come from either of the following "
+"sources:"
+msgstr ""
+"競技マニュアルでは、この接続に電源付き USB ハブの使用を許可しています。"
+"電源付き USB ハブを使用する場合、USB ハブの電源は以下のいずれかのみから供給できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:73
+msgid ""
+"An externally connected commercially available off-the-shelf (COTS) USB "
+"Battery Pack in compliance with the Competition Manual."
+msgstr "競技マニュアルに準拠した外部接続の市販 USB バッテリーパック"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:75
+msgid ""
+"The 5V DC Aux power port of a REV Robotics Expansion Hub (note that this "
+"requires advanced skills to implement)."
+msgstr "REV Robotics Expansion Hub の 5V DC Aux 電源ポート（実装には高度なスキルが必要です）"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:78
+msgid ""
+"*FIRST* has tested a few USB 2.0 powered hubs and recommends one from "
+"Anker. At the time this document was written, this hub was available from"
+" `Anker.com <https://www.anker.com/products/a7516>`__."
+msgstr ""
+"*FIRST* はいくつかの USB 2.0 電源付きハブをテストし、Anker 製品を推奨しています。"
+"このドキュメント作成時点では、このハブは `Anker.com <https://www.anker.com/products/a7516>`__ から購入可能でした。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:82
+msgid "Hub with charger and cable."
+msgstr "充電器とケーブル付きのハブ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:85
+msgid ""
+"The Anker 4-port powered hub is convenient because it has a Micro USB "
+"port that is used to connect the hub to a 5V power source (highlighted "
+"with orange circle in figure below)."
+msgstr ""
+"Anker 4 ポート電源付きハブは、ハブを 5V 電源に接続するための Micro USB ポートが備わっているため便利です"
+"（下図のオレンジ色の丸で強調表示）。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:89
+msgid "USB Hub with Micro USB port."
+msgstr "Micro USB ポート付き USB ハブ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:92
+msgid ""
+"This port allows a user to plug a standard USB type B Micro Cable into "
+"the hub, and then connect the other end of the cable (which has a USB "
+"Type A connector) into the output port of an external 5V USB battery "
+"pack. In the image below, the Anker 4 port hub is powered by a \"limefuel\""
+" external 5V battery pack using a standard Type A to Type B USB Micro "
+"cable. Note the battery is highlighted by the yellow outline in the "
+"figure below."
+msgstr ""
+"このポートにより、標準の USB Type B Micro ケーブルをハブに接続し、"
+"ケーブルのもう一端（USB Type A コネクタ付き）を外部 5V USB バッテリーパックの出力ポートに接続できます。"
+"下の画像では、Anker 4 ポートハブが標準の Type A to Type B USB Micro ケーブルを使用して"
+"「limefuel」外部 5V バッテリーパックで電力供給されています。バッテリーは下図の黄色のアウトラインで強調表示されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:100
+msgid "A complete setup for using a phone and webcam."
+msgstr "スマートフォンと Web カメラを使用するための完全なセットアップ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:103
+msgid "The USB hub is drawing power from a power bank."
+msgstr "USB ハブはモバイルバッテリーから電力を受け取っています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:105
+msgid ""
+"The USB hub is connected via it's Type A connector and cable to an OTG "
+"cable which connects to the phone. The power bank is connected to the USB"
+" type B Micro port on the USB hub. The webcam is connected to one of the "
+"USB type A ports on the USB hub. A USB Type A to USB Mini B cable "
+"connects the USB hub to the REV Expansion Hub."
+msgstr ""
+"USB ハブは Type A コネクタとケーブルを介して OTG ケーブルに接続され、スマートフォンに接続されています。"
+"モバイルバッテリーは USB ハブの USB Type B Micro ポートに接続されています。"
+"Web カメラは USB ハブの USB Type A ポートのいずれかに接続されています。"
+"USB Type A to USB Mini B ケーブルが USB ハブを REV Expansion Hub に接続しています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:110
+msgid ""
+"A USB hub can also draw power from the 5V auxiliary ports on the REV "
+"Robotics Expansion Hub. This configuration requires that the user have a "
+"special cable that on one end can be plugged into the 5V Auxiliary port "
+"and on the other end can be plugged into the power port of the USB hub."
+msgstr ""
+"USB ハブは REV Robotics Expansion Hub の 5V 補助ポートからも電力を供給できます。"
+"この構成では、一端を 5V Auxiliary ポートに、もう一端を USB ハブの電源ポートに接続できる"
+"特殊なケーブルが必要です。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:115
+msgid ":alt: A complete setup for using a phone and webcam."
+msgstr ":alt: スマートフォンと Web カメラを使用するための完全なセットアップ"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
+msgid "The USB hub is connected to the 5V Auxiliary port."
+msgstr "USB ハブは 5V Auxiliary ポートに接続されています。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:120
+msgid ""
+"Note that teams can create this special cable using one end of a servo "
+"extension cable (to plug into the 5V aux port) and one end of a Micro USB"
+" cable (to plug into the Anker hub's power port). **Creating this cable "
+"is an advanced task and should only be attempted by teams who have "
+"guidance from an adult mentor who has expertise in electronics and "
+"wiring! It is extremely important that the polarity is correct for this "
+"special cable. If the polarity is reversed it could damage your "
+"electronic equipment.**"
+msgstr ""
+"チームはサーボ延長ケーブルの一端（5V aux ポートに接続）と Micro USB ケーブルの一端"
+"（Anker ハブの電源ポートに接続）を使用してこの特殊ケーブルを作成できます。"
+"**このケーブルの作成は高度な作業であり、電子工学と配線の専門知識を持つ大人のメンターの指導のもとでのみ実施してください！"
+"この特殊ケーブルの極性が正しいことが非常に重要です。極性が逆になると電子機器が損傷する可能性があります。**"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:130
+msgid "Sample Op Modes"
+msgstr "サンプル Op Mode"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:132
+msgid ""
+"There are sample Blocks and Java Op Modes that demonstrate how to use the"
+" external UVC web camera for VisionPortal operations. Before a team can "
+"use the external UVC camera, a configuration file must be configured with"
+" the external camera defined as one of the USB-connected devices."
+msgstr ""
+"外部 UVC Web カメラを VisionPortal 操作に使用する方法を示すサンプルの Blocks および Java Op Mode があります。"
+"外部 UVC カメラを使用する前に、外部カメラを USB 接続デバイスの 1 つとして定義した設定ファイルを作成する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:138
+msgid ""
+"Once a valid configuration file has been defined and activated, the "
+"programmer can use the external UVC camera, instead of the internal "
+"Android cameras, for vision-related tasks."
+msgstr ""
+"有効な設定ファイルが定義・アクティブ化されると、プログラマーはビジョン関連タスクに"
+"内蔵 Android カメラの代わりに外部 UVC カメラを使用できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:142
+msgid "Sample Blocks code"
+msgstr "サンプル Blocks コード"

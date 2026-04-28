@@ -1,0 +1,618 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:2
+msgid "*FIRST* Tech Challenge Self-Inspect"
+msgstr "*FIRST* Tech Challenge セルフインスペクション"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:5
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:7
+msgid ""
+"This page describes the Self Inspect screens in the FTC Driver Station "
+"(DS) app and the FTC Robot Controller (RC) app."
+msgstr ""
+"このページでは FTC Driver Station（DS）アプリおよび FTC Robot Controller（RC）アプリの"
+"セルフインスペクション画面について説明します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:10
+msgid ""
+"A Self Inspect screen provides a snapshot of device status, as it relates"
+" to FTC rules for the control system. These rules are described in the "
+"Competition Manual which can be found on the `Current Game and Season "
+"Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_"
+" on the *FIRST* Website."
+msgstr ""
+"セルフインスペクション画面は、コントロールシステムの FTC ルールに関するデバイスのステータスのスナップショットを提供します。"
+"これらのルールは *FIRST* ウェブサイトの `最新ゲームおよびシーズン資料ページ "
+"<https://ftc-resources.firstinspires.org/files/ftc/game>`_ にある競技マニュアルに記載されています。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:15
+msgid ""
+"An `Inspection Checklist (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-check>`_ is available to"
+" help teams self-inspect their ROBOT before their event. Teams are "
+"strongly encouraged to self-inspect prior to their event."
+msgstr ""
+"`インスペクションチェックリスト（PDF）<https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ は"
+"チームがイベント前に ROBOT をセルフインスペクションするのに役立ちます。"
+"チームはイベント前にセルフインスペクションを実施することを強く推奨します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:18
+msgid ""
+"There is also a `Inspection Quick Reference (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-reference>`_ with some "
+"examples of legal and illegal parts (though it is not a substitute for "
+"the Competition Manual)."
+msgstr ""
+"合法・違反部品のいくつかの例が掲載された "
+"`インスペクションクイックリファレンス（PDF）<https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ もあります"
+"（競技マニュアルの代替にはなりません）。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:21
+msgid ""
+"The Self Inspect screen is provided only as a quick, handy reference to "
+"help teams confirm that certain control system elements are up-to-date "
+"and properly configured."
+msgstr ""
+"セルフインスペクション画面は、特定のコントロールシステム要素が最新の状態で適切に設定されていることを"
+"チームが確認するための簡単な参照ツールとして提供されるものに過ぎません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:25
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:196
+msgid ""
+"Each inspection screen updates automatically, with or without a Restart "
+"Robot. This allows quick verification that issues have been resolved."
+msgstr ""
+"各インスペクション画面は、ロボットの再起動の有無にかかわらず自動的に更新されます。"
+"これにより問題が解決されたかどうかを素早く確認できます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:28
+msgid ""
+"The challenge is to maximize useful information in a small screen. The "
+"Self Inspect layout and graphics evolve with FTC requirements; this page "
+"clarifies some of the brief but meaningful captions."
+msgstr ""
+"課題は小さな画面に有用な情報を最大限に表示することです。"
+"セルフインスペクションのレイアウトとグラフィックスは FTC の要件に合わせて進化しています。"
+"このページでは簡潔ながら意味のあるキャプションをいくつか説明します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:33
+msgid "Robot Inspection"
+msgstr "ロボットインスペクション"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:35
+msgid ""
+"The Self Inspection reports may be reviewed in Robot Inspection at an FTC"
+" tournament, but is **not** a comprehensive or official standard of "
+"compliance with FTC rules. With the robot and driver station turned on "
+"and connected the inspector may go through the **Inspection Checklist** "
+"form (on paper or a tablet). They will check both the **Driver Station "
+"Inspection Report** and the **Robot Controller Inspection Report**, both "
+"of which can be displayed from the DS. Many FTC events will scan the QR "
+"Code that is displayed on the RC Inspection Report."
+msgstr ""
+"セルフインスペクションレポートは FTC トーナメントのロボットインスペクションで確認される場合がありますが、"
+"FTC ルールへの準拠に関する包括的または公式な基準では**ありません**。"
+"ロボットとドライバーステーションの電源を入れて接続した状態で、インスペクターは"
+"**インスペクションチェックリスト**フォーム（紙またはタブレット）を確認します。"
+"DS から表示できる **Driver Station Inspection Report** と **Robot Controller Inspection Report** の"
+"両方を確認します。多くの FTC イベントでは RC Inspection Report に表示される QR コードをスキャンします。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:41
+msgid "Version Information"
+msgstr "バージョン情報"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:43
+msgid ""
+"The Competition Manual lists the minimum recommended versions of device "
+"firmware, Android operating system, and FTC Apps. Teams may choose to run"
+" older versions without affecting their ROBOT inspection status. This "
+"avoids the situation of trying to upgrade a device at a competition at "
+"the last minute where a mistake might leave the robot inoperable."
+msgstr ""
+"競技マニュアルには、デバイスファームウェア、Android オペレーティングシステム、FTC アプリの"
+"最小推奨バージョンが記載されています。チームは ROBOT のインスペクションステータスに影響を与えることなく"
+"古いバージョンを使用することを選択できます。"
+"これにより、競技会で直前にデバイスのアップグレードを試みた際のミスでロボットが使用不能になる状況を避けられます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:48
+msgid ""
+"The images in this page show Version 10.3 or newer of the FTC apps. This "
+"page only shows a Driver Hub paired with a Control Hub, there may be "
+"slight differences if a phone is used as a driver station or robot "
+"controller. See the :doc:`old self-inspect<self-inspect>` page for screen"
+" images for app versions 10.2 or earlier."
+msgstr ""
+"このページの画像は FTC アプリのバージョン 10.3 以降を示しています。"
+"このページでは Driver Hub と Control Hub のペアリングのみを示しており、"
+"スマートフォンをドライバーステーションまたはロボットコントローラーとして使用する場合は若干の違いがあります。"
+"アプリバージョン 10.2 以前の画面は :doc:`旧セルフインスペクション<self-inspect>` ページを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:52
+msgid ""
+"*FIRST* recommends but does not require that teams use the most recent "
+"versions of firmware, Android Operating System, and FTC Apps. Current "
+"versions have the latest bug fixes and enhancements. For example, version"
+" 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi."
+msgstr ""
+"*FIRST* はチームが最新バージョンのファームウェア、Android OS、FTC アプリを使用することを推奨しますが、必須ではありません。"
+"最新バージョンには最新のバグ修正と機能強化が含まれています。"
+"例えば、**Control Hub Android OS** バージョン 1.1.6 には Wi-Fi 関連の修正が含まれています。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:55
+msgid ""
+"Each FTC season new major versions the FTC Apps are released. The INTO "
+"THE DEEP major version is 10, and the DECODE major version is 11. If the "
+"game has AprilTags, the SDK will include "
+":doc:`localization<../../apriltag/vision_portal/apriltag_localization"
+"/apriltag-localization>` information for those tags that lets you "
+"determine the robot's position on the field. As the season progresses, "
+"minor releases will include bug fixes and some enhancements. e.g. 11.1, "
+"11.2, etc."
+msgstr ""
+"FTC の各シーズンに FTC アプリの新しいメジャーバージョンがリリースされます。"
+"INTO THE DEEP のメジャーバージョンは 10、DECODE のメジャーバージョンは 11 です。"
+"ゲームに AprilTag がある場合、SDK にはフィールド上のロボットの位置を決定できる"
+"それらのタグの :doc:`ローカリゼーション<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` 情報が含まれます。"
+"シーズンが進むにつれて、マイナーリリースにバグ修正といくつかの機能強化が含まれます（例：11.1、11.2 など）。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:59
+msgid ""
+"Regardless of the versions selected, it is highly recommended that the "
+"installed ROBOT CONTROLLER App and DRIVER STATION App versions match "
+"major and minor values to ensure compatibility as not all software "
+"versions are compatible with each other."
+msgstr ""
+"選択するバージョンに関わらず、インストールされた ROBOT CONTROLLER アプリと DRIVER STATION アプリの"
+"バージョンのメジャーおよびマイナー値が一致していることを強く推奨します。"
+"すべてのソフトウェアバージョンが互いに互換性があるわけではないためです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:63
+msgid ""
+"Teams may choose to run older versions without affecting their ROBOT "
+"inspection status."
+msgstr "チームは ROBOT のインスペクションステータスに影響を与えることなく古いバージョンを使用することを選択できます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:66
+msgid ""
+"Some FTC App versions have a different robot communication protocol and "
+"are unable to connect with each other."
+msgstr "一部の FTC アプリバージョンは異なるロボット通信プロトコルを持ち、互いに接続できません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:68
+msgid ""
+"FIELD STAFF will not be able to provide comprehensive support to teams "
+"with software older than the recommended version."
+msgstr "フィールドスタッフは、推奨バージョンより古いソフトウェアを使用するチームに包括的なサポートを提供できません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:71
+msgid "Driver Station Self Inspection Report"
+msgstr "Driver Station セルフインスペクションレポート"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:73
+msgid ""
+"The following is a screen shot of a DS Self Inspection Report with the "
+"Driver Hub rotated so that the screen is in portrait mode so all items on"
+" the report are visible on one screen without scrolling."
+msgstr ""
+"以下は Driver Hub を縦向きモードに回転させた DS セルフインスペクションレポートのスクリーンショットで、"
+"レポートのすべての項目がスクロールなしで 1 画面に表示されています。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:75
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:118
+msgid "Driver station self inspection report"
+msgstr "Driver Station セルフインスペクションレポート"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
+msgid "All items are good"
+msgstr "すべての項目が問題なし"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:82
+msgid ""
+"Item 1 The three dots are a menu with two choices: ``Disconnect from Wi-"
+"Fi Direct`` and ``Disable Bluetooth``. Neither is likely needed for a "
+"Driver Hub paired to a Control Hub, they are mostly for phones that could"
+" be used as a driver station or robot controller. ``Disconnect from Wi-Fi"
+" Direct`` does work, but sometimes the apps re-pair automatically. "
+"``Disable Bluetooth`` shouldn't be needed unless Bluetooth was somehow "
+"enabled on the DS."
+msgstr ""
+"項目 1 3 点アイコンは「Disconnect from Wi-Fi Direct」と「Disable Bluetooth」の 2 つの選択肢があるメニューです。"
+"Control Hub とペアリングされた Driver Hub ではほとんど必要ありません。"
+"主にドライバーステーションまたはロボットコントローラーとして使用されるスマートフォン向けです。"
+"「Disconnect from Wi-Fi Direct」は機能しますが、アプリが自動的に再ペアリングする場合があります。"
+"「Disable Bluetooth」は DS で Bluetooth が誤って有効化されていない限り必要ありません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
+msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
+msgstr "項目 2 REV Driver Hub の場合、``Manufacturer`` は **REV Robotics** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
+msgid "Item 3 ``Model`` should be **Driver Hub**."
+msgstr "項目 3 ``Model`` は **Driver Hub** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:88
+msgid "Item 4 ``Driver Hub OS Version`` is probably 1.2.0."
+msgstr "項目 4 ``Driver Hub OS Version`` はおそらく 1.2.0 です。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:89
+msgid "Item 5 ``Android Version`` is probably 10 for a Driver Hub."
+msgstr "項目 5 Driver Hub の場合、``Android Version`` はおそらく 10 です。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:90
+msgid ""
+"Item 6 shows the ``Battery Level`` of the device being reported. Fun "
+"fact: the green color of the percentage value changes towards **orange** "
+"as the charge level goes down."
+msgstr ""
+"項目 6 レポートされているデバイスの ``Battery Level`` を表示します。"
+"豆知識：充電レベルが下がるにつれてパーセンテージ値の緑色が**オレンジ**に変わっていきます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:93
+msgid "Item 7 ``Bluetooth`` should be **Disabled**."
+msgstr "項目 7 ``Bluetooth`` は **Disabled** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:94
+msgid ""
+"Item 8 ``Location services`` should be **Enabled**, but appears only on "
+"devices running **Android 8** or higher. This is an SDK/Android "
+"technology requirement, not an FTC rule."
+msgstr ""
+"項目 8 ``Location services`` は **Enabled** であるべきですが、**Android 8** 以上を実行しているデバイスにのみ表示されます。"
+"これは FTC ルールではなく SDK/Android 技術要件です。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:96
+msgid ""
+"Item 9 ``Wi-Fi Enabled`` must be **Yes** as it means the DS device's Wi-"
+"Fi radio is **ON**."
+msgstr "項目 9 ``Wi-Fi Enabled`` は **Yes** でなければなりません。DS デバイスの Wi-Fi ラジオが**オン**であることを意味します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:97
+msgid ""
+"Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the "
+"Driver Hub is connected to a standard Wi-Fi source, such as a Control "
+"Hub."
+msgstr ""
+"項目 10 ``Standard Wi-Fi Connected`` は **Yes** でなければなりません。"
+"Driver Hub が Control Hub などの標準 Wi-Fi ソースに接続されていることを示します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:98
+msgid ""
+"Item 11 shows the ``Driver Station Name`` meets FTC format requirements. "
+"It should be your team number plus -DS, example 99999-DS. If a spare "
+"device is configured, a letter designator may be added <team "
+"number>-<letter>-DS (e.g., 12345-A-DS, 12345-B-DS). See the Competition "
+"Manual for device naming rules."
+msgstr ""
+"項目 11 ``Driver Station Name`` が FTC フォーマット要件を満たしていることを示します。"
+"チーム番号に -DS を付けた形式（例：99999-DS）にすべきです。"
+"予備デバイスを設定する場合、文字指定子を追加できます（<チーム番号>-<文字>-DS、例：12345-A-DS、12345-B-DS）。"
+"デバイスの命名規則については競技マニュアルを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:101
+msgid ""
+"Item 12 shows the ``Robot Controller Name``. It will show **None** if not"
+" connected. It will show an error if team number portion of the Robot "
+"Controller and Driver Station names do not match. It does not check "
+"whether the RC name matches FTC format requirements. See the Robot "
+"Controller Self Inspection Report."
+msgstr ""
+"項目 12 ``Robot Controller Name`` を表示します。未接続の場合は **None** と表示されます。"
+"Robot Controller と Driver Station の名前のチーム番号部分が一致しない場合はエラーが表示されます。"
+"RC 名が FTC フォーマット要件を満たしているかどうかは確認しません。"
+"Robot Controller セルフインスペクションレポートを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:103
+msgid ""
+"Item 13 Apps Installed ``Robot Controller`` should be **Not installed**. "
+"This verifies that the Driver Station device does **not** also have a "
+"Robot Controller app installed. Only one FTC app should be installed on "
+"each device. It's possible to accidentally install both apps, but this "
+"usually causes the apps to not work properly."
+msgstr ""
+"項目 13 Apps Installed の ``Robot Controller`` は **Not installed** であるべきです。"
+"これは Driver Station デバイスに Robot Controller アプリも**インストールされていない**ことを確認します。"
+"各デバイスには FTC アプリを 1 つだけインストールすべきです。"
+"誤って両方のアプリをインストールすることは可能ですが、通常アプリが正常に動作しなくなります。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:105
+msgid ""
+"Item 14 Apps Installed ``Driver Station`` should indicate the version "
+"number of the Driver Station App. *FIRST* recommends but does not require"
+" that teams use the currently available version. An invalid or future "
+"device system date can result in an invalid inspection item here with a "
+"message that \"The Driver Station app is obsolete\". Correcting the date "
+"on the device should fix the invalid inspection item."
+msgstr ""
+"項目 14 Apps Installed の ``Driver Station`` は Driver Station アプリのバージョン番号を示すべきです。"
+"*FIRST* は現在利用可能なバージョンの使用を推奨しますが、必須ではありません。"
+"無効または未来のデバイスシステム日付により、「The Driver Station app is obsolete」というメッセージとともに"
+"無効なインスペクション項目が表示されることがあります。デバイスの日付を修正すると問題が解決します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:111
+msgid ""
+"Here's a report from a Driver Station with some items **rejected** by "
+"Self Inspect. Problems are indicated by a red circle exclamation mark "
+"icon, or an orange triangle exclamation mark icon."
+msgstr ""
+"以下はセルフインスペクションによって一部の項目が**却下された** Driver Station のレポートです。"
+"問題は赤い円の感嘆符アイコンまたはオレンジの三角形の感嘆符アイコンで示されます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:114
+msgid ""
+"This was a driver hub that was firmware reset. This reset the DS version "
+"to 7 and restored all system and DS app settings to defaults. Then the "
+"`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_"
+" was used to update the DS version 10.3. Then the FTCRobotController app "
+"was also deployed to the DS device from Android Studio."
+msgstr ""
+"これはファームウェアがリセットされた Driver Hub です。これにより DS バージョンが 7 にリセットされ、"
+"すべてのシステムと DS アプリの設定がデフォルトに戻りました。"
+"その後 `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_ を使用して"
+"DS バージョン 10.3 に更新しました。次に Android Studio から DS デバイスに FTCRobotController アプリもデプロイしました。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:123
+msgid "Self Inspect with issues!"
+msgstr "問題があるセルフインスペクション！"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:125
+msgid ""
+"Item 10 rejects ``Standard Wi-Fi Connected`` for being **No**. The DS is "
+"not yet connected to a robot. You should fix the Driver Station Name "
+"before connecting the devices."
+msgstr ""
+"項目 10 ``Standard Wi-Fi Connected`` が **No** のため却下されます。DS がまだロボットに接続されていません。"
+"デバイスを接続する前に Driver Station Name を修正すべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:127
+msgid ""
+"Item 11 rejects ``Driver Station Name`` for not meeting FTC format "
+"requirements. **Android_a301** is an example of a DS name for a brand new"
+" DS. Go into the DS App Settings and set the Driver Station Name as per "
+"the rules in the Competition Manual. e.g. Team number plus -DS: "
+"**99999-DS**."
+msgstr ""
+"項目 11 ``Driver Station Name`` が FTC フォーマット要件を満たしていないため却下されます。"
+"**Android_a301** は新品の DS の DS 名の例です。"
+"DS アプリの Settings で競技マニュアルのルールに従って Driver Station Name を設定してください。"
+"例：チーム番号 + -DS：**99999-DS**"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:129
+msgid ""
+"Item 12 rejects ``Robot Controller Name`` because it doesn't match with "
+"the DS Name. The value of **None** is because the DS is not connected to "
+"a RC. This item doesn't check the RC name format is valid, only that the "
+"team number portion of the RC Name matches the team number portion of the"
+" DS Name."
+msgstr ""
+"項目 12 ``Robot Controller Name`` が DS Name と一致しないため却下されます。"
+"**None** の値は DS が RC に接続されていないためです。"
+"この項目は RC 名のフォーマットが有効かどうかではなく、RC 名のチーム番号部分が DS 名のチーム番号部分と一致するかどうかのみを確認します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:131
+msgid ""
+"Item 13 rejects the presence of an RC app installed on this DS device. "
+"Uninstall the RC App from the driver station device."
+msgstr "項目 13 この DS デバイスに RC アプリがインストールされているため却下されます。ドライバーステーションデバイスから RC アプリをアンインストールしてください。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:133
+msgid ""
+"As you correct each problem the inspection report should refresh and show"
+" the current status."
+msgstr "各問題を修正すると、インスペクションレポートが更新されて現在のステータスが表示されます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:136
+msgid ""
+"Touching a red circle exclamation mark icon or an orange triangle "
+"exclamation mark icon on a self-inspect screen should temporarily display"
+" a message related to the problem."
+msgstr ""
+"セルフインスペクション画面で赤い円の感嘆符アイコンまたはオレンジの三角形の感嘆符アイコンをタップすると、"
+"問題に関するメッセージが一時的に表示されます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:139
+msgid "Robot Controller Self Inspection Report"
+msgstr "Robot Controller セルフインスペクションレポート"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:141
+msgid ""
+"Now we change to **Robot Controller** Self Inspect report. This is "
+"normally viewed from the Driver Station by selecting the **Inspect Robot "
+"Controller** menu option on the Inspection Reports DS screen. FYI - if "
+"you connect an external monitor to the Control Hub's HDMI port and a "
+"mouse to a USB port you can view the RC Inspection report directly from "
+"the Control Hub."
+msgstr ""
+"次は **Robot Controller** セルフインスペクションレポートに移ります。"
+"通常は Inspection Reports DS 画面で **Inspect Robot Controller** メニューオプションを選択して"
+"Driver Station から表示します。参考：Control Hub の HDMI ポートに外部モニターを、USB ポートにマウスを接続すると、"
+"Control Hub から直接 RC インスペクションレポートを表示できます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:145
+msgid "Robot controller self inspection report"
+msgstr "Robot Controller セルフインスペクションレポート"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
+msgid "All items are good, except RC Password"
+msgstr "RC Password を除くすべての項目が問題なし"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:152
+msgid ""
+"Item 1 The three dots are a menu with one choice: ``Disable Bluetooth``. "
+"It shouldn't be needed unless Bluetooth was somehow enabled on the "
+"Control Hub."
+msgstr ""
+"項目 1 3 点アイコンは「Disable Bluetooth」の 1 つの選択肢があるメニューです。"
+"Control Hub で Bluetooth が誤って有効化されていない限り必要ありません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
+msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Control Hub."
+msgstr "項目 2 REV Control Hub の場合、``Manufacturer`` は **REV Robotics** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155
+msgid "Item 3 ``Model`` should be **Control Hub v1.0**."
+msgstr "項目 3 ``Model`` は **Control Hub v1.0** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:156
+msgid ""
+"Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* "
+"recommends but does not require that teams use the currently available "
+"version."
+msgstr ""
+"項目 4 ``Control Hub OS Version`` は少なくとも 1.1.6 であるべきです。"
+"*FIRST* は現在利用可能なバージョンの使用を推奨しますが、必須ではありません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:157
+msgid "Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub."
+msgstr "項目 5 Control Hub の場合、``Android Version`` はおそらく 7.1.2 です。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:158
+msgid ""
+"Item 6 ``Hub Firmware`` lists the hub addresses and firmware levels. This"
+" example shows one Control Hub, but an Expansion Hub can also be listed "
+"here. A check mark indicates all firmware is up-to-date based on the "
+"current version of the RC app. *FIRST* recommends but does not require "
+"that teams use the currently available version."
+msgstr ""
+"項目 6 ``Hub Firmware`` はハブのアドレスとファームウェアレベルを一覧表示します。"
+"この例では 1 つの Control Hub を示していますが、Expansion Hub もここに一覧表示されることがあります。"
+"チェックマークは現在の RC アプリバージョンに基づいてすべてのファームウェアが最新であることを示します。"
+"*FIRST* は現在利用可能なバージョンの使用を推奨しますが、必須ではありません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:162
+msgid "Item 7 shows the ``Battery Level`` of the device being reported."
+msgstr "項目 7 レポートされているデバイスの ``Battery Level`` を表示します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:163
+msgid "Item 8 ``Bluetooth`` should be **Disabled**."
+msgstr "項目 8 ``Bluetooth`` は **Disabled** であるべきです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:164
+msgid ""
+"Item 9 ``RC Password`` appears only in RC Self Inspect. This inspection "
+"item has failed the FTC requirement for a Control Hub password different "
+"than the factory default (\"password\"). Go to the Program and Manage page,"
+" select Manage and then update the RC password. You will have to re-pair "
+"the DS to the RC and enter the new password to reconnect."
+msgstr ""
+"項目 9 ``RC Password`` は RC セルフインスペクションにのみ表示されます。"
+"このインスペクション項目は Control Hub のパスワードを工場出荷時デフォルト（「password」）から変更するという"
+"FTC 要件に不合格となっています。Program and Manage ページに移動し、Manage を選択して RC パスワードを更新してください。"
+"再接続するには DS を RC に再ペアリングして新しいパスワードを入力する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:167
+msgid ""
+"Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub's "
+"Wi-Fi radio is **ON**."
+msgstr "項目 10 ``Wi-Fi Enabled`` は **Yes** でなければなりません。Control Hub の Wi-Fi ラジオが**オン**であることを意味します。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:168
+msgid "Item 11 ``Standard Wi-Fi Connected`` must be **Yes**."
+msgstr "項目 11 ``Standard Wi-Fi Connected`` は **Yes** でなければなりません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:169
+msgid ""
+"Item 12 shows the ``Robot Controller Name`` meets FTC format "
+"requirements. It should be your team number plus -RC, example 99999-RC. "
+"If a spare device is configured, a letter designator may be added <team "
+"number>-<letter>-RC (e.g., 12345-A-RC, 12345-B-RC). See the Competition "
+"Manual for device naming rules."
+msgstr ""
+"項目 12 ``Robot Controller Name`` が FTC フォーマット要件を満たしていることを示します。"
+"チーム番号に -RC を付けた形式（例：99999-RC）にすべきです。"
+"予備デバイスを設定する場合、文字指定子を追加できます（<チーム番号>-<文字>-RC、例：12345-A-RC、12345-B-RC）。"
+"デバイスの命名規則については競技マニュアルを参照してください。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:172
+msgid ""
+"Item 13 Apps Installed ``Robot Controller`` should show the RC app "
+"version. *FIRST* recommends but does not require that teams use the "
+"currently available version."
+msgstr ""
+"項目 13 Apps Installed の ``Robot Controller`` は RC アプリのバージョンを表示するべきです。"
+"*FIRST* は現在利用可能なバージョンの使用を推奨しますが、必須ではありません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:173
+msgid ""
+"Item 14 ``Matches DS Version`` should be **Yes**. A **No** can show up "
+"here and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches"
+" are now allowed, but not recommended."
+msgstr ""
+"項目 14 ``Matches DS Version`` は **Yes** であるべきです。"
+"**No** が表示される場合は、10.0 と 10.1 などのポイントの不一致による可能性が高いですが、"
+"不一致は現在許可されていますが推奨されません。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:174
+msgid ""
+"Item 15 Apps Installed ``Driver Station`` should be **Not installed**, "
+"this verifies that the Robot Controller device does **not** also have a "
+"Driver Station app installed. Only one FTC app should be installed on "
+"each device. It's possible to accidentally install both apps, but this "
+"usually causes the apps to not work properly."
+msgstr ""
+"項目 15 Apps Installed の ``Driver Station`` は **Not installed** であるべきです。"
+"これは Robot Controller デバイスに Driver Station アプリも**インストールされていない**ことを確認します。"
+"各デバイスには FTC アプリを 1 つだけインストールすべきです。"
+"誤って両方のアプリをインストールすることは可能ですが、通常アプリが正常に動作しなくなります。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:176
+msgid ""
+"Item 16 At the bottom of the RC inspection report is a QR Code that can "
+"be scanned during inspection to fill in many of the inspection checklist "
+"items if the inspector is using a tablet."
+msgstr ""
+"項目 16 RC インスペクションレポートの下部には QR コードがあり、"
+"インスペクターがタブレットを使用している場合にインスペクション中にスキャンしてインスペクションチェックリストの"
+"多くの項目を自動入力できます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:178
+msgid "Self Inspect QR code"
+msgstr "セルフインスペクション QR コード"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:183
+msgid "The robot inspector may scan the QR Code during inspection"
+msgstr "ロボットインスペクターはインスペクション中に QR コードをスキャンできます。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:186
+msgid "Summary"
+msgstr "まとめ"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:188
+msgid ""
+"The Self Inspect screen is a quick, handy reference to help teams confirm"
+" that certain control system elements are up-to-date and properly "
+"configured."
+msgstr ""
+"セルフインスペクション画面は、特定のコントロールシステム要素が最新の状態で適切に設定されていることを"
+"チームが確認するための簡単な参照ツールです。"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:192
+msgid ""
+"Self Inspect may be reviewed in Robot Inspection at an FTC tournament, "
+"but is **not** a comprehensive or official standard of compliance with "
+"FTC rules."
+msgstr ""
+"セルフインスペクションは FTC トーナメントのロボットインスペクションで確認される場合がありますが、"
+"FTC ルールへの準拠に関する包括的または公式な基準では**ありません**。"

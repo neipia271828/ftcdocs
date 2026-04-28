@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:2
+msgid "Connecting Devices To a Control or Expansion Hub"
+msgstr "Control Hub または Expansion Hub へのデバイス接続"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:4
+msgid ""
+"This section explains how to connect a motor, a servo, and some sensors to "
+"your REV Robotics Control Hub or REV Robotics Expansion Hub. While the "
+"Control Hub differs from the Expansion Hub because of its built in Android "
+"device, the layout of the external motor, servo, and sensor ports are "
+"identical for the Control Hub and Expansion Hub."
+msgstr ""
+"このセクションでは、モーター、サーボ、各種センサーを REV Robotics Control Hub または REV Robotics "
+"Expansion Hub に接続する方法を説明します。Control Hub は内蔵 Android デバイスがある点で Expansion Hub "
+"と異なりますが、外部モーター・サーボ・センサーポートのレイアウトは両者で同一です。"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:10
+msgid ""
+"The images in this section use an Expansion Hub to demonstrate how to "
+"connect the devices. The process, however, is identical for a Control Hub."
+msgstr ""
+"このセクションの画像では Expansion Hub を使用してデバイス接続方法を説明していますが、Control Hub でも手順は同じです。"
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:14
+msgid ""
+"When the instructions in this section use the word \"Hub\", they are "
+"referring to a Control Hub or Expansion Hub."
+msgstr "このセクションの手順で「Hub」という語が使われている場合、Control Hub または Expansion Hub を指しています。"
