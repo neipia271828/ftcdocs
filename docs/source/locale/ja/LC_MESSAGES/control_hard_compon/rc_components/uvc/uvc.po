@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:2
+msgid "UVC Webcam"
+msgstr "UVC Web カメラ"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:4
+msgid ""
+"A webcam is a device that provides visual images of the surrounding "
+"environment. UVC, or USB Video Class, is a standard that allows USB "
+"devices, like webcams and digital cameras, to stream video to computers "
+"without needing special drivers. For use as part of *FIRST* Tech "
+"Challenge teams must use a commercially available off-the-shelf (COTS) "
+"USB Video Class `(UVC) <https://www.usb.org/document-library/video-"
+"class-v15-document-set>`_ compatible camera. This device can be connected"
+" directly to the REV Control Hub or to the Robot Control system via a USB"
+" hub."
+msgstr ""
+"Web カメラは周囲の環境の視覚的な画像を提供するデバイスです。UVC（USB Video Class）は、"
+"Web カメラやデジタルカメラなどの USB デバイスが専用ドライバーなしにコンピューターに"
+"動画をストリーミングできるようにする標準規格です。*FIRST* Tech Challenge で使用するには、"
+"チームは市販の既製品（COTS）の USB Video Class `(UVC) "
+"<https://www.usb.org/document-library/video-class-v15-document-set>`_"
+"対応カメラを使用する必要があります。このデバイスは REV Control Hub に直接接続するか、"
+"USB ハブを介してロボットコントロールシステムに接続できます。"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:18
+msgid "Budget Webcam"
+msgstr "低価格 Web カメラ"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:22
+msgid "Example budget UVC webcam"
+msgstr "低価格 UVC Web カメラの例"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:30
+msgid ":ref:`logitech_c270_label`"
+msgstr ":ref:`logitech_c270_label`"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:36
+msgid "Mid-range Webcam"
+msgstr "中価格帯 Web カメラ"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:40
+msgid "Example mid-range UVC webcam"
+msgstr "中価格帯 UVC Web カメラの例"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:48
+msgid ":ref:`logitech_c920_label`"
+msgstr ":ref:`logitech_c920_label`"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:50
+msgid ""
+"Webcams are intended to be used in computer vision related tasks. Example"
+" use cases for a webcam are:"
+msgstr ""
+"Web カメラはコンピュータービジョン関連のタスクに使用することを目的としています。"
+"Web カメラのユースケースの例："
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:53
+msgid ""
+":doc:`detecting "
+"<../../../apriltag/understanding_apriltag_detection_values/understanding-"
+"apriltag-detection-values>` an AprilTag,"
+msgstr ""
+"AprilTag の :doc:`検出 "
+"<../../../apriltag/understanding_apriltag_detection_values/understanding-"
+"apriltag-detection-values>`、"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:54
+msgid ""
+"determining where the robot is :doc:`located "
+"<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization>` on the field,"
+msgstr ""
+"フィールド上でロボットがどこに :doc:`位置 "
+"<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization>` しているかの特定、"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:55
+msgid ""
+"using OpenCV to :doc:`detect colors or shapes "
+"<../../../color_processing/index>` of game elements."
+msgstr ""
+"OpenCV を使用したゲーム要素の :doc:`色や形状の検出 "
+"<../../../color_processing/index>`。"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:58
+msgid "Additional Resources"
+msgstr "追加リソース"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:60
+msgid ""
+"A :doc:`list of webcams "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams>` known to be compatible with VisionPortal."
+msgstr ""
+"VisionPortal と互換性があることが確認されている :doc:`Web カメラのリスト "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams>`。"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:61
+msgid ""
+":ref:`Connecting UVC Camera via Powered USB Hub "
+"<hardware_and_software_configuration/configuring/configuring_uvc_camera"
+"/configuring-uvc-camera:configuring an external uvc camera and a powered "
+"usb hub>`"
+msgstr ""
+":ref:`電源付き USB ハブを介した UVC カメラの接続 "
+"<hardware_and_software_configuration/configuring/configuring_uvc_camera"
+"/configuring-uvc-camera:configuring an external uvc camera and a powered "
+"usb hub>`"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:62
+msgid ""
+":ref:`Connecting UVC Camera directly to REV Control Hub "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam"
+"/configuring-external-webcam:configuring an external webcam with a "
+"control hub>`"
+msgstr ""
+":ref:`REV Control Hub への UVC カメラの直接接続 "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam"
+"/configuring-external-webcam:configuring an external webcam with a "
+"control hub>`"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:63
+msgid ""
+":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:USB Ports>`"
+msgstr ""
+":ref:`USB ポートの概要 <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:USB Ports>`"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:64
+msgid ""
+":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision "
+"programming>`"
+msgstr ""
+":ref:`FIRST Tech Challenge におけるビジョン <programming_resources/index:vision "
+"programming>`"
+

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:-1
+#: ../../source/control_hard_compon/ds_components/index.rst:7
+msgid "Driver Station Overview"
+msgstr "Driver Station の概要"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:-1
+msgid "An overview of the various components of the FTC Driver Station"
+msgstr "FTC Driver Station の各コンポーネントの概要"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:-1
+msgid "FTC Docs, FIRST Tech Challenge, DS"
+msgstr "FTC Docs, FIRST Tech Challenge, DS"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:9
+msgid ""
+"These images represent a basic connection diagram for the components that"
+" have typically been used to create a Driver Station. These components "
+"have typically been purchased from the *FIRST* Storefront (in the "
+"\"Control and Communication\" kit). These configurations show sample "
+"connections, and in no way represent the only possible way of connecting "
+"these components. These images also do not represent using a `Driver "
+"Station Carrier <https://www.thingiverse.com/thing:3386378>`_, which is "
+"recommended for teams to use for component management and transportation."
+" See the Competition Manual for more information on *OPERATOR CONSOLES*."
+msgstr ""
+"これらの画像は、Driver Station を構成するために一般的に使用されるコンポーネントの"
+"基本的な接続図を示しています。これらのコンポーネントは通常、*FIRST* ストアフロントの"
+"「Control and Communication」キットで購入されます。これらの構成はサンプルの接続を"
+"示しており、コンポーネントを接続する唯一の方法を表すものではありません。"
+"また、これらの画像はコンポーネント管理と輸送のためにチームへ推奨されている"
+"`Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_"
+"の使用を示したものでもありません。*OPERATOR CONSOLES* の詳細については"
+"競技マニュアルを参照してください。"
+
+#: ../../source/control_hard_compon/ds_components/index.rst
+msgid "Driver Station"
+msgstr "Driver Station"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:24
+msgid ":download:`Driver Station C1 - Basic Config<files/C1.pdf>`"
+msgstr ":download:`Driver Station C1 - 基本設定<files/C1.pdf>`"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:26
+msgid "Driver Station Image"
+msgstr "Driver Station 画像"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:30
+#: ../../source/control_hard_compon/ds_components/index.rst:40
+msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr "図は FRC チーム 3161 および Stefen Acepcion のご厚意により提供"
+
+#: ../../source/control_hard_compon/ds_components/index.rst
+msgid "License"
+msgstr "ライセンス"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:34
+msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
+msgstr ":download:`ライセンスと帰属<../license/sa_license.pdf>`"
+
+#: ../../source/control_hard_compon/ds_components/index.rst:36
+msgid "License Info"
+msgstr "ライセンス情報"
+

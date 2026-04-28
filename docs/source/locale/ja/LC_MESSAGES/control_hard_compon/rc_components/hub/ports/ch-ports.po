@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:2
+msgid "Control Hub Ports"
+msgstr "Control Hub ポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:4
+msgid "REV Control Hub"
+msgstr "REV Control Hub"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:8
+msgid "Part number REV-31-1595"
+msgstr "品番 REV-31-1595"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:2
+msgid "Battery Ports"
+msgstr "バッテリーポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:5
+msgid ""
+"**Never** connect a battery charger directly to the battery port. This "
+"will void your warranty and fry your hub."
+msgstr ""
+"バッテリー充電器をバッテリーポートに直接接続しては**なりません**。"
+"保証が無効になり、Hub が壊れます。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:8
+msgid ""
+"The yellow `XT30 <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/xt-30-power-cable>`_ connectors are"
+" used to power your REV Hub as well as all the devices connected to it. "
+"For more information on these ports please see the `REV Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview"
+"/control-hub-basics#input-power-specifications>`_. One of these ports may"
+" also be used to connect a grounding strap. For more information on legal"
+" grounding straps see the Power Distribution section of the `Competition "
+"Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_."
+msgstr ""
+"黄色い `XT30 <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/xt-30-power-cable>`_ コネクターは"
+"REV Hub 本体および接続されているすべてのデバイスに電力を供給します。"
+"これらのポートの詳細については `REV ドキュメント "
+"<https://docs.revrobotics.com/duo-control/control-system-overview"
+"/control-hub-basics#input-power-specifications>`_ を参照してください。"
+"これらのポートの 1 つはアースストラップの接続にも使用できます。"
+"合法的なアースストラップについては `競技マニュアル <https://ftc-"
+"resources.firstinspires.org/file/ftc/game/manual>`_ の電力配分セクションを参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:15
+msgid ""
+"As the XT30 connector is known for its fragility it is highly recommended"
+" you be careful when using it. It is also recommended that you expand "
+"your connector prongs periodically. REV has a `troubleshooting article "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ specific "
+"to expanding the pins on the XT30 connector. For more information on this"
+" process please watch this `YouTube video "
+"<https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. While this video "
+"features an XT60 connector, a larger version of the XT30, and a drone, "
+"the advice is much the same."
+msgstr ""
+"XT30 コネクターはその脆弱性で知られているため、使用時には十分注意することを強くお勧めします。"
+"また、コネクターの端子を定期的に広げることもお勧めします。REV は XT30 コネクターの端子を"
+"広げることに特化した `トラブルシューティング記事 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ を提供しています。"
+"このプロセスの詳細については、この `YouTube 動画 "
+"<https://www.youtube.com/watch?v=UYXTiSeVmB0>`_ をご覧ください。"
+"この動画は XT30 より大きい XT60 コネクターとドローンを使用していますが、アドバイスはほぼ同じです。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:23
+msgid "Motor Ports"
+msgstr "モーターポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:25
+msgid ""
+"These `JST-VH <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/jst-vh-motor-power>`_ style connectors are"
+" used to power your motors. There are 4 of these ports per hub and they "
+"are numbered from 0-3. As you are able to use 8 motors per robot you may "
+"want to control more than these hubs allow. In that case it is possible "
+"for you to use an :ref:`additional "
+"hub<hardware_and_software_configuration/configuring/configuring_dual_hubs"
+"/configuring-dual-hubs:using two expansion hubs>` or to use a `REV "
+"SPARKmini Motor Controller <https://www.revrobotics.com/rev-31-1230/>`_ "
+"(REV-31-1230) to power more motors. For more information on this port "
+"please see `REV Motor Port Documentation <https://docs.revrobotics.com"
+"/duo-control/control-system-overview/control-hub-basics#motor-port-"
+"specifications>`_."
+msgstr ""
+"これらの `JST-VH <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルのコネクターはモーターに電力を供給します。"
+"各 Hub には 4 つのこのポートがあり、0〜3 の番号が付けられています。ロボット 1 台につき最大 8 個の"
+"モーターを使用できるため、Hub が許可する数より多くのモーターを制御したい場合は、"
+":ref:`追加の Hub<hardware_and_software_configuration/configuring/configuring_dual_hubs"
+"/configuring-dual-hubs:using two expansion hubs>` を使用するか、`REV SPARKmini Motor Controller"
+" <https://www.revrobotics.com/rev-31-1230/>`_ (REV-31-1230) を使用して追加のモーターに電力を"
+"供給することができます。このポートの詳細については `REV モーターポートドキュメント "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-"
+"specifications>`_ を参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:36
+msgid "Encoder Ports"
+msgstr "エンコーダーポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:38
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your quadrature encoders. There are 4 of these "
+"ports on each hub and they can be used in tandem with the motor they are "
+"adjacent to. However, it is also possible to use this port to connect to "
+"a standalone incremental encoder. To connect to more than 4 encoders it "
+"is currently necessary to connect an additional hub. For more information"
+" on this port please see `REV Encoder Port Documentation "
+"<https://docs.revrobotics.com/duo-control/control-system-overview"
+"/control-hub-basics#encoder-port-specifications>`_."
+msgstr ""
+"これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルのコネクターは"
+"クォードラチャーエンコーダー用です。各 Hub には 4 つのこのポートがあり、隣接するモーターと"
+"組み合わせて使用できます。ただし、スタンドアロンのインクリメンタルエンコーダーの接続にも"
+"このポートを使用できます。4 つ以上のエンコーダーを接続するには、現時点では追加の Hub の"
+"接続が必要です。このポートの詳細については `REV エンコーダーポートドキュメント "
+"<https://docs.revrobotics.com/duo-control/control-system-overview"
+"/control-hub-basics#encoder-port-specifications>`_ を参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:48
+msgid "Servo Ports"
+msgstr "サーボポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:50
+msgid ""
+"These 0.1” Header pins are used to power and control your servos. There "
+"are 6 ports on each hub and they are numbered from 0-5. Be mindful of "
+"matching the polarity of the device attached to this port as it is "
+"possible to flip the connector. For increasing the power supplied to "
+"these servos it is possible to use a Servo Power Module. See the Motors &"
+" Actuators section of the `Competition Manual <https://ftc-"
+"resources.firstinspires.org/file/ftc/game/manual>`_ for approved servo "
+"power devices. For more information on this port please see `REV Servo "
+"Port Documentation <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/control-hub-basics#servo-port-specifications>`_."
+msgstr ""
+"これらの 0.1” ヘッダーピンはサーボの電力供給と制御に使用します。各 Hub には 6 つのポートが"
+"あり、0〜5 の番号が付けられています。このポートに接続するデバイスの極性を確認し、コネクターを"
+"逆に差し込まないようにしてください。サーボへの供給電力を増加させるには Servo Power Module を"
+"使用できます。承認されたサーボ電源デバイスについては `競技マニュアル <https://ftc-"
+"resources.firstinspires.org/file/ftc/game/manual>`_ のモーターとアクチュエーターセクションを"
+"参照してください。このポートの詳細については `REV サーボポートドキュメント "
+"<https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#servo-port-"
+"specifications>`_ を参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:58
+msgid "+5V Power Ports"
+msgstr "+5V 電源ポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:60
+msgid ""
+"These 0.1” Header pins are used to power and control various appliances. "
+"There are two ports on each hub. These connectors can be used for a "
+"limited range of applications in *FIRST* Tech Challenge, such as powering"
+" powered USB hubs. For more information on this port please see `REV +5V "
+"Power Port Documentation <https://docs.revrobotics.com/duo-control"
+"/control-system-overview/control-hub-basics#id-5v-power-port-"
+"specifications>`_ and the Power Distribution section of the `Competition "
+"Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_."
+msgstr ""
+"これらの 0.1” ヘッダーピンはさまざまな機器の電力供給と制御に使用します。各 Hub には 2 つのポートがあります。"
+"これらのコネクターは、電源付き USB ハブへの給電など、*FIRST* Tech Challenge の限られた用途に使用できます。"
+"このポートの詳細については `REV +5V 電源ポートドキュメント <https://docs.revrobotics.com/duo-control"
+"/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ および "
+"`競技マニュアル <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ の"
+"電力配分セクションを参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:68
+msgid "Analog Ports"
+msgstr "アナログポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:70
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your analog inputs. There are 2 of these ports on"
+" each hub. These ports have 4 channels labeled from 0-4. This port can be"
+" used to connect to a standalone analog sensor. A common example of an "
+"analog sensor is a `potentiometer "
+"<https://www.revrobotics.com/rev-31-1155/>`_. An analog sensor is one "
+"that outputs a range of values rather than digital which alternates "
+"between one of two states. For more information on this port please see "
+"`REV Analog Port Documentation <https://docs.revrobotics.com/duo-control"
+"/control-system-overview/control-hub-basics#analog-port-"
+"specifications>`_."
+msgstr ""
+"これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルのコネクターは"
+"アナログ入力用です。各 Hub にはこのポートが 2 つあり、0〜4 の番号が付けられた 4 チャンネルがあります。"
+"このポートはスタンドアロンのアナログセンサーの接続に使用できます。アナログセンサーの一般的な例は"
+"`電位差計（ポテンショメーター）<https://www.revrobotics.com/rev-31-1155/>`_ です。"
+"アナログセンサーとは、2 つの状態を交互に切り替えるデジタルとは異なり、値の範囲を出力するものです。"
+"このポートの詳細については `REV アナログポートドキュメント <https://docs.revrobotics.com/duo-control"
+"/control-system-overview/control-hub-basics#analog-port-specifications>`_ を参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:78
+msgid "Digital Ports"
+msgstr "デジタルポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:80
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for your digital inputs. There are 4 of these ports "
+"on each hub with a total of 8 channels labeled from `0-7`. A device "
+"attached to a digital port alternates between one of two states (e.g., on"
+" and off). One such device would be a button. It is important to note "
+"that each port has two channels and devices such as the `REV Touch Sensor"
+" <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one "
+"channel (N+1)."
+msgstr ""
+"これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルのコネクターは"
+"デジタル入力用です。各 Hub には `0-7` の番号が付けられた合計 8 チャンネルを持つ 4 つのポートがあります。"
+"デジタルポートに接続されたデバイスは、2 つの状態（オンとオフなど）を交互に切り替えます。"
+"そのようなデバイスの例としてはボタンがあります。各ポートには 2 つのチャンネルがあり、"
+"`REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ などのデバイスは"
+"1 つのチャンネル（N+1）でのみ動作することに注意してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:87
+msgid "I2C Ports"
+msgstr "I2C ポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:89
+msgid "Todo"
+msgstr "Todo"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:90
+msgid ""
+"TODO [uvidyadharan] Add reference to I2C Driver creation tutorial once "
+"migrated"
+msgstr "TODO [uvidyadharan] 移行後に I2C ドライバー作成チュートリアルへの参照を追加"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:93
+msgid ""
+"These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for connecting I2C sensors. Each port is a single I2C"
+" bus where multiple sensors can be attached. Using sensors with identical"
+" addresses on the same bus can cause problems. While it is possible to "
+"use a large range of sensors, the vast majority of I2C sensors do not "
+"have drivers built into the SDK. It is possible to use community drivers "
+"or create your own. For more information on this port please see `REV I2C"
+" Port Documentation <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/control-hub-basics#i2c-port-specifications>`_."
+msgstr ""
+"これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルのコネクターは"
+"I2C センサーの接続に使用します。各ポートは単一の I2C バスで、複数のセンサーを接続できます。"
+"同じバス上で同一アドレスのセンサーを使用すると問題が生じる可能性があります。幅広いセンサーを"
+"使用できますが、大多数の I2C センサーには SDK に組み込みのドライバーがありません。"
+"コミュニティのドライバーを使用するか、独自のものを作成することもできます。"
+"このポートの詳細については `REV I2C ポートドキュメント <https://docs.revrobotics.com/duo-control"
+"/control-system-overview/control-hub-basics#i2c-port-specifications>`_ を参照してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:103
+msgid "RS485"
+msgstr "RS485"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:105
+msgid ""
+"These 3-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ style "
+"connectors are used for serial communication between REV Hubs. You would "
+"use this port if you wished to use a second REV Hub as described :ref:`in"
+" this tutorial "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs"
+"/configuring-dual-hubs:using two expansion hubs>`. Both RS485 ports can "
+"be used to add redundancy by using two cables connecting both ports "
+"between the REV Hubs."
+msgstr ""
+"これらの 3 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-"
+"system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルのコネクターは"
+"REV Hub 間のシリアル通信に使用します。:ref:`このチュートリアル "
+"<hardware_and_software_configuration/configuring/configuring_dual_hubs"
+"/configuring-dual-hubs:using two expansion hubs>` で説明されているように 2 台目の REV Hub を"
+"使用したい場合にこのポートを使用します。両方の RS485 ポートを 2 本のケーブルで接続することで"
+"冗長性を確保することもできます。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:111
+msgid "UART"
+msgstr "UART"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:113
+msgid ""
+"This connector is used only for **Developer** (non end user) debugging. "
+"Its use is not supported by *FIRST*."
+msgstr ""
+"このコネクターは**開発者**（エンドユーザー以外）のデバッグ専用です。"
+"*FIRST* はその使用をサポートしていません。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:13
+msgid ""
+"The ports from left to right are: USB 2.0, USB 3.0, USB C, USB Mini "
+"(below the USB C port),  HDMI, and Micro SD."
+msgstr ""
+"左から右のポートは：USB 2.0、USB 3.0、USB C、USB Mini（USB C ポートの下）、HDMI、マイクロ SD です。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:17
+msgid "Control Hub Front Ports"
+msgstr "Control Hub フロントポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:20
+msgid "USB Ports"
+msgstr "USB ポート"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:22
+msgid ""
+"Universal Serial Bus (USB) is an industry standard that allows data "
+"exchange and delivery of power between many types of electronics. The "
+"control hub has four USB ports described below."
+msgstr ""
+"ユニバーサルシリアルバス（USB）は、多種多様な電子機器間でのデータ交換と電力供給を可能にする"
+"業界標準です。Control Hub には以下に説明する 4 つの USB ポートがあります。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:25
+msgid ""
+"USB 2.0 and USB 3.0 refer to the USB specifications that relate to data "
+"exchange rate and power delivery."
+msgstr "USB 2.0 と USB 3.0 は、データ交換速度と電力供給に関連する USB 仕様を指します。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:27
+msgid "USB Type-A and USB-C and USB Mini-B refer to the type of connector."
+msgstr "USB Type-A、USB-C、USB Mini-B はコネクターの種類を指します。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:29
+msgid "USB Type-A is a larger rectangular connector."
+msgstr "USB Type-A はより大きな長方形のコネクターです。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:30
+msgid "USB-C is a smaller oval connector."
+msgstr "USB-C はより小さな楕円形のコネクターです。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:31
+msgid "USB Mini-B is a smaller rectangular connector with a beveled edge."
+msgstr "USB Mini-B は斜め処理された辺を持つより小さな長方形のコネクターです。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:34
+msgid "USB 2.0"
+msgstr "USB 2.0"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:36
+msgid ""
+"This is a female USB Type-A port that implements USB 2.0 and can be used "
+"for connecting USB devices as allowed for in the Competition Manual."
+msgstr ""
+"これは USB 2.0 を実装したメス USB Type-A ポートで、競技マニュアルで許可されている"
+"USB デバイスの接続に使用できます。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:38
+msgid ""
+"An electrostatic discharge (ESD) event on the USB 2.0 port on the Control"
+" Hub can cause Wi-Fi disconnects."
+msgstr ""
+"Control Hub の USB 2.0 ポートでの静電気放電（ESD）イベントにより、Wi-Fi が切断される可能性があります。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:40
+msgid ""
+"The REV Control Hub has a `known ESD issue <https://docs.revrobotics.com"
+"/duo-control/troubleshooting-the-control-system/troubleshooting-the-"
+"control-system#esd-mitigation-techniques>`_ with devices plugged into the"
+" USB 2.0 port. Using the USB 2.0 Port may cause ESD to affect your "
+"Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub)."
+" Ensure that you plug USB devices, such as a Camera, into the USB 3.0 "
+"Port on your Control Hub."
+msgstr ""
+"REV Control Hub の USB 2.0 ポートに接続されたデバイスには `ESD の既知の問題 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ があります。"
+"USB 2.0 ポートを使用すると、ESD が Control Hub の Wi-Fi チップに影響を与え"
+"（Driver Hub との Wi-Fi 切断を引き起こす）可能性があります。"
+"カメラなどの USB デバイスは Control Hub の USB 3.0 ポートに接続してください。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:47
+msgid "USB 3.0"
+msgstr "USB 3.0"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:49
+msgid ""
+"This is a female USB Type-A port that implements USB 3.0 and is primarily"
+" used for connecting USB video device class (UVC) cameras (webcams)."
+msgstr ""
+"これは USB 3.0 を実装したメス USB Type-A ポートで、主に USB ビデオデバイスクラス（UVC）"
+"カメラ（Web カメラ）の接続に使用します。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:52
+msgid "USB C"
+msgstr "USB C"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:54
+msgid ""
+"A Control Hub has a female USB-C port that implements USB 2.0. This is "
+"primarily used for connecting to a laptop for loading the SDK but can "
+"also be used with a UVC Camera."
+msgstr ""
+"Control Hub には USB 2.0 を実装したメス USB-C ポートがあります。主に SDK をロードするための"
+"ラップトップへの接続に使用しますが、UVC カメラとも使用できます。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:58
+msgid "MINI USB"
+msgstr "MINI USB"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:60
+msgid ""
+"This is a female USB Mini-B port that implements USB 2.0. It is used only"
+" to communicate directly to the I/O system. In this case, it is only for "
+"the purpose of uploading firmware to the device."
+msgstr ""
+"これは USB 2.0 を実装したメス USB Mini-B ポートです。I/O システムへの直接通信にのみ使用されます。"
+"この場合、デバイスへのファームウェアのアップロードのみを目的としています。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:65
+msgid "HDMI"
+msgstr "HDMI"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:67
+msgid ""
+"The Control Hub lacks a display of its own even though it is a fully-"
+"fledged Android device. The Control Hub has an HDMI port that provides "
+"video output for the device; this HDMI port can be used to connect to an "
+"external display."
+msgstr ""
+"Control Hub は完全な Android デバイスでありながら、独自のディスプレイを持ちません。"
+"Control Hub にはデバイスの映像出力を提供する HDMI ポートがあり、外部ディスプレイへの接続に使用できます。"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:72
+msgid "MICRO SD"
+msgstr "マイクロ SD"
+
+#: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:74
+msgid "This is a port for a Micro SD memory card. It is not normally used."
+msgstr "これはマイクロ SD メモリカード用のポートです。通常は使用されません。"
