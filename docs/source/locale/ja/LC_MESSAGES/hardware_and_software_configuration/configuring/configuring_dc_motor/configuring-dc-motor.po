@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:2
+msgid "Configuring a DC Motor"
+msgstr "DC モーターの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:4
+msgid ""
+"Now that you've created a file, you will need to add a DC Motor to the "
+"configuration file."
+msgstr "ファイルを作成したら、設定ファイルに DC モーターを追加する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:7
+msgid ""
+"At this point, although you have created your configuration file, you "
+"have not yet saved its contents to the Robot Controller. You will save "
+"the configuration file later in the :ref:`Saving the Configuration "
+"Information "
+"<hardware_and_software_configuration/configuring/saving_config/saving-"
+"config:Saving the Configuration Information>` step."
+msgstr ""
+"この時点では設定ファイルを作成しましたが、まだ Robot Controller に内容を保存していません。"
+"設定ファイルは後の :ref:`設定情報の保存 "
+"<hardware_and_software_configuration/configuring/saving_config/saving-"
+"config:Saving the Configuration Information>` の手順で保存します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:10
+msgid "Configuring a DC Motor Instructions"
+msgstr "DC モーターの設定手順"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:12
+msgid ""
+"1. Touch the word **Motors** on the screen to display the Motor "
+"Configuration screen."
+msgstr "1. 画面上の **Motors** をタップしてモーター設定画面を表示します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:20
+msgid ""
+"2. Since we installed our motor onto port #0 of the Expansion Hub, use "
+"the dropdown control for port 0 to select the motor type (Tetrix Motor "
+"for this example)."
+msgstr ""
+"2. モーターを Expansion Hub のポート #0 に取り付けたので、"
+"ポート 0 のドロップダウンを使用してモータータイプ（この例では Tetrix Motor）を選択します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:29
+msgid ""
+"3. Use the touch screen keypad to specify a name for your motor "
+"(\"motorTest\" in this example)."
+msgstr "3. タッチスクリーンキーパッドを使用してモーターの名前（この例では「motorTest」）を指定します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:37
+msgid ""
+"4. Press the **Done** button to complete the motor configuration. The app"
+" should return to the previous screen."
+msgstr "4. **Done** ボタンを押してモーターの設定を完了します。アプリは前の画面に戻ります。"

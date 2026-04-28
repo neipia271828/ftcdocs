@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:2
+msgid "Configuring a Digital Touch Sensor"
+msgstr "デジタルタッチセンサーの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:4
+msgid ""
+"The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query the "
+"Touch Sensor to see if its button is being pressed or not."
+msgstr ""
+"REV Robotics タッチセンサーはデジタルセンサーです。Op Mode からタッチセンサーを照会して、"
+"ボタンが押されているかどうかを確認できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:8
+msgid "Configuring a Digital Touch Sensor Instructions"
+msgstr "デジタルタッチセンサーの設定手順"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:10
+msgid ""
+"1. Touch the words **Digital Devices** on the screen to launch the Digital "
+"I/O configuration screen."
+msgstr "1. 画面上の **Digital Devices** をタップして、デジタル I/O 設定画面を開きます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:18
+msgid ""
+"2. Use the touch screen to add a \"REV Touch Sensor\" for port #1 and name "
+"the device \"testTouch\"."
+msgstr "2. タッチスクリーンを使用してポート #1 に「REV Touch Sensor」を追加し、デバイス名を「testTouch」に設定します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:26
+msgid ""
+"Notice that we are configuring the Touch Sensor on port #1 instead of port "
+"#0.  This is because when the REV Robotics Touch Sensor is connected to a "
+"digital port using a standard 4-wire JST sensor cable, it is the second "
+"digital pin that is connected. The first pin remains disconnected."
+msgstr ""
+"タッチセンサーをポート #0 ではなくポート #1 で設定していることに注意してください。"
+"これは、REV Robotics タッチセンサーを標準の 4 線 JST センサーケーブルでデジタルポートに接続すると、"
+"2 番目のデジタルピンに接続されるためです。最初のピンは未接続のままになります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:28
+msgid "Press the **Done** button to return to the previous screen."
+msgstr "3. **Done** ボタンを押して前の画面に戻ります。"

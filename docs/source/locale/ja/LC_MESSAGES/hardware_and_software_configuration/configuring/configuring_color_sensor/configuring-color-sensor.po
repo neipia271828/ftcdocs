@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: 2026-04-28 00:00+0900\n"
+"Last-Translator: FTC Docs Translation Team\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:2
+msgid "Configuring a Color Distance Sensor"
+msgstr "カラー距離センサーの設定"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:4
+msgid ""
+"The REV Robotics Color Distance Sensor is an I2C sensor. It actually "
+"combines two sensor functions into a single device. It is a color sensor,"
+" that can determine the color of an object. It is also a distance or "
+"range sensor, that can be used to measure short range distances. Note "
+"that in this tutorial, the word \"distance\" is used interchangeably with"
+" the word \"range\"."
+msgstr ""
+"REV Robotics カラー距離センサーは I2C センサーです。このセンサーは 2 つのセンサー機能を 1 つのデバイスにまとめています。"
+"物体の色を判別するカラーセンサーと、近距離を計測できる距離（レンジ）センサーの機能を持っています。"
+"このチュートリアルでは「distance」と「range」は同義語として使用します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:12
+msgid "Configuring a Color Distance Sensor Instructions"
+msgstr "カラー距離センサーの設定手順"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:14
+msgid ""
+"1. Touch the words **I2C Bus 0** on the screen to launch the I2C "
+"configuration screen for this I2C bus."
+msgstr "1. 画面上の **I2C Bus 0** をタップして、この I2C バスの設定画面を開きます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:22
+msgid ""
+"The Control Hub or Expansion Hub has four independent I2C buses, labeled "
+"\"0\" through \"3\".  In this example, since you connected the Color "
+"Sensor to the port labeled \"0\", it resides on I2C Bus 0."
+msgstr ""
+"Control Hub または Expansion Hub には「0」〜「3」のラベルが付いた 4 つの独立した I2C バスがあります。"
+"この例ではカラーセンサーを「0」ポートに接続したため、I2C Bus 0 に配置されます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:24
+msgid ""
+"2. Look at the **I2C Bus 0** screen. There should already be a sensor "
+"configured for this bus. The Control Hub or Expansion Hub has its own "
+"built-in inertial measurement unit (IMU) sensor. This sensor can be used "
+"to determine the orientation of a robot, as well as measure the "
+"accelerations on a robot."
+msgstr ""
+"2. **I2C Bus 0** 画面を確認します。このバスにはすでにセンサーが設定されているはずです。"
+"Control Hub または Expansion Hub には内蔵の IMU（慣性計測装置）センサーが搭載されており、"
+"ロボットの向きや加速度の測定に使用できます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
+msgid ""
+"The built-in IMU is internally connected to I2C Bus 0 on each Control Hub"
+" or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub"
+" using the Robot Controller, the app automatically configures the IMU for"
+" I2C Bus 0. You will need to add another I2C device for this bus to be "
+"able to configure the color sensor."
+msgstr ""
+"内蔵 IMU は各 Control Hub または Expansion Hub の I2C Bus 0 に内部で接続されています。"
+"Robot Controller で Hub を設定するたびに、アプリは I2C Bus 0 用に IMU を自動的に設定します。"
+"カラーセンサーを設定するには、このバスに別の I2C デバイスを追加する必要があります。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
+msgid "Press the **Add** button to add another I2C device to this bus."
+msgstr "3. **Add** ボタンを押して、このバスに別の I2C デバイスを追加します。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:44
+msgid ""
+"4. Select \"REV Color/Range Sensor\" from the dropdown selector for this "
+"new device. Use the touchscreen keyboard to name this device "
+"\"sensorColorRange\"."
+msgstr ""
+"4. 新しいデバイスのドロップダウンから「REV Color/Range Sensor」を選択します。"
+"タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:53
+msgid ""
+"5. Press the **Done** button to complete the I2C sensor configuration. "
+"The app should return to the previous screen."
+msgstr "5. **Done** ボタンを押して I2C センサーの設定を完了します。アプリは前の画面に戻ります。"
