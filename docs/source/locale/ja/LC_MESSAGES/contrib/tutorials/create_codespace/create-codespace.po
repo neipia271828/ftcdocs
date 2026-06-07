@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:2
 msgid "Creating a Codespace"
-msgstr ""
+msgstr "Codespace を作成する"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:3
 msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces`"
-msgstr ""
+msgstr ":bdg-success:`繰り返し` :bdg-info:`Codespaces`"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:5
 msgid ""
@@ -36,44 +36,50 @@ msgid ""
 "few minutes to create the codespace, but once it is created, you can "
 "access it from the browser and subsequent access will be much faster."
 msgstr ""
+"リポジトリに新しい branch を作成するたびに、新しい codespace を作成する必要があります。"
+"これはコードを実行して main branch にマージする前にテストできる仮想環境です。"
+"codespace の作成には数分かかることがありますが、一度作成すればブラウザからアクセスでき、"
+"以降のアクセスははるかに速くなります。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:10
 msgid "Steps"
-msgstr ""
+msgstr "手順"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:12
 msgid "Open your **forked** repository in GitHub."
-msgstr ""
+msgstr "GitHub で **fork した** リポジトリを開きます。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:13
 msgid "On the left side of the page select the branch you want to work on."
-msgstr ""
+msgstr "ページの左側で作業したい branch を選択します。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:15
 msgid "Screen shot showing the Demo branch is selected."
-msgstr ""
+msgstr "Demo branch が選択されている状態のスクリーンショット。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:18
 msgid ""
 "Click on the green Code button which will display a Local and a "
 "Codespaces tab, then click the Codespaces tab."
 msgstr ""
+"緑色の Code ボタンをクリックすると Local タブと Codespaces タブが表示されます。"
+"Codespaces タブをクリックしてください。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:20
 msgid "Screen shot showing the Codespace tab being clicked."
-msgstr ""
+msgstr "Codespace タブをクリックしている状態のスクリーンショット。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:23
 msgid "Click on the green button that says \"Create codespace on\"."
-msgstr ""
+msgstr "「Create codespace on」と書かれた緑色のボタンをクリックします。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:25
 msgid "Screen shot showing the green button that says create codespace on."
-msgstr ""
+msgstr "「Create codespace on」と書かれた緑色のボタンのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:28
 msgid "Wait for the codespace to be created. This may take a few minutes."
-msgstr ""
+msgstr "codespace が作成されるまで待ちます。数分かかる場合があります。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:29
 msgid ""
@@ -81,36 +87,44 @@ msgid ""
 " browser. This is a browser based version of VS Code that can be used to "
 "make your changes and build the HTML pages to review your changes."
 msgstr ""
+"codespace が作成されると、ブラウザ上の codespace に移動します。これはブラウザベースの VS Code であり、"
+"変更を加えて HTML ページをビルドし、変更内容を確認するために使用できます。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:31
 msgid ""
 "Enter ``CTRL + SHIFT + B`` to build the project. You can also run the "
 "build task from the Terminal menu."
 msgstr ""
+"``CTRL + SHIFT + B`` を入力してプロジェクトをビルドします。"
+"Terminal メニューからビルドタスクを実行することもできます。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:33
 msgid "Screen shot of Terminal menu with Run Build Task selected."
-msgstr ""
+msgstr "「Run Build Task」が選択された Terminal メニューのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:36
 msgid ""
 "The build messages will be displayed. Look to see a \"build succeeded\" "
 "message. Then a pop up will indicate an application is running."
 msgstr ""
+"ビルドメッセージが表示されます。「build succeeded」というメッセージを確認してください。"
+"その後、アプリケーションが起動していることを示すポップアップが表示されます。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:39
 msgid "Screen shot of build messages with Open in Browser button."
-msgstr ""
+msgstr "「Open in Browser」ボタン付きのビルドメッセージのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:42
 msgid ""
 "If you click the Open in Browser button a new tab will open displaying "
 "the HTML pages you just built."
 msgstr ""
+"「Open in Browser」ボタンをクリックすると、ビルドした HTML ページが新しいタブで表示されます。"
 
 #: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:44
 msgid ""
 "You can now make your changes. See the section on "
 ":doc:`/contrib/tutorials/make_rst/index`."
 msgstr ""
+"これで変更を加えることができます。:doc:`/contrib/tutorials/make_rst/index` のセクションを参照してください。"
 

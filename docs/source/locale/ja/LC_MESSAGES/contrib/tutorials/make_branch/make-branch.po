@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:2
 msgid "Creating a New Branch"
-msgstr ""
+msgstr "新しい Branch を作成する"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:3
 msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
-msgstr ""
+msgstr ":bdg-success:`繰り返し` :bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:6
 msgid "What are branches and why do we need them?"
-msgstr ""
+msgstr "Branch とは何か、なぜ必要なのか？"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:8
 msgid ""
@@ -49,18 +49,26 @@ msgid ""
 "website. After the changes are merged, we will use the process described "
 "in the :doc:`/contrib/tutorials/update_fork/update-fork`"
 msgstr ""
+"Branch はプロジェクトの並行バージョンと考えることができます。メインプロジェクトに影響を与えずに、"
+"独立した環境で機能の追加やバグ修正に取り組めるため、開発において非常に便利です。変更が完了したら、"
+"branch を main branch にマージして変更を公開できます。FTC Docs の場合、fork の main branch は"
+"常にメインリポジトリの main branch のコピーであるべきであり、新しい branch を作成する際の基点となります。"
+"自分の branch での変更に満足したら、:term:`Main Repository <Main Repository>` の main "
+"branch に変更をマージするための Pull Request を作成します。Pull Request が承認されると、変更は"
+" Main Repository の main branch にマージされ、FTC Docs ウェブサイトに公開されます。"
+"変更がマージされた後は、:doc:`/contrib/tutorials/update_fork/update-fork` で説明されているプロセスを使用します。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:22
 msgid "On the ``< > Code`` tab, we can see the Branch information below:"
-msgstr ""
+msgstr "``< > Code`` タブでは、以下の Branch 情報を確認できます："
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:24
 msgid "Figure 3 rst-primer branch information"
-msgstr ""
+msgstr "図3 rst-primer branch 情報"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:29
 msgid "Figure 3: Example Fork branch information"
-msgstr ""
+msgstr "図3：Fork の branch 情報の例"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:31
 msgid ""
@@ -70,6 +78,9 @@ msgid ""
 "``main`` branch, so if there's only one branch then it's the ``main`` "
 "branch)."
 msgstr ""
+"赤丸で示された部分に、リポジトリの Branch 情報が表示されています。現在表示している branch は "
+"``main`` branch であり、リポジトリには branch が1つしかないことがわかります（``main`` branch は "
+"*必ず* 存在するため、branch が1つだけの場合はそれが ``main`` branch です）。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:36
 msgid ""
@@ -82,14 +93,19 @@ msgid ""
 "branch <NAME> from 'main'\" item that will appear. This is the \"quick "
 "branch\" way of creating branches."
 msgstr ""
+"branch のドロップダウン（現在「main」と表示されている部分）をクリックすると、すべての branch のリストと"
+"検索・作成ボックスが表示されます。branch 名をクリックして別の branch に切り替えることができますが、"
+"リストが多い場合は branch 名を入力してフィルタリングすることもできます。新しい branch を作成したい場合は、"
+"新しい名前を入力すると表示される \"Create branch <NAME> from 'main'\" をクリックしてください。"
+"これが branch を作成する「クイック branch」方式です。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:44
 msgid "Figure 4 rst-primer branch selection"
-msgstr ""
+msgstr "図4 rst-primer branch 選択"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:49
 msgid "Figure 4: Example Fork branch selection"
-msgstr ""
+msgstr "図4：Fork の branch 選択の例"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:51
 msgid ""
@@ -103,14 +119,20 @@ msgid ""
 "like ``feature-<FEATURE_NAME>``, ``bugfix-<BUG_NUMBER>``, or "
 "``<YOUR_NAME>-<FEATURE_NAME>``."
 msgstr ""
+"コンテンツを変更するには、自分の作業スペースとなる新しい branch を作成する必要があります。"
+"``main`` から複製した新しい branch を作成するには、``main`` が現在選択されている branch であることを確認し"
+"（branch が1つだけの場合は必ず ``main`` になります）、ボックスに新しい名前を入力して表示される「create」を"
+"クリックします。この新しい branch を ``demo`` と呼ぶことにしましょう。実際の作業では、"
+"``feature-<FEATURE_NAME>``、``bugfix-<BUG_NUMBER>``、``<YOUR_NAME>-<FEATURE_NAME>`` のように、"
+"より説明的な名前を使用してください。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:60
 msgid "Figure 5 rst-primer create new branch"
-msgstr ""
+msgstr "図5 rst-primer 新しい branch の作成"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:65
 msgid "Figure 5: Example Fork create new branch"
-msgstr ""
+msgstr "図5：Fork での新しい branch 作成の例"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:67
 msgid ""
@@ -123,6 +145,11 @@ msgid ""
 " show you all of the current branches along with which one(s) are owned "
 "by you."
 msgstr ""
+"図5の「Create branch」ボタンをクリックすると、新しい branch が作成され、branch 選択ドロップダウンで"
+"自動的に選択されます。また、branch の総数が1つ増えます。すべての branch を表示したい場合は、"
+"branch ドロップダウン内の「View all branches」リンクをクリックするか、branch セレクターの横にある"
+"「X Branches」リンクをクリックしてください。これにより、現在のすべての branch と、"
+"どれが自分のものかが表示されます。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:75
 msgid ""
@@ -137,16 +164,22 @@ msgid ""
 "(like me).  You can also switch to another branch by clicking on the name"
 " of the branch."
 msgstr ""
+"図6は「All Branches」ビューを示しています。これは branch を管理するもう一つの方法であり、"
+"branch の表示・管理方法として気に入るかどうかは人それぞれです。このビューでは、緑色の「New Branch」ボタンを"
+"クリックして新しい branch を作成したり、各 branch の右にある鉛筆アイコンをクリックして *自分の* branch の"
+"名前を変更したり、各 branch の右にある「*ゴミ箱*」アイコンをクリックして *自分の* branch を削除したりできます。"
+"管理者（私のような）でない限り、操作できるのは *自分自身の* branch のみです。"
+"また、branch 名をクリックして別の branch に切り替えることもできます。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:85
 msgid "Figure 6 rst-primer view all branches"
-msgstr ""
+msgstr "図6 rst-primer すべての branch を表示"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:90
 msgid "Figure 6: Example Fork view all branches"
-msgstr ""
+msgstr "図6：Fork のすべての branch 表示の例"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:92
 msgid "Congratulations, you've created a new branch!"
-msgstr ""
+msgstr "おめでとうございます。新しい branch が作成されました！"
 

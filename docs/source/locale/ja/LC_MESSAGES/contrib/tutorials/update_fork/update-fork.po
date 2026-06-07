@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:2
 msgid "Updating Fork"
-msgstr ""
+msgstr "Fork を更新する"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:3
 msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
-msgstr ""
+msgstr ":bdg-success:`繰り返し` :bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:5
 msgid ""
@@ -35,24 +35,27 @@ msgid ""
 "you will need to update your fork to reflect these changes. You will want"
 " to do this **before** you start working on a new feature or bug fix."
 msgstr ""
+"fork は元のリポジトリにリンクされていますが、ミラーとして機能するわけではありません。"
+"「upstream」（元のリポジトリ）に変更が加えられた場合、その変更を反映させるために fork を更新する必要があります。"
+"新しい機能やバグ修正の作業を開始する **前に** この操作を行ってください。"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:10
 msgid "Steps"
-msgstr ""
+msgstr "手順"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:12
 msgid "Navigate to your fork on GitHub"
-msgstr ""
+msgstr "GitHub 上の自分の fork に移動します"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:17
 msgid "Follow the steps outlined below"
-msgstr ""
+msgstr "以下に示す手順に従ってください"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:27
 msgid ""
 "Note the new message indicating that your fork is up to date with the "
 "original repository."
-msgstr ""
+msgstr "fork が元のリポジトリと最新の状態になっていることを示す新しいメッセージを確認してください。"
 
 #: ../../source/contrib/tutorials/update_fork/update-fork.rst:29
 msgid ""
@@ -60,4 +63,7 @@ msgid ""
 "<https://docs.github.com/en/github/collaborating-with-issues-and-pull-"
 "requests/syncing-a-fork>`_."
 msgstr ""
+"このプロセスの詳細については、`GitHub ドキュメント "
+"<https://docs.github.com/en/github/collaborating-with-issues-and-pull-"
+"requests/syncing-a-fork>`_ をご覧ください。"
 

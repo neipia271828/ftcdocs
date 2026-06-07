@@ -22,17 +22,19 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:2
 msgid "Switching Branches"
-msgstr ""
+msgstr "Branch を切り替える"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:3
 msgid ":bdg-success:`Repeat` :bdg-warning:`Local`"
-msgstr ""
+msgstr ":bdg-success:`繰り返し` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:6
 msgid ""
 "Only complete these steps if you have chosen to develop the site locally."
 " If you are using **GitHub Codespaces** you should skip this section."
 msgstr ""
+"これらの手順は、ローカルでサイトを開発することを選択した場合にのみ実行してください。"
+"**GitHub Codespaces** を使用している場合は、このセクションをスキップしてください。"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:9
 msgid ""
@@ -40,6 +42,8 @@ msgid ""
 "are working on a branch and want to switch to another branch, you can use"
 " the following command:"
 msgstr ""
+"この手順は、作業中の branch を変更するために必要です。ある branch で作業中に別の branch に"
+"切り替えたい場合は、以下のコマンドを使用できます："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:15
 msgid ""
@@ -47,18 +51,20 @@ msgid ""
 "want to switch to and that it matches the name of the branch you want to "
 "switch to that you created in the previous step."
 msgstr ""
+"``<branch_name>`` を切り替えたい branch の名前に置き換えてください。"
+"前の手順で作成した branch の名前と一致していることを確認してください。"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:18
 msgid "Troubleshooting"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:21
 msgid "Branch Not Found"
-msgstr ""
+msgstr "Branch が見つからない"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:23
 msgid "``error: pathspec '<branch-name>' did not match any file(s) known to git``"
-msgstr ""
+msgstr "``error: pathspec '<branch-name>' did not match any file(s) known to git``"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:25
 msgid ""
@@ -68,22 +74,30 @@ msgid ""
 "is not up to date with the remote repo. To fix this, you can run the "
 "following command:"
 msgstr ""
+"このエラーは、切り替えようとしている branch が存在しない場合に発生します。"
+"切り替えようとしている branch が作成済みであること、およびタイプミスがないことを確認してください。"
+"また、ローカルリポジトリがリモートリポジトリと同期していない場合にも発生することがあります。"
+"この問題を解決するには、以下のコマンドを実行してください："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:32
 msgid ""
 "This command will update your local repo with the remote repo. After "
 "running this command, try switching branches again."
 msgstr ""
+"このコマンドはローカルリポジトリをリモートリポジトリと同期します。"
+"このコマンドを実行した後、再度 branch の切り替えを試みてください。"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:35
 msgid "Uncommitted Changes"
-msgstr ""
+msgstr "コミットされていない変更がある"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:37
 msgid ""
 "``error: Your local changes to the following files would be overwritten "
 "by checkout:``"
 msgstr ""
+"``error: Your local changes to the following files would be overwritten "
+"by checkout:``"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:39
 msgid ""
@@ -91,14 +105,17 @@ msgid ""
 "directory. You can either commit your changes, stash them, or delete "
 "them. To commit your changes, you can use the following command:"
 msgstr ""
+"このエラーは、作業ディレクトリにコミットされていない変更がある場合に発生します。"
+"変更を commit するか、stash するか、削除することができます。"
+"変更を commit するには、以下のコマンドを使用してください："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:45
 msgid "This command will commit your changes with the message you provide."
-msgstr ""
+msgstr "このコマンドは、指定したメッセージで変更を commit します。"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:47
 msgid "To stash your changes, you can use the following command:"
-msgstr ""
+msgstr "変更を stash するには、以下のコマンドを使用してください："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:53
 msgid ""
@@ -106,16 +123,21 @@ msgid ""
 "them. After stashing your changes, you can switch branches. To apply your"
 " stashed changes, you can use the following command:"
 msgstr ""
+"stash を使うと、変更を commit せずに後で使用するために保存できます。"
+"変更を stash した後、branch を切り替えられます。"
+"stash した変更を適用するには、以下のコマンドを使用してください："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:59
 msgid ""
 "It is best to use ``git stash`` when you are not ready to commit your "
 "changes but need to switch branches."
 msgstr ""
+"変更を commit する準備はできていないが branch を切り替える必要がある場合は、"
+"``git stash`` の使用が最適です。"
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:61
 msgid "To delete your changes, you can use the following command:"
-msgstr ""
+msgstr "変更を削除するには、以下のコマンドを使用してください："
 
 #: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:63
 msgid ""
@@ -123,4 +145,6 @@ msgid ""
 "directory. It is not recommended to use this command unless you are sure "
 "you want to delete your changes."
 msgstr ""
+"このコマンドは、作業ディレクトリ内のすべてのコミットされていない変更を削除します。"
+"変更を削除してよいことを確認している場合を除き、このコマンドの使用は推奨されません。"
 

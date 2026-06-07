@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:2
 msgid "Intro to VS Code Tasks"
-msgstr ""
+msgstr "VS Code タスク入門"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:3
 msgid ":bdg-secondary:`Information`"
-msgstr ""
+msgstr ":bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:5
 msgid ""
@@ -35,24 +35,29 @@ msgid ""
 "in the `.vscode/tasks.json` file and can be run via the `Terminal` -> "
 "`Run Task...` menu."
 msgstr ""
+"FTC Docs のビルドと実行のプロセスを簡略化するために、Visual Studio Code 用のタスクセットを作成しました。"
+"これらのタスクは `.vscode/tasks.json` ファイルで定義されており、`Terminal` -> `Run Task...` "
+"メニューから実行できます。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:9
 msgid "Tasks"
-msgstr ""
+msgstr "タスク"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:12
 msgid "``make-setup``"
-msgstr ""
+msgstr "``make-setup``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:13
 msgid ""
 "This task will install the necessary dependencies for building FTC Docs. "
 "This task should only need to be run once."
 msgstr ""
+"このタスクは FTC Docs のビルドに必要な依存関係をインストールします。"
+"このタスクは一度だけ実行すれば十分です。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:16
 msgid "``make-html``"
-msgstr ""
+msgstr "``make-html``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:17
 msgid ""
@@ -61,10 +66,13 @@ msgid ""
 "local server to view the output. In most cases we would instead recommend"
 " using the `make-autobuild` task."
 msgstr ""
+"このタスクは FTC Docs の HTML バージョンをビルドします。出力は `html` ディレクトリに配置されます。"
+"出力を表示するためのローカルサーバーは自動的に作成されません。"
+"ほとんどの場合、代わりに `make-autobuild` タスクの使用を推奨します。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:22
 msgid "``make-latexpdf``"
-msgstr ""
+msgstr "``make-latexpdf``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:23
 msgid ""
@@ -76,10 +84,15 @@ msgid ""
 "``docs/build/latex/ftcdocs.pdf``. Note that this task takes a long time "
 "to run and is not recommended for frequent use."
 msgstr ""
+"このタスクは FTC Docs の PDF バージョンをビルドします。出力は `latex` ディレクトリに配置されます。"
+"バックエンドでは LaTeX ファイルを生成した後、`pdflatex` を実行して PDF を生成します。"
+"このビルド機能はこのチュートリアルではサポートされていませんが、Codespace ユーザーはこのタスクを使用できます。"
+"PDF の出力は ``docs/build/latex/ftcdocs.pdf`` として保存されます。"
+"このタスクは実行に長い時間がかかるため、頻繁な使用は推奨されません。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:29
 msgid "``make-autobuild``"
-msgstr ""
+msgstr "``make-autobuild``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:30
 msgid ""
@@ -90,10 +103,14 @@ msgid ""
 "hotkeyed to `Ctrl+Shift+B` for easy access. You can stop this task by "
 "pressing `Ctrl+C` in the terminal."
 msgstr ""
+"このタスクは FTC Docs の HTML バージョンをビルドし、出力を表示するためのローカルサーバーを起動します。"
+"また、ファイルが変更されるたびに HTML バージョンを自動的に再ビルドします。"
+"これは作業中に FTC Docs を確認する推奨の方法です。`Ctrl+Shift+B` のホットキーでも簡単にアクセスできます。"
+"ターミナルで `Ctrl+C` を押すとこのタスクを停止できます。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:36
 msgid "``make-clean``"
-msgstr ""
+msgstr "``make-clean``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:37
 msgid ""
@@ -102,4 +119,7 @@ msgid ""
 "not seeing your changes reflected in the output as will sometimes happen "
 "with images and other static files."
 msgstr ""
+"このタスクはすべてのビルド成果物を削除します。クリーンな状態から始めたい場合に便利です。"
+"画像やその他の静的ファイルで発生することがあるように、変更が出力に反映されない場合に"
+"このタスクの実行が必要になることがあります。"
 

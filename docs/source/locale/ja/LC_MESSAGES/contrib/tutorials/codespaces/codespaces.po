@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:2
 msgid "Codespaces"
-msgstr ""
+msgstr "Codespaces"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:3
 msgid ":bdg-secondary:`Information`"
-msgstr ""
+msgstr ":bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:6
 msgid "What is Codespaces?"
-msgstr ""
+msgstr "Codespaces とは何ですか？"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:8
 msgid ""
@@ -41,10 +41,14 @@ msgid ""
 "the Visual Studio Code Remote - Codespaces extension in your local Visual"
 " Studio Code instance."
 msgstr ""
+"Codespaces はどこからでもアクセスできるクラウドホスト型の開発環境です。"
+"あらかじめ設定された Visual Studio Code 環境と、開発環境に合わせたコンテナ化されたランタイムが付属しています。"
+"ブラウザ上で開発したり、ローカルの Visual Studio Code に "
+"Visual Studio Code Remote - Codespaces 拡張機能を使って開発したりすることができます。"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:14
 msgid "Why use Codespaces?"
-msgstr ""
+msgstr "なぜ Codespaces を使うのですか？"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:16
 msgid ""
@@ -54,10 +58,13 @@ msgid ""
 " It also allows you to sidestep the need to install and configure your "
 "development environment on a new machine."
 msgstr ""
+"Codespaces は、どこにいても一貫した環境で開発するための優れた方法です。"
+"ローカルで開発環境を実行するリソースが不足しているデバイスでも開発できます。"
+"また、新しいマシンに開発環境をインストール・設定する手間を省くこともできます。"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:22
 msgid "Who should use Codespaces?"
-msgstr ""
+msgstr "誰が Codespaces を使うべきですか？"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:24
 msgid ""
@@ -66,10 +73,13 @@ msgid ""
 "machines, or who are not comfortable with setting up their development "
 "environment and the troubleshooting that comes with it."
 msgstr ""
+"Codespaces はすべての開発者に推奨する開発環境です。"
+"複数のマシンで作業する必要がある開発者や、開発環境のセットアップやトラブルシューティングに"
+"不慣れな開発者に特に役立ちます。"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:29
 msgid "Downside of Codespaces"
-msgstr ""
+msgstr "Codespaces のデメリット"
 
 #: ../../source/contrib/tutorials/codespaces/codespaces.rst:31
 msgid ""
@@ -80,4 +90,10 @@ msgid ""
 " <https://docs.github.com/en/billing/managing-billing-for-github-"
 "codespaces/about-billing-for-github-codespaces>`_."
 msgstr ""
+"Codespaces は有料サービスであり、使用したリソースに応じて課金されます。"
+"ただし、GitHub では現在、GitHub Free プランのユーザーに毎月 **120 コア時間**、"
+"GitHub Pro プランのユーザーに毎月 **180 コア時間** を無料で提供しています。"
+"Codespaces の料金について詳しくは、`GitHub ドキュメント "
+"<https://docs.github.com/en/billing/managing-billing-for-github-"
+"codespaces/about-billing-for-github-codespaces>`_ をご覧ください。"
 

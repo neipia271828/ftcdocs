@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:2
 msgid "Getting to know the GitHub Repo"
-msgstr ""
+msgstr "GitHub リポジトリを理解する"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:3
 msgid ":bdg-secondary:`Information`"
-msgstr ""
+msgstr ":bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:6
 msgid "It is assumed that you have already created a GitHub account."
-msgstr ""
+msgstr "すでに GitHub アカウントを作成済みであることを前提としています。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:8
 msgid ""
@@ -40,20 +40,23 @@ msgid ""
 "ftcdocs repository you're working on is a public repository, which means "
 "that anyone can access it."
 msgstr ""
+"GitHub は、個人や組織が「リポジトリ」と呼ばれる場所にプロジェクトを保存できるウェブサイトです。"
+"リポジトリには公開のものと非公開のものがあり、公開リポジトリは誰でも内容を閲覧できます。"
+"現在作業している ftcdocs リポジトリは公開リポジトリであるため、誰でもアクセスできます。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:14
 msgid "Understanding the ftcdocs Repo"
-msgstr ""
+msgstr "ftcdocs リポジトリを理解する"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:16
 msgid ""
 "The GitHub ``ftcdocs`` repository can be found on GitHub at the following"
 " address:"
-msgstr ""
+msgstr "GitHub の ``ftcdocs`` リポジトリは、以下のアドレスで公開されています："
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:18
 msgid "https://github.com/FIRST-Tech-Challenge/ftcdocs/"
-msgstr ""
+msgstr "https://github.com/FIRST-Tech-Challenge/ftcdocs/"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:20
 msgid ""
@@ -61,14 +64,16 @@ msgid ""
 "are kept. Figure 1 shows what the main code page for the ``ftcdocs`` "
 "repository looks like."
 msgstr ""
+"GitHub リポジトリには、このウェブサイトのすべてのソースファイルが保管されています。"
+"図1は ``ftcdocs`` リポジトリのメインコードページの外観を示しています。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:23
 msgid "Figure 1 ftcdocs GitHub Repo"
-msgstr ""
+msgstr "図1 ftcdocs GitHub リポジトリ"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:28
 msgid "Figure 1: ftcdocs GitHub Repository"
-msgstr ""
+msgstr "図1：ftcdocs GitHub リポジトリ"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:30
 msgid ""
@@ -79,12 +84,17 @@ msgid ""
 "stored; for us, this is where our *content* is stored. There are several "
 "different tabs, but we only really care about the first four:"
 msgstr ""
+"このメイン **コードページ** が作業のほとんどを行う場所です。リポジトリの ``< > Code`` タブがデフォルトで"
+"選択されているため **コードページ** と呼ばれており、現在表示しているページです。ソフトウェアプロジェクトでは"
+"**コードページ** にコードが保存されており、私たちにとってはここが *コンテンツ* の保存場所です。"
+"いくつかのタブがありますが、最初の4つだけを主に使用します："
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:37
 msgid ""
 "``< > Code`` - The **Code page** shows us the file structure of our "
 "repository and also allows us to view and edit files."
 msgstr ""
+"``< > Code`` - **コードページ** ではリポジトリのファイル構造が表示され、ファイルの閲覧・編集ができます。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:40
 msgid ""
@@ -94,6 +104,10 @@ msgid ""
 "dropdowns, my document errors out.\"). Issues are not meant to be "
 "discussions, but very specific tasks that need to be addressed."
 msgstr ""
+"``Issues`` - **Issues ページ** には、任意のユーザーが提出した「issue」が表示されます。"
+"issue は一般的に機能追加のリクエスト（例：「ドキュメントのワークフローに絵文字を追加してください」）や"
+"バグ報告（例：「ドロップダウンを使用するとドキュメントがエラーになります」）です。"
+"issue はディスカッションではなく、対処が必要な具体的なタスクを示すものです。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:45
 msgid ""
@@ -102,6 +116,9 @@ msgid ""
 "into the main branch. Don't worry about this page just now, we'll cover "
 "**Pull Requests** in more detail later."
 msgstr ""
+"``Pull Requests`` - **Pull Requests ページ** には「Pull Request」が表示されます。"
+"このプロジェクトでは、変更を main branch にマージするためのリクエストになります。"
+"このページについては今は気にしなくて大丈夫です。**Pull Request** については後で詳しく説明します。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:49
 msgid ""
@@ -110,6 +127,9 @@ msgid ""
 "discussion area for the repository. This area is similar to a forum, but "
 "specifically for ``ftcdocs``."
 msgstr ""
+"``Discussions`` - **Discussions ページ** はユーザーが質問したり、トピックについてのサポートを"
+"受けたりできる場所です。リポジトリのオープンなディスカッションエリアとして設けられています。"
+"フォーラムに似ていますが、``ftcdocs`` 専用の場所です。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:53
 msgid ""
@@ -117,4 +137,6 @@ msgid ""
 " as this is where we manage *branches*, view and edit files, and perform "
 "most of our basic functions."
 msgstr ""
+"``< > Code`` タブが最も多くの時間を費やすタブです。ここで *branch* の管理、ファイルの閲覧・編集、"
+"そして基本的な操作のほとんどを行います。"
 

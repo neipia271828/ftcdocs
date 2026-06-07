@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:2
 msgid "Submitting Your Changes for Review"
-msgstr ""
+msgstr "変更内容をレビューに提出する"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:3
 msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
-msgstr ""
+msgstr ":bdg-success:`繰り返し` :bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:6
 msgid "Workflows"
-msgstr ""
+msgstr "ワークフロー"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:8
 msgid ""
@@ -39,6 +39,9 @@ msgid ""
 "this seems confusing. First focus on understanding the steps and then the"
 " workflow will make more sense."
 msgstr ""
+"以下の図は、FTC Docs リポジトリに変更を提出するためのワークフローを示しています。"
+"Git/GitHub を初めて使用する方は、難しく感じても心配しないでください。"
+"まず各ステップの理解に集中すれば、ワークフロー全体の意味がわかるようになります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:12
 msgid ""
@@ -47,6 +50,9 @@ msgid ""
 "committed to the local repository. From there they are pushed to your "
 "personal FTC Docs repository."
 msgstr ""
+":bdg-warning:`ローカル` の変更はプロジェクトのローカルコピーから始まります。"
+"作業ディレクトリからローカルの Git ステージングに移動し、ローカルリポジトリにコミットされます。"
+"その後、個人の FTC Docs リポジトリにプッシュされます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:16
 msgid ""
@@ -56,6 +62,9 @@ msgid ""
 "your personal FTC Docs repository they can be submitted as a Pull Request"
 " to the FTC Docs repository."
 msgstr ""
+":bdg-info:`Codespaces` は個人の FTC Docs GitHub プロジェクトの一部です。"
+"ローカルの変更と同様に、Codespaces の変更もステージングされ、個人の FTC Docs リポジトリにコミットされます。"
+"変更が個人の FTC Docs リポジトリに反映されると、FTC Docs リポジトリへの Pull Request として提出できます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:20
 msgid ""
@@ -63,6 +72,8 @@ msgid ""
 "reviewed and approved. They are then merged with the Main branch and the "
 "changes are published."
 msgstr ""
+"FTC Docs リポジトリでは、変更は Pull Request として届き、レビューおよび承認されます。"
+"その後、Main ブランチにマージされ、変更が公開されます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:23
 msgid ""
@@ -72,10 +83,14 @@ msgid ""
 " the various nodes and actions in the diagram and starts in the Local "
 "section of the diagram."
 msgstr ""
+"ウェブブラウザでは、マウスを使ってこの図をズームおよびパンできます。"
+"スクロールホイールでズームイン・アウトができます。右クリックして押し続けながらドラッグするとパンできます。"
+"この図はキーボードからはアクセスできません。スクリーンリーダーは図内のさまざまなノードとアクションを読み上げ、"
+"図の Local セクションから始まります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:71
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:73
 msgid ""
@@ -84,14 +99,17 @@ msgid ""
 "be difficult and overwhelming. This tutorial will attempt to simplify "
 "this by focusing on the most common use cases."
 msgstr ""
+"始める前に、Git が何を達成しようとしているかを理解することが重要です。"
+"Git は非常に強力（かつ複雑）なツールであるため、難しく感じることがあります。"
+"このチュートリアルでは、最も一般的なユースケースに焦点を当てて、わかりやすく説明します。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:78
 msgid "What is Git?"
-msgstr ""
+msgstr "Git とは何ですか？"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:93
 msgid "**Simplified Local Git Repository Workflow**"
-msgstr ""
+msgstr "**簡略化されたローカル Git リポジトリのワークフロー**"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:95
 msgid ""
@@ -100,6 +118,9 @@ msgid ""
 "that are being tracked by Git. You can think of a repository as a folder "
 "that contains all of the files that you are working on."
 msgstr ""
+"Git はバージョン管理システム（VCS）であり、リポジトリ内のファイルへの変更を追跡することができます。"
+"リポジトリとは、Git によって追跡されているファイルの集まりです。"
+"リポジトリは、作業中のすべてのファイルが入ったフォルダと考えることができます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:99
 msgid ""
@@ -111,6 +132,12 @@ msgid ""
 "the file. This allows Git to be efficient and fast. You can then think of"
 " each commit as a \"Git save\"."
 msgstr ""
+"ただし、Git はファイルへのすべての変更を追跡するわけではありません。"
+"すべての変更を追跡すると非効率になり、作業の妨げになることが多いためです。"
+"代わりに Git は、コミットと呼ばれるスナップショットで変更を追跡します。"
+"各コミットは、リポジトリ内のファイルに加えられた変更のスナップショットです。"
+"コミットにはファイル全体ではなく、ファイルへの変更のみが含まれます。"
+"これにより、Git は効率的かつ高速に動作します。各コミットは「Git の保存」と考えることができます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:105
 msgid ""
@@ -123,6 +150,13 @@ msgid ""
 "the repository. Note that we have configured Git to ignore build files so"
 " you do not have to worry about them."
 msgstr ""
+"変更をコミットする前に、コミットに含めたいファイルを指定する必要があります。"
+"これはステージングと呼ばれるプロセスで行われます。"
+"なぜすべての変更をそのままコミットしないのでしょうか？"
+"コミットしたくない変更が含まれている場合があるからです。"
+"たとえば、誤って削除したファイルがある場合などです。"
+"また、リポジトリに不要なビルドファイルや一時ファイルはコミットしたくないこともあります。"
+"なお、ビルドファイルは Git で無視するよう設定済みですので、気にする必要はありません。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:111
 msgid ""
@@ -135,20 +169,29 @@ msgid ""
 "to add your changes to the main repository. This is done by creating a "
 ":term:`pull request <Pull Request>`."
 msgstr ""
+"変更をステージングしてコミットしたら、リモートリポジトリにプッシュできます。"
+"これは GitHub 上で確認できるリポジトリです。"
+"これにより、他の人があなたの変更を確認したり、共同作業を行ったりできます。"
+":term:`メインリポジトリ <Main Repository>` の :term:`fork <Fork>` に何をプッシュするかは"
+"完全に自分でコントロールできます。変更を FTC Docs の公式ウェブサイトに反映させるには、"
+"メインリポジトリに変更を追加する必要があります。これは :term:`pull request <Pull Request>` を"
+"作成することで行います。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:117
 msgid "Steps"
-msgstr ""
+msgstr "手順"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:120
 msgid ""
 "All of the following commands are typed and executed in the terminal. "
 "This can be found on the bottom of the screen in VS Code."
 msgstr ""
+"以下のコマンドはすべてターミナルで入力・実行します。"
+"ターミナルは VS Code の画面下部にあります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:124
 msgid "Staging Your Changes"
-msgstr ""
+msgstr "変更のステージング"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:126
 msgid ""
@@ -157,30 +200,35 @@ msgid ""
 "the :bdg-warning:`Local` command ``git add <file>``. You can add multiple"
 " files by separating them with a space."
 msgstr ""
+"ステージングとは、次のコミット（「Git の保存」）に含めるファイルを指定するプロセスです。"
+":bdg-warning:`ローカル` のコマンド ``git add <file>`` を使用して行います。"
+"複数のファイルはスペースで区切って追加できます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:129
 msgid ""
 "In :bdg-info:`Codespaces` click on the source control icon which will "
 "display the source control panel."
 msgstr ""
+":bdg-info:`Codespaces` では、ソース管理アイコンをクリックするとソース管理パネルが表示されます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:131
 msgid "Source control icon"
-msgstr ""
+msgstr "ソース管理アイコン"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:134
 msgid ""
 "Click on the + symbol next to each changed or new file in the source "
 "control panel to stage that file."
 msgstr ""
+"ソース管理パネルで、変更または新規作成した各ファイルの横にある + 記号をクリックして、ファイルをステージングします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:136
 msgid "Screenshot showing the source control panel with a file to be staged."
-msgstr ""
+msgstr "ステージング対象ファイルが表示されたソース管理パネルのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:140
 msgid "Committing Your Changes"
-msgstr ""
+msgstr "変更のコミット"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:142
 msgid ""
@@ -190,22 +238,27 @@ msgid ""
 "Each repository is a collection of commits each describing incremental "
 "changes relative to the previous commit."
 msgstr ""
+"変更をステージングしたら、コミットできます。"
+":bdg-warning:`ローカル` のコマンド ``git commit -m \"コミットメッセージ\"`` を使用して行います。"
+"コミットは変更のスナップショットと考えることができます。"
+"各リポジトリはコミットの集まりであり、それぞれが前のコミットに対する段階的な変更を表しています。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:146
 msgid ""
 "In :bdg-info:`Codespaces` enter a commit message in the source control "
 "panel and click the Commit button."
 msgstr ""
+":bdg-info:`Codespaces` では、ソース管理パネルにコミットメッセージを入力し、Commit ボタンをクリックします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:148
 msgid ""
 "Screenshot showing the source control panel with a message to be "
 "committed."
-msgstr ""
+msgstr "コミット対象のメッセージが表示されたソース管理パネルのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:152
 msgid "Pushing Your Changes"
-msgstr ""
+msgstr "変更のプッシュ"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:154
 msgid ""
@@ -215,18 +268,22 @@ msgid ""
 "remote repository. This means it will be accessible to others. After this"
 " change is pushed, you can create a pull request."
 msgstr ""
+"変更をコミットしたら、リポジトリの fork にプッシュできます。"
+":bdg-warning:`ローカル` のコマンド ``git push origin <branch>`` を使用して行います。"
+"これにより、ローカルの変更がリモートリポジトリにプッシュされ、他の人からアクセスできるようになります。"
+"変更がプッシュされたら、pull request を作成できます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:158
 msgid "In :bdg-info:`Codespaces` click the Sync Changes button."
-msgstr ""
+msgstr ":bdg-info:`Codespaces` では、Sync Changes ボタンをクリックします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:160
 msgid "Screenshot showing the source control panel with the Sync Changes icon."
-msgstr ""
+msgstr "Sync Changes アイコンが表示されたソース管理パネルのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:164
 msgid "Creating a Pull Request"
-msgstr ""
+msgstr "Pull Request の作成"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:166
 msgid ""
@@ -239,24 +296,32 @@ msgid ""
 "changes. For details on how to create a pull request, see the next "
 "section."
 msgstr ""
+"リポジトリの :term:`fork <Fork>` に変更をプッシュしたら、次のステップとして "
+":term:`メインリポジトリ <Main Repository>` にこれらの変更を提案します。"
+"なぜメインリポジトリに直接プッシュしないのでしょうか？"
+"pull request によってメインリポジトリのメンテナーがマージ前に変更をレビューできるからです。"
+"これにより、変更に対するコメントやフィードバックが行えるため重要です。"
+"pull request の作成方法の詳細については、次のセクションを参照してください。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:171
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:173
 msgid ""
 "The following is a :bdg-warning:`Local` example of all the Git commands. "
 "The pull request commands are done in GitHub starting at step 7."
 msgstr ""
+"以下は、すべての Git コマンドの :bdg-warning:`ローカル` での例です。"
+"pull request のコマンドはステップ 7 から GitHub 上で行います。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:175
 msgid "If you are using :bdg-info:`Codespaces` just skip to step 7."
-msgstr ""
+msgstr ":bdg-info:`Codespaces` を使用している場合は、ステップ 7 まで読み飛ばしてください。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:177
 msgid "Navigate to the directory of the repository on your local machine."
-msgstr ""
+msgstr "ローカルマシン上のリポジトリのディレクトリに移動します。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:183
 msgid ""
@@ -264,38 +329,45 @@ msgid ""
 "branch \"demo\". If you are not on the correct branch, follow the "
 ":doc:`previous step <../switch_branch/switch-branch>`."
 msgstr ""
+"正しいブランチにいることを確認します。この例では「demo」ブランチにいます。"
+"正しいブランチにいない場合は、:doc:`前のステップ <../switch_branch/switch-branch>` に従ってください。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:189
 msgid ""
 "Stage your changes. In this case we need to stage the new file, the "
 "images we use in it, as well as the changes to the table of contents."
 msgstr ""
+"変更をステージングします。この例では、新しいファイル、そこで使用する画像、"
+"および目次への変更をステージングする必要があります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:197
 msgid ""
 "For the **first time** you commit changes, you will need to set your name"
 " and email."
-msgstr ""
+msgstr "**初めて** 変更をコミットする際は、名前とメールアドレスを設定する必要があります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:204
 msgid ""
 "Commit your changes. In this case we are adding a new section called "
 "\"Demo\" so we will use the commit message \"Add demo section\"."
 msgstr ""
+"変更をコミットします。この例では「Demo」という新しいセクションを追加しているため、"
+"コミットメッセージは「Add demo section」とします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:211
 msgid "Push your changes to your fork of the repository."
-msgstr ""
+msgstr "リポジトリの fork に変更をプッシュします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:217
 msgid ""
 "Navigate to the `official FTC Docs repository <https://github.com/FIRST-"
 "Tech-Challenge/ftcdocs>`_ on GitHub."
 msgstr ""
+"GitHub 上の `FTC Docs 公式リポジトリ <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ に移動します。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:218
 msgid "Click ``Compare & Pull Request``."
-msgstr ""
+msgstr "``Compare & Pull Request`` をクリックします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:220
 msgid ""
@@ -306,10 +378,15 @@ msgid ""
 "for the base repository and the branch you want to merge into. Then click"
 " ``Create Pull Request``."
 msgstr ""
+"このオプションは「Pull Request」タブをクリックし、「New pull request」ボタンをクリックすることでも利用できます。"
+"次に ``compare across forks`` をクリックします。"
+"head リポジトリとマージしたいブランチに ```<USERNAME>/ftcdocs``` を選択します。"
+"base リポジトリとマージ先のブランチに `FIRST-Tech-Challenge/ftcdocs` を選択します。"
+"その後 ``Create Pull Request`` をクリックします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:224
 msgid "Screenshot showing the Compare & Pull Request button highlighted."
-msgstr ""
+msgstr "Compare & Pull Request ボタンがハイライトされたスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:227
 msgid ""
@@ -317,10 +394,12 @@ msgid ""
 "creating a pull request, see our :doc:`Contribution Guide "
 "</contrib/guidelines/guidelines>`."
 msgstr ""
+"pull request のタイトルと説明を入力します。pull request の作成に関する詳細は、"
+":doc:`コントリビューションガイド </contrib/guidelines/guidelines>` を参照してください。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:229
 msgid "Screenshot showing the pull request title and description."
-msgstr ""
+msgstr "pull request のタイトルと説明が表示されたスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:232
 msgid ""
@@ -328,18 +407,21 @@ msgid ""
 "that everything looks correct and that no files or changes have been "
 "omitted. Also make sure no erroneous changes are included."
 msgstr ""
+"スクロールダウンして提案している変更のプレビューを確認します。"
+"すべてが正しく表示されていること、ファイルや変更が漏れていないことを確認してください。"
+"また、不要な変更が含まれていないことも確認してください。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:236
 msgid "Screenshot showing the changes in this pull request."
-msgstr ""
+msgstr "この pull request における変更が表示されたスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:239
 msgid "If everything looks good, click the ``Create Pull Request`` button."
-msgstr ""
+msgstr "すべて問題なければ、``Create Pull Request`` ボタンをクリックします。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:241
 msgid "Screenshot showing the Create Pull Request button highlighted."
-msgstr ""
+msgstr "Create Pull Request ボタンがハイライトされたスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:244
 msgid ""
@@ -347,12 +429,14 @@ msgid ""
 "the automated checks. First time contributors will have to wait for a "
 "maintainer approval before the checks are run."
 msgstr ""
+"この後、pull request と自動チェックのステータスを確認できます。"
+"初めてコントリビュートする方は、チェックが実行される前にメンテナーの承認を待つ必要があります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:247
 msgid ""
 "Screenshot of the Pull Request Page showing review required and check "
 "status."
-msgstr ""
+msgstr "レビュー必須とチェックステータスが表示された Pull Request ページのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:250
 msgid ""
@@ -361,12 +445,15 @@ msgid ""
 " you fix the issue. Generally the FTC Docs team will help you with the "
 "process of passing the checks and updating your branch."
 msgstr ""
+"承認後、チェックが実行されます。この例では Link Checker が失敗しました。"
+"チェックが失敗した場合、FTC Docs のメンテナーに通知が送られ、問題の修正を手伝ってもらえます。"
+"通常、FTC Docs チームはチェックを通過してブランチを更新するプロセスをサポートしてくれます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:255
 msgid ""
 "Screenshot of the Pull Request Page showing all checks passed except link"
 " check."
-msgstr ""
+msgstr "リンクチェック以外はすべて通過したことを示す Pull Request ページのスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:258
 msgid ""
@@ -374,14 +461,16 @@ msgid ""
 "main branch. This can easily be fixed by clicking the \"Update branch\" "
 "button."
 msgstr ""
+"もう一つの問題は、ブランチが main ブランチと最新の状態でなくなっていることです。"
+"「Update branch」ボタンをクリックするだけで簡単に修正できます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:261
 msgid "Update Branch"
-msgstr ""
+msgstr "ブランチの更新"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:264
 msgid "It can take several minutes for the checks to fully run."
-msgstr ""
+msgstr "チェックが完全に実行されるまで数分かかる場合があります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:266
 msgid ""
@@ -390,14 +479,19 @@ msgid ""
 "changes. Once the pull request is approved, it will be merged into the "
 "main branch."
 msgstr ""
+"チェックが通過すると、FTC Docs のメンテナーが pull request をレビューします。"
+"フィードバックを提供し、必要な変更を行う手助けをしてくれます。"
+"pull request が承認されると、main ブランチにマージされます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:270
 msgid "Screenshot showing all checks passed."
-msgstr ""
+msgstr "すべてのチェックが通過したことを示すスクリーンショット。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:273
 msgid ""
 "This pull request still has a Review Required and Merging is Blocked "
 "until there is an approving review."
 msgstr ""
+"この pull request はまだ「Review Required（レビュー必須）」の状態であり、"
+"承認レビューが行われるまでマージはブロックされています。"
 

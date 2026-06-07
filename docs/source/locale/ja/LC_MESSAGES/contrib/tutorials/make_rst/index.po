@@ -22,17 +22,17 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/index.rst:4
 msgid " ReStructured Text Overview"
-msgstr ""
+msgstr " ReStructured Text の概要"
 
 #: ../../source/contrib/tutorials/make_rst/index.rst:4
 msgid " Creating your first rST document"
-msgstr ""
+msgstr " 最初の rST ドキュメントを作成する"
 
 #: ../../source/contrib/tutorials/make_rst/index.rst:4
 msgid " Basic rST Content"
-msgstr ""
+msgstr " 基本的な rST コンテンツ"
 
 #: ../../source/contrib/tutorials/make_rst/index.rst:2
 msgid "Learning to create ReStructured Text (.rst)"
-msgstr ""
+msgstr "ReStructured Text (.rst) の作成方法を学ぶ"
 

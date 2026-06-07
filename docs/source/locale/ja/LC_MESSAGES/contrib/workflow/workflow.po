@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/contrib/workflow/workflow.rst:2
 msgid "FTC Docs Workflows"
-msgstr ""
+msgstr "FTC Docs ワークフロー"
 
 #: ../../source/contrib/workflow/workflow.rst:4
 msgid ""
@@ -31,10 +31,13 @@ msgid ""
 "contribute to the FTC Docs documents please refer to the "
 ":doc:`Contributing to FTC Docs </contrib/tutorials/index>` document."
 msgstr ""
+"このフローチャートは FTC Docs リポジトリの *メンテナー* 向けの参考資料です。"
+"FTC Docs ドキュメントへのコントリビューションを希望される方は "
+":doc:`Contributing to FTC Docs </contrib/tutorials/index>` ドキュメントをご参照ください。"
 
 #: ../../source/contrib/workflow/workflow.rst:10
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/contrib/workflow/workflow.rst:12
 msgid ""
@@ -44,6 +47,9 @@ msgid ""
 "and PDF files. The HTML pages ultimately end up on the ftc-"
 "docs.firstinspires.org website and the PDF files in AWS S3 file storage."
 msgstr ""
+"以下の図は、さまざまな GitHub リポジトリと、それらの間のアクションおよびビルド成果物へのフローを示しています。"
+"FTC Docs リポジトリへの Pull Request により、GitHub Actions が起動して HTML ページと PDF ファイルがビルドされます。"
+"HTML ページは最終的に ftc-docs.firstinspires.org ウェブサイトに、PDF ファイルは AWS S3 ファイルストレージに配置されます。"
 
 #: ../../source/contrib/workflow/workflow.rst:16
 msgid ""
@@ -53,4 +59,8 @@ msgid ""
 " the various nodes and actions in the diagram and starts in the "
 "Translation section of the diagram."
 msgstr ""
+"ウェブブラウザでは、マウスを使用してこの図をズームおよびパンできます。"
+"スクロールホイールで拡大・縮小し、右クリックしたままドラッグしてパンしてください。"
+"この図はキーボードではアクセスできません。スクリーンリーダーは図内のさまざまなノードとアクションを読み上げ、"
+"図の Translation セクションから読み始めます。"
 

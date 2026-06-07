@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/contrib/index.rst:2
 msgid "Contributing to FTC Docs"
-msgstr ""
+msgstr "FTC Docs へのコントリビューション"
 
 #: ../../source/contrib/index.rst:14
 msgid "Mission Statement"
-msgstr ""
+msgstr "ミッションステートメント"
 
 #: ../../source/common/mission.rst:1
 msgid ""
@@ -40,52 +40,59 @@ msgid ""
 "method or approach, but rather to provide an information base for "
 "students and mentors to make informed decisions."
 msgstr ""
+"FTC Docs は、*FIRST* Tech Challenge のチームとメンターに向けた包括的なドキュメント基盤の提供を目指しています。"
+"これはコミュニティ主導のプロジェクトであり、FIRST Tech Challenge スタッフによってホスト・運営されています。"
+"すべてのチームとメンターからの貢献を歓迎します。"
+"このプロジェクトが *FIRST* Tech Challenge におけるドキュメントの断片化を解消し、"
+"コミュニティのつながりと情報共有の向上に役立つことを願っています。"
+"提供される情報は特定の方法やアプローチを推奨するものではなく、"
+"学生とメンターが適切な判断を下すための情報基盤として活用していただくことを目的としています。"
 
 #: ../../source/contrib/index.rst:18
 msgid ":doc:`Contribution Guidelines <guidelines/guidelines>`"
-msgstr ""
+msgstr ":doc:`コントリビューションガイドライン <guidelines/guidelines>`"
 
 #: ../../source/contrib/index.rst:19
 msgid ":doc:`Style Guide <style_guide/style-guide>`"
-msgstr ""
+msgstr ":doc:`スタイルガイド <style_guide/style-guide>`"
 
 #: ../../source/contrib/index.rst:20
 msgid ":doc:`FTC Docs Workflow <workflow/workflow>`"
-msgstr ""
+msgstr ":doc:`FTC Docs ワークフロー <workflow/workflow>`"
 
 #: ../../source/contrib/index.rst:21
 msgid ":doc:`Tutorials <tutorials/index>`"
-msgstr ""
+msgstr ":doc:`チュートリアル <tutorials/index>`"
 
 #: ../../source/contrib/index.rst:26
 msgid "FTC Docs is brought to you by:"
-msgstr ""
+msgstr "FTC Docs は以下のメンバーによって提供されています："
 
 #: ../../source/contrib/index.rst:28
 msgid "Daniel Alfredo Diaz, Jr — Maintainer."
-msgstr ""
+msgstr "Daniel Alfredo Diaz, Jr — メンテナー"
 
 #: ../../source/contrib/index.rst:29
 msgid "Elizabeth Gilibert — Project Manager"
-msgstr ""
+msgstr "Elizabeth Gilibert — プロジェクトマネージャー"
 
 #: ../../source/contrib/index.rst:30
 msgid "Uday Vidyadharan, 7350 Watt's NXT? — Maintainer"
-msgstr ""
+msgstr "Uday Vidyadharan, 7350 Watt's NXT? — メンテナー"
 
 #: ../../source/contrib/index.rst:31
 msgid "Chris Johannesen, Westside Robotics — Contributor"
-msgstr ""
+msgstr "Chris Johannesen, Westside Robotics — コントリビューター"
 
 #: ../../source/contrib/index.rst:32
 msgid "Mike Silversides, BC FTA — Contributor"
-msgstr ""
+msgstr "Mike Silversides, BC FTA — コントリビューター"
 
 #: ../../source/contrib/index.rst:33
 msgid "Miriam Sinton-Remes, 7182 Mechanical Paradox — Contributor"
-msgstr ""
+msgstr "Miriam Sinton-Remes, 7182 Mechanical Paradox — コントリビューター"
 
 #: ../../source/contrib/index.rst:35
 msgid "A special thanks to everyone who has contributed to this project."
-msgstr ""
+msgstr "このプロジェクトに貢献してくださったすべての方に心より感謝いたします。"
 
