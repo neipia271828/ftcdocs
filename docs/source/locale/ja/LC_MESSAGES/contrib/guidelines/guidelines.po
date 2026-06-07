@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/contrib/guidelines/guidelines.rst:2
+msgid "Contribution Guidelines"
+msgstr "コントリビューションガイドライン"
+
+#: ../../source/contrib/guidelines/guidelines.rst:4
+msgid ""
+"Contributors are the lifeblood of the project. We welcome contributions "
+"but remind everyone to be a :doc:`Gracious Professional "
+"</gracious_professionalism/gp>`."
+msgstr ""
+"コントリビューターはプロジェクトの生命線です。貢献を歓迎しますが、すべての方に "
+":doc:`Gracious Professional </gracious_professionalism/gp>` "
+"であることを心がけていただくようお願いします。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:8
+msgid "Creating an Issue"
+msgstr "Issue の作成"
+
+#: ../../source/contrib/guidelines/guidelines.rst:10
+msgid ""
+"Please start by creating an issue to describe the problem or the feature "
+"you would like. This allows for discussion to happen which may resolve "
+"the issue at that stage, or perhaps clarify the request and the work to "
+"be done."
+msgstr ""
+"まず Issue を作成して、問題や希望する機能を説明してください。そうすることでディスカッションが行われ、その段階で問題が解決したり、"
+"要望や作業内容が明確になったりすることがあります。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:13
+msgid ""
+"There are two types of issues: bugs and feature requests. A bug report is"
+" an issue that describes a problem with the documentation. A feature "
+"request is an issue that describes a new feature that should be added to "
+"the documentation."
+msgstr ""
+"Issue には「バグ報告」と「機能リクエスト」の2種類があります。バグ報告はドキュメントの問題を説明する Issue です。"
+"機能リクエストはドキュメントに追加すべき新機能を説明する Issue です。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:16
+msgid ""
+"Before creating either make sure to check for duplicates. If you find a "
+"duplicate, comment on the issue and add your input where possible. If "
+"possible we would love to see a pull request that fixes the issue. If you"
+" are unsure how to fix the issue that is perfectly alright."
+msgstr ""
+"どちらを作成する場合も、事前に重複がないか確認してください。重複を見つけた場合は、その Issue にコメントして可能な範囲で意見を追加してください。"
+"可能であれば、その Issue を修正する pull request を送っていただけると大変ありがたいです。修正方法がわからない場合でも全く問題ありません。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:21
+msgid "Bug Reports"
+msgstr "バグ報告"
+
+#: ../../source/contrib/guidelines/guidelines.rst:23
+msgid "A description of the bug"
+msgstr "バグの説明"
+
+#: ../../source/contrib/guidelines/guidelines.rst:24
+msgid "Expected behavior"
+msgstr "期待される動作"
+
+#: ../../source/contrib/guidelines/guidelines.rst:25
+msgid "Steps to reproduce the bug (If applicable)"
+msgstr "バグを再現する手順（該当する場合）"
+
+#: ../../source/contrib/guidelines/guidelines.rst:26
+#: ../../source/contrib/guidelines/guidelines.rst:33
+msgid "Screenshots (If applicable)"
+msgstr "スクリーンショット（該当する場合）"
+
+#: ../../source/contrib/guidelines/guidelines.rst:29
+msgid "Feature Requests"
+msgstr "機能リクエスト"
+
+#: ../../source/contrib/guidelines/guidelines.rst:31
+msgid "A description of the feature"
+msgstr "機能の説明"
+
+#: ../../source/contrib/guidelines/guidelines.rst:32
+msgid "Why you think this feature should be added"
+msgstr "この機能を追加すべきだと思う理由"
+
+#: ../../source/contrib/guidelines/guidelines.rst:36
+msgid "Creating a Pull Request"
+msgstr "Pull Request の作成"
+
+#: ../../source/contrib/guidelines/guidelines.rst:38
+msgid ""
+"A Pull Request (PR) is a proposal to merge a set of changes from one "
+"branch into another. In a pull request, collaborators can review and "
+"discuss the proposed set of changes before they integrate the changes "
+"into the main codebase. In GitHub, a PR will display the differences "
+"between the content in the source branch and the content in the target "
+"branch."
+msgstr ""
+"Pull Request（PR）とは、あるブランチから別のブランチへ一連の変更をマージする提案です。"
+"pull request では、コラボレーターが変更をメインのコードベースに統合する前に、提案された変更内容をレビューおよびディスカッションできます。"
+"GitHub では、PR にソースブランチとターゲットブランチのコンテンツの差分が表示されます。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:42
+msgid ""
+"PRs should be made to the `FTC Docs <https://github.com/FIRST-Tech-"
+"Challenge/ftcdocs>`_ repository on GitHub. Your title should aim to "
+"describe the purpose of your PR in a *concise* manner. For more "
+"information on creating a PR, see `creating a pull request "
+"<https://docs.github.com/en/pull-requests/collaborating-with-pull-"
+"requests/proposing-changes-to-your-work-with-pull-requests/creating-a"
+"-pull-request>`_ on GitHub. We have specific guidance for making changes,"
+" start with the :doc:`Change Overview "
+"</contrib/tutorials/overview/overview>`."
+msgstr ""
+"PR は GitHub 上の `FTC Docs <https://github.com/FIRST-Tech-"
+"Challenge/ftcdocs>`_ リポジトリに対して作成してください。タイトルは PR の目的を *簡潔に* "
+"説明するものにしてください。PR の作成方法について詳しくは、GitHub の `プルリクエストの作成 "
+"<https://docs.github.com/en/pull-requests/collaborating-with-pull-"
+"requests/proposing-changes-to-your-work-with-pull-requests/creating-a"
+"-pull-request>`_ を参照してください。変更を加えるための具体的なガイダンスは "
+":doc:`変更概要 </contrib/tutorials/overview/overview>` からご確認ください。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:49
+msgid "Colophon"
+msgstr "奥付"
+
+#: ../../source/contrib/guidelines/guidelines.rst:51
+msgid ""
+"FTC Docs is built with `Sphinx <https://www.sphinx-doc.org/>`__ using a "
+"`theme <https://github.com/readthedocs/sphinx_rtd_theme>`__ provided by "
+"`Read the Docs <https://readthedocs.org/>`__."
+msgstr ""
+"FTC Docs は `Sphinx <https://www.sphinx-doc.org/>`__ を使用してビルドされており、"
+"`Read the Docs <https://readthedocs.org/>`__ が提供する "
+"`テーマ <https://github.com/readthedocs/sphinx_rtd_theme>`__ を採用しています。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:53
+msgid ""
+"Sphinx is a documentation generator. Sphinx converts reStructuredText "
+"files into HTML web pages. Read the Docs is a documentation hosting "
+"platform and provides the base Sphinx theme for FTC Docs."
+msgstr ""
+"Sphinx はドキュメントジェネレーターです。Sphinx は reStructuredText ファイルを HTML ウェブページに変換します。"
+"Read the Docs はドキュメントのホスティングプラットフォームであり、FTC Docs のベース Sphinx テーマを提供しています。"
+
+#: ../../source/contrib/guidelines/guidelines.rst:57
+msgid ""
+"The `Dark theme <https://github.com/FIRST-Tech-Challenge/ftcdocs-"
+"helper/tree/main/sphinx_rtd_dark_mode_v2>`__ is provided by the FTC Docs "
+"development team."
+msgstr ""
+"`ダークテーマ <https://github.com/FIRST-Tech-Challenge/ftcdocs-"
+"helper/tree/main/sphinx_rtd_dark_mode_v2>`__ は FTC Docs 開発チームが提供しています。"
+

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:2
+msgid "ReStructured Text Overview"
+msgstr "ReStructured Text の概要"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:4
+msgid ""
+"This overview serves to describe the overall purpose and functionality of"
+" reStructured Text (rST) files."
+msgstr "この概要では、reStructured Text（rST）ファイルの全体的な目的と機能について説明します。"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:8
+msgid "Overview"
+msgstr "概要"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:10
+msgid ""
+"From the outset, let me say that \"reStructured Text\" is probably a bit "
+"of a misnomer. It's more like \"Text\" that uses certain consistent "
+"patterns (also known as *markup*) in order to instruct a tool on how that"
+" text should ultimately look or feel - for example, whether or not a "
+"passage should be *italicized*, **bolded**, or if an image should be "
+"displayed in that location in the final document. ReStructured Text is "
+"used to generate *minimally-interactive web pages*, PDF documents, and "
+"other forms of output in such a way that no actual web programming or PDF"
+" publishing experience is necessary AND is still human-readable. In this "
+"way, reStructured Text can literally be written once and then exported to"
+" lots of different formats and platforms. Comparable web programming and "
+"PDF authoring tools are not, in the opinion of this author, readable by "
+"the average person and cannot be easily translated between output formats"
+" whereas \"reStructured Text\" is."
+msgstr ""
+"最初に申し上げると、「reStructured Text」はやや誤解を招く名称かもしれません。"
+"これは、ツールにテキストの最終的な見た目や感触を指示するために、一定の一貫したパターン（*マークアップ* とも呼ばれる）を"
+"使用する「テキスト」に近いものです。例えば、ある箇所を *イタリック体* にするか、**太字** にするか、"
+"あるいはその位置に画像を表示するかどうかなどを指定します。ReStructured Text は、"
+"実際のウェブプログラミングや PDF 出版の経験なしに *最小限のインタラクティブなウェブページ*、PDF ドキュメント、"
+"その他の形式の出力を生成するために使用され、かつ人間が読めるものです。"
+"このように、reStructured Text は一度書けば多くの異なる形式やプラットフォームにエクスポートできます。"
+"同等のウェブプログラミングや PDF オーサリングツールは、この著者の意見では、一般の人には読みにくく、"
+"出力形式間で簡単に変換できませんが、「reStructured Text」はそれができます。"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:25
+msgid "History"
+msgstr "歴史"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:27
+msgid ""
+"Now a very brief history lesson: In the early 1990's the first "
+"\"Structured Text\" markup languages were developed - these languages "
+"were used to help develop different kinds of program documentation for "
+"the quickly developing software industry. This created a universal "
+"standard for adding symbols and directives to plain text so that it could"
+" be processed by generic tools. This way the documentation could be read "
+"and formatted any way a user or company wanted - it could be converted "
+"into printer commands for printing onto paper, it could be rendered onto "
+"a screen, it could be read aloud by a text-to-voice system, or it could "
+"be used in lots of other ways. Unfortunately, as is usual in this "
+"business, the tools quickly became too complicated or not flexible enough"
+" for the needs of its users. In the early 2000's, elements of "
+"\"Structured Text\" were \"revised, reworked, and reinterpreted\" into a "
+"new format, which ultimately became called \"reStructured Text\" (rST)."
+msgstr ""
+"ごく簡単な歴史を紹介します。1990年代初頭、最初の「Structured Text」マークアップ言語が開発されました。"
+"これらの言語は、急速に発展するソフトウェア業界のさまざまなプログラムドキュメントの開発を支援するために使用されました。"
+"これにより、汎用ツールで処理できるようにプレーンテキストにシンボルとディレクティブを追加するための"
+"共通標準が生まれました。これによりドキュメントは、ユーザーや企業が望む任意の方法で読んだり整形したりできるようになりました。"
+"紙に印刷するためのプリンターコマンドに変換したり、画面に表示したり、音声読み上げシステムで読み上げたり、"
+"その他多くの方法で使用したりすることができました。しかし残念ながら、この業界でよくあることですが、"
+"ツールはすぐに複雑になりすぎたり、ユーザーのニーズに対して柔軟性が足りなくなったりしました。"
+"2000年代初頭、「Structured Text」の要素が「改訂・再構成・再解釈」され、新しいフォーマットになり、"
+"最終的に「reStructured Text」（rST）と呼ばれるようになりました。"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:42
+msgid "Example"
+msgstr "例"
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:44
+msgid "As a quick example, consider the following text::"
+msgstr "簡単な例として、以下のテキストを考えてみましょう："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:48
+msgid ""
+"Let's assume we want to **bold** the nouns in the sentence, so in rST "
+"format we would add two asterisks (**) to the front and end of each word "
+"to make them **bold**. Let's do that by modifying the text to show the "
+"following::"
+msgstr ""
+"文章の名詞を **太字** にしたいとします。rST フォーマットでは、各単語の前後にアスタリスク2つ（**）を追加して "
+"**太字** にします。テキストを次のように変更してみましょう："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:54
+msgid "This would ultimately output text that looks like:"
+msgstr "これにより、最終的に次のようなテキストが出力されます："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:56
+msgid "The quick brown **fox** jumped over the lazy **dog**."
+msgstr "The quick brown **fox** jumped over the lazy **dog**."
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:58
+msgid ""
+"Now let's make the word ``quick`` be *italicized*. In rST format, we "
+"*italicize* words or sections by adding a single asterisk (*) to the "
+"front and end of each section we want to *italicize*. It would now look "
+"like so::"
+msgstr ""
+"次に、``quick`` という単語を *イタリック体* にしてみましょう。rST フォーマットでは、"
+"*イタリック体* にしたい各部分の前後にアスタリスク1つ（*）を追加します。次のようになります："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:64
+msgid "This would output text that looks like:"
+msgstr "これにより次のようなテキストが出力されます："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:66
+msgid "The *quick* brown **fox** jumped over the lazy **dog**."
+msgstr "The *quick* brown **fox** jumped over the lazy **dog**."
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:68
+msgid ""
+"And finally, let's add a link on the word \"over\" to the `dictionary.com"
+" reference of the word over <https://www.dictionary.com/browse/over>`_. "
+"To do this, we use a slightly more complex piece of markup that includes "
+"\"back ticks\" (`) and ends in an underscore (_), like this::"
+msgstr ""
+"最後に、「over」という単語に `dictionary.com の over の参照ページ "
+"<https://www.dictionary.com/browse/over>`_ へのリンクを追加しましょう。"
+"これには、「バックティック」（`）を含み、アンダースコア（_）で終わる、少し複雑なマークアップを使用します："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:75
+msgid ""
+"And this sentence with several different kinds of *markup* finally would "
+"be displayed as:"
+msgstr "そして、複数の異なる種類の *マークアップ* を含むこの文は最終的に次のように表示されます："
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:77
+msgid ""
+"The *quick* brown **fox** jumped `over "
+"<https://www.dictionary.com/browse/over>`_ the lazy **dog**."
+msgstr ""
+"The *quick* brown **fox** jumped `over "
+"<https://www.dictionary.com/browse/over>`_ the lazy **dog**."
+
+#: ../../source/contrib/tutorials/make_rst/overview/overview.rst:79
+msgid ""
+"This was just a quick example of what can be done with rST and how it is "
+"accomplished. Move on to the other elements of this tutorial to learn "
+"more about rST."
+msgstr ""
+"これは rST でできることとその方法の簡単な例に過ぎません。"
+"rST についてさらに学ぶには、このチュートリアルの他の要素に進んでください。"
+

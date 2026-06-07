@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:2
+msgid "FTC Driver Station Practice Timer"
+msgstr "FTC Driver Station 練習タイマー"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:4
+msgid ""
+"Started in the 2023-2024 season, Tech Tips are segments released in the "
+"*FIRST* Tech Challenge `Team E-mail Blast <https://www.firstinspires.org"
+"/resource-library/ftc/team-blast-archive>`__. Sometimes the Tech Tips are"
+" included in whole in the email blast, but sometimes there is more "
+"content than is reasonable in the email blast so partial content is "
+"included in the blast with the rest of the content here."
+msgstr ""
+"2023-2024 シーズンから始まった Tech Tips は、*FIRST* Tech Challenge の"
+"`チームメールブラスト <https://www.firstinspires.org/resource-library/ftc/team-blast-archive>`__"
+"で公開されるコーナーです。メールブラストに全文が掲載される場合もありますが、"
+"メールブラストに掲載するには内容が多すぎる場合は一部のみ掲載され、残りのコンテンツはこちらに掲載されます。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:13
+msgid "**FTC Driver Station Practice Timer**"
+msgstr "**FTC Driver Station 練習タイマー**"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:15
+msgid ""
+"Did you know there's a powerful tool lurking within your FTC Driver "
+"Station App, designed to help your team dominate match timing? Forget the"
+" need for complex event software – your Driver Station has a built-in "
+"Practice Match timer that simulates the entire match flow, or any part of"
+" it! Imagine perfecting your autonomous routine, nailing the Auto-TeleOp "
+"transition, or optimizing your endgame strategy, all without the pressure"
+" of a real competition. This (not so) hidden gem allows teams to practice"
+" match timing for every critical phase:"
+msgstr ""
+"FTC Driver Station アプリの中に、チームの試合タイミングをマスターするのに役立つ強力なツールが隠れていることをご存知ですか？"
+"複雑なイベントソフトウェアは不要です。Driver Station には、試合の流れ全体またはその一部をシミュレートする"
+"内蔵の練習試合タイマーがあります！実際の試合のプレッシャーなしに、自律モードルーティンの完成、"
+"オート-テレオペ移行のマスター、エンドゲーム戦略の最適化を行えます。"
+"この（あまり）隠れていない機能を使えば、すべての重要なフェーズの試合タイミングを練習できます："
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:24
+msgid "Autonomous - Fine-tune your robot's pre-programmed actions."
+msgstr "Autonomous（自律） - ロボットのプログラム済みアクションを微調整します。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:25
+msgid ""
+"Auto-TeleOp Transition - Seamlessly swap control from autonomous to "
+"TeleOp."
+msgstr "Auto-TeleOp Transition（自律→テレオペ移行） - 自律モードからテレオペへのコントロール切り替えをスムーズに行います。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:26
+msgid "TeleOp - Maximize your scoring potential during the main TeleOp period."
+msgstr "TeleOp（テレオペ） - メインのテレオペ期間中のスコアポテンシャルを最大化します。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:27
+msgid "Endgame - Strategize and execute your final, high-scoring moves."
+msgstr "Endgame（エンドゲーム） - 最終的な高得点アクションの戦略を立てて実行します。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:29
+msgid ""
+"This feature is a game-changer for practice sessions, allowing your team "
+"to build muscle memory and confidence in a realistic, simulated "
+"environment. Ready to unlock your team's full potential?"
+msgstr ""
+"この機能は練習セッションを大きく変えるもので、チームがリアルなシミュレーション環境で"
+"筋肉記憶と自信を積み上げることができます。チームの全潜在能力を引き出す準備はできていますか？"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:33
+msgid ""
+"*How does it work?* In the upper-left corner of the Driver Station App "
+"you will see the \"Practice Timer Window\". This has the heading "
+"\"Practice Timer\" and has the remaining time (in a possible practice "
+"match) as well as a \"PLAY\" button. This Practice Timer area is always "
+"visible regardless of what OpModes are running or any other activities "
+"(on the same screen). This Practice Timer also runs independently of "
+"other activities, therefore OpModes can be selected, started, stopped, "
+"reselected, and so on while the Practice Timer is running without "
+"affecting the timer."
+msgstr ""
+"*どのように機能しますか？* Driver Station アプリの左上隅に「Practice Timer Window」が表示されます。"
+"これには「Practice Timer」という見出しがあり、（練習試合中の）残り時間と「PLAY」ボタンがあります。"
+"この練習タイマーエリアは、どの OpMode が実行されていても、または他のアクティビティ（同じ画面上）が"
+"行われていても、常に表示されます。この練習タイマーは他のアクティビティとは独立して動作するため、"
+"練習タイマーが動いている間も OpMode の選択、開始、停止、再選択などを行うことができ、タイマーには影響しません。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:42
+msgid "Image showing Practice Timer Window"
+msgstr "Practice Timer Window を示す画像"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:47
+msgid "Practice Timer Window"
+msgstr "練習タイマーウィンドウ"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:50
+msgid ""
+"The Practice Timer uses audio for cues, be sure the audio is enabled and "
+"at sufficient volume to hear the cues for match transitions."
+msgstr ""
+"練習タイマーは音声で合図を行います。試合移行の合図が聞こえるよう、音声が有効になっており"
+"十分な音量であることを確認してください。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:53
+msgid ""
+"Press the tiny \"Play\" button in the Practice Timer window, and the "
+"software will prompt where in the match to start the timer at. Options "
+"are:"
+msgstr ""
+"練習タイマーウィンドウの小さな「Play」ボタンを押すと、試合のどの時点からタイマーを開始するか"
+"を選択するよう促されます。オプションは次のとおりです："
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:56
+msgid "Autonomous"
+msgstr "Autonomous（自律）"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:57
+msgid "Auto -> TeleOp Transition"
+msgstr "Auto -> TeleOp 移行"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:58
+msgid "TeleOp"
+msgstr "TeleOp（テレオペ）"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:59
+msgid "Endgame (30s endgame, not updated for DECODE)"
+msgstr "Endgame（30秒エンドゲーム、DECODE 向けには更新されていません）"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:62
+msgid ""
+"The *Autonomous* and *Transition* periods have audio cues that give the "
+"user time to select and start OpModes in sync with the match transition, "
+"whereas the other options start as soon as the option is selected."
+msgstr ""
+"*Autonomous* と *Transition* の期間には音声合図があり、試合の移行に合わせて OpMode を"
+"選択して開始する時間が確保されます。他のオプションはオプションを選択するとすぐに開始されます。"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:66
+msgid "Image of Driver Station match period selection screen"
+msgstr "Driver Station の試合期間選択画面の画像"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:71
+msgid "Selecting the Practice Match starting Match Period"
+msgstr "練習試合の開始試合期間を選択する"
+
+#: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:73
+msgid ""
+"Got any questions about how to take advantage of the Practice Timer and "
+"other features of the FTC Driver Station App? Come start or join the "
+"conversation on the `FTC Community Forums <https://ftc-"
+"community.firstinspires.org/>`__!"
+msgstr ""
+"練習タイマーや FTC Driver Station アプリのその他の機能の活用方法について質問がありますか？"
+"`FTC コミュニティフォーラム <https://ftc-community.firstinspires.org/>`__！ で"
+"ぜひ会話を始めたり参加したりしてください！"
+

@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-27 22:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:2
+msgid "FTC Docs Accessibility Guidelines"
+msgstr "FTC Docs アクセシビリティガイドライン"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:4
+msgid ""
+"The Web Content Accessibility Guidelines (WCAG) are part of a series of "
+"web accessibility guidelines published by the Web Accessibility "
+"Initiative (WAI) of the World Wide Web Consortium (W3C), the main "
+"international standards organization for the Internet. They are a set of "
+"recommendations for making Web content more accessible, primarily for "
+"people with disabilities — but also for all user agents, including highly"
+" limited devices, such as mobile phones. See the `WCAG overview "
+"<https://www.w3.org/WAI/standards-guidelines/wcag/>`_ for more "
+"information about the WCAG standard."
+msgstr ""
+"ウェブコンテンツアクセシビリティガイドライン（WCAG）は、インターネットの主要な国際標準化機関である"
+"World Wide Web Consortium（W3C）のウェブアクセシビリティイニシアチブ（WAI）が公開した"
+"ウェブアクセシビリティガイドラインのシリーズの一部です。主に障害を持つ方々のために、"
+"またすべてのユーザーエージェント（携帯電話などの機能が限られたデバイスを含む）のために、"
+"ウェブコンテンツをよりアクセシブルにするための推奨事項のセットです。"
+"WCAG 標準の詳細については、`WCAG 概要 <https://www.w3.org/WAI/standards-guidelines/wcag/>`_ をご覧ください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:8
+msgid ""
+"Our goal to address the WCAG Level A success criteria to remove "
+"accessibility barriers. Then move to meet the level AA criteria to "
+"improve that accessibility. See the `How to Meet WCAG Quick Reference "
+"<https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`_ for more "
+"information."
+msgstr ""
+"アクセシビリティの障壁を取り除くために WCAG レベル A の達成基準に取り組み、"
+"次にアクセシビリティを向上させるために AA レベルの基準を満たすことが目標です。"
+"詳細については、`WCAG を満たす方法のクイックリファレンス "
+"<https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`_ をご覧ください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:13
+msgid ""
+"This page attempts to document from the WCAG perspective what is "
+"important and relate that to FTC Docs. This page is primarily for content"
+" authors. Accessibility issues due to Sphinx or Read the Docs will be "
+"dealt with in GitHub issues."
+msgstr ""
+"このページでは、WCAG の観点から重要な事項を文書化し、FTC Docs に関連付けることを目的としています。"
+"このページは主にコンテンツ作成者向けです。Sphinx または Read the Docs に起因するアクセシビリティの問題は、"
+"GitHub の issues で対応します。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:19
+msgid "Contents"
+msgstr "目次"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:22
+msgid "Principles"
+msgstr "原則"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:24
+msgid ""
+"The following are WCAG principles that the accessibility guidelines are "
+"based on."
+msgstr "以下は、アクセシビリティガイドラインの基盤となる WCAG の原則です。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:26
+msgid ""
+"**Perceivable** - Information and user interface components must be "
+"presentable to users in ways they can perceive."
+msgstr "**知覚可能** - 情報およびユーザーインターフェースのコンポーネントは、ユーザーが知覚できる方法で提示される必要があります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:28
+msgid "**Operable** - User interface components and navigation must be operable."
+msgstr "**操作可能** - ユーザーインターフェースのコンポーネントおよびナビゲーションは操作可能でなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:30
+msgid ""
+"**Understandable** - Information and the operation of the user interface "
+"must be understandable."
+msgstr "**理解可能** - 情報およびユーザーインターフェースの操作は理解できるものでなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:32
+msgid ""
+"**Robust** - Content must be robust enough that it can be interpreted by "
+"a wide variety of user agents, including assistive technologies."
+msgstr "**堅牢** - コンテンツは、支援技術を含む多様なユーザーエージェントによって解釈できるほど堅牢でなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:36
+msgid "Principle 1 – Perceivable"
+msgstr "原則1 – 知覚可能"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:38
+msgid ""
+"Information and user interface components must be presentable to users in"
+" ways they can perceive. For the vision impaired this includes providing "
+"text alternative for non-text content like images. It could include "
+"Closed Captioning which is a form of subtitling, a process of displaying "
+"text on a television, video screen, or other visual display to provide "
+"additional or interpretive information, where the viewer is given the "
+"choice of whether the text is displayed."
+msgstr ""
+"情報およびユーザーインターフェースのコンポーネントは、ユーザーが知覚できる方法で提示される必要があります。"
+"視覚障害者にとっては、画像などの非テキストコンテンツのテキスト代替の提供が含まれます。"
+"また、字幕の一形態であるクローズドキャプション（テレビ、ビデオ画面、その他のビジュアルディスプレイに"
+"追加情報または解釈情報を提供するためにテキストを表示するプロセス）も含まれ、"
+"視聴者はテキストを表示するかどうかを選択できます。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:43
+msgid ""
+"Create content that can be presented in different ways (for example "
+"simpler layout) without losing information or structure."
+msgstr "情報や構造を失うことなく、異なる方法（例：よりシンプルなレイアウト）で提示できるコンテンツを作成してください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:45
+msgid ""
+"Make it easier for users to see and hear content including separating "
+"foreground from background."
+msgstr "前景と背景を分離するなど、ユーザーがコンテンツを見たり聞いたりしやすくしてください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:47
+msgid ""
+"FTC Docs mostly consists of web pages with text and images. It should be "
+"feasible to make most FTC Docs content perceivable to most users."
+msgstr ""
+"FTC Docs は主にテキストと画像を含むウェブページで構成されています。"
+"ほとんどの FTC Docs コンテンツをほとんどのユーザーにとって知覚可能にすることは実現可能なはずです。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:50
+msgid "Guideline 1.1 – Text Alternatives"
+msgstr "ガイドライン 1.1 – テキストの代替"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:52
+msgid ""
+"Provide text alternatives for any non-text content so that it can be "
+"changed into other forms people need, such as large print, braille, "
+"speech, symbols or simpler language."
+msgstr ""
+"すべての非テキストコンテンツに対してテキスト代替を提供し、大きな文字、点字、音声、"
+"シンボル、よりシンプルな言語など、必要な他の形式に変換できるようにしてください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:55
+msgid "Success Criterion 1.1.1 Non-text Content - Level A"
+msgstr "達成基準 1.1.1 非テキストコンテンツ - レベル A"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:57
+msgid ""
+"All non-text content that is presented to the user has a text alternative"
+" that serves the equivalent purpose."
+msgstr "ユーザーに提示されるすべての非テキストコンテンツには、同等の目的を果たすテキスト代替があります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:59
+msgid ""
+"FTC Docs labels some images with Alt Text, but many images have nothing "
+"and some Alt Text labels are not proper descriptions."
+msgstr ""
+"FTC Docs では一部の画像に Alt テキストを付けていますが、多くの画像には何も付いておらず、"
+"一部の Alt テキストラベルは適切な説明になっていません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:61
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:72
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:104
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:118
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:134
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:149
+msgid "**FTC Docs To Do**"
+msgstr "**FTC Docs の課題**"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:63
+msgid ""
+"FTC Docs has begun setting or updating Alt Text for images. This will "
+"likely be a gradual and ongoing process as time permits. See "
+":ref:`contrib/style_guide/style-guide:Images` in the Style Guidelines for"
+" how to provide text alternatives for images."
+msgstr ""
+"FTC Docs では画像の Alt テキストの設定・更新を開始しています。これは時間の許す限り段階的に継続されるプロセスになる予定です。"
+"画像のテキスト代替の提供方法については、スタイルガイドの"
+":ref:`contrib/style_guide/style-guide:Images` を参照してください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:65
+msgid "See also :doc:`image-and-figure-details`."
+msgstr ":doc:`image-and-figure-details` も参照してください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:68
+msgid "Success Criterion 1.3.3 - Sensory Characteristics - Level A"
+msgstr "達成基準 1.3.3 - 感覚的な特性 - レベル A"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:70
+msgid ""
+"Instructions provided for understanding and operating content do not rely"
+" solely on sensory characteristics of components such as shape, color, "
+"size, visual location, orientation, or sound."
+msgstr ""
+"コンテンツを理解し操作するために提供される指示は、形、色、サイズ、視覚的位置、方向、音などの"
+"コンポーネントの感覚的な特性にのみ依存しません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:74
+msgid ""
+"People who are blind and people who have low vision may not be able to "
+"understand instructions if they rely only on a description of the shape "
+"and/or location of content. Providing additional information in any "
+"instructions other than shape and/or location will allow users to "
+"understand the instructions even if they cannot perceive shape and/or "
+"location."
+msgstr ""
+"全盲の方や低視力の方は、コンテンツの形状や位置の説明のみに依存した指示を理解できない場合があります。"
+"形状や位置以外の追加情報を指示に含めることで、形状や位置を認識できないユーザーでも"
+"指示を理解できるようになります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:77
+msgid "Principle 2 – Operable"
+msgstr "原則2 – 操作可能"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:79
+msgid "User interface components and navigation must be operable."
+msgstr "ユーザーインターフェースのコンポーネントおよびナビゲーションは操作可能でなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:81
+msgid ""
+"FTC Docs has some operable issues to be resolved in Sphinx or the Read "
+"the Docs theme."
+msgstr "FTC Docs には、Sphinx または Read the Docs テーマで解決すべき操作可能性の問題がいくつかあります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:84
+msgid "Guideline 2.4 – Navigable"
+msgstr "ガイドライン 2.4 – ナビゲーション可能"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:85
+msgid ""
+"Provide ways to help users navigate, find content, and determine where "
+"they are."
+msgstr "ユーザーがナビゲートし、コンテンツを見つけ、現在地を確認するのに役立つ方法を提供してください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:88
+msgid "Success Criterion 2.4.4 Link Purpose (In Context) - Level A"
+msgstr "達成基準 2.4.4 リンクの目的（コンテキスト内） - レベル A"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:90
+msgid ""
+"The purpose of each link can be determined from the link text alone or "
+"from the link text together with its programmatically determined link "
+"context, except where the purpose of the link would be ambiguous to users"
+" in general."
+msgstr ""
+"各リンクの目的は、リンクテキストのみから、またはリンクテキストとプログラムで決定されるリンクコンテキストから"
+"判断できます。ただし、リンクの目的が一般的なユーザーにとって曖昧な場合を除きます。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:92
+msgid ""
+"FTC Docs has intentionally chosen to open links to external sites in new "
+"tabs. This is done with JavaScript."
+msgstr "FTC Docs は外部サイトへのリンクを新しいタブで開くよう意図的に選択しています。これは JavaScript で行われています。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:94
+msgid ""
+"This does preserve your current location in FTC Docs and may be "
+"convenient for sighted users who can easily close the new tab. This is an"
+" accessibility issue related to unexpected context switching, it also "
+"creates a new browser tab that some users might have trouble noticing or "
+"closing. It also prevents the *back* browser command from working."
+msgstr ""
+"これにより FTC Docs での現在位置が保持され、新しいタブを簡単に閉じられる視力のある方には便利かもしれません。"
+"しかし、これは予期しないコンテキスト切り替えに関連するアクセシビリティの問題です。また、"
+"一部のユーザーが気づいたり閉じたりするのが難しい新しいブラウザータブを作成します。"
+"さらに、ブラウザーの *戻る* コマンドが機能しなくなります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:98
+msgid ""
+"There is a FTC Docs Pull Request to add an external link icon and screen "
+"reader text to external links."
+msgstr "外部リンクに外部リンクアイコンとスクリーンリーダー用テキストを追加する FTC Docs の Pull Request があります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:100
+msgid ""
+"We can mitigate the accessibility problem of creating new browser tabs "
+"somewhat by adding an icon that indicates the link is to an external "
+"site. That can be styled with CSS and a span is added with text that is "
+"only for screen readers to say \"external\". We also add screen reader "
+"only text that says \"link opens in a new tab\" to warn screen reader "
+"users that the link will open a new tab."
+msgstr ""
+"リンクが外部サイトへのものであることを示すアイコンを追加することで、新しいブラウザータブを作成する"
+"アクセシビリティの問題をある程度軽減できます。これは CSS でスタイリングでき、スクリーンリーダーのみに"
+"「external（外部）」と読み上げられるテキストを含む span を追加します。また、スクリーンリーダーユーザーに"
+"リンクが新しいタブで開くことを警告するために「link opens in a new tab（リンクは新しいタブで開きます）」という"
+"スクリーンリーダー専用テキストも追加します。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:106
+msgid ""
+"We link to some files like a PDF without warning the user. PDFs often "
+"result in a context switch to a PDF viewer."
+msgstr ""
+"PDF などのファイルへのリンクをユーザーへの警告なしに行うことがあります。"
+"PDF はしばしば PDF ビューアーへのコンテキスト切り替えを引き起こします。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:107
+msgid ""
+"I have been surprised a few times when links I thought would be a FTC "
+"Docs page actually took me to a PDF or to *FIRST* Inspires web page. The "
+"Persona Pages are bad for this. There are grid button links that "
+"sometimes take you to a ftc-docs page but often take you to another site "
+"with no warning. Ideally all Persona pages should link to FTC Docs pages,"
+" some of which might be Gateway Pages to the main *FIRST* site."
+msgstr ""
+"FTC Docs のページへのリンクだと思っていたものが実際には PDF または *FIRST* Inspires のウェブページに"
+"移動することが何度かあり驚きました。Persona ページはこの点で問題があります。"
+"グリッドボタンリンクが ftc-docs ページに移動する場合もありますが、警告なしに別のサイトに移動することが多いです。"
+"理想的には、すべての Persona ページは FTC Docs ページにリンクすべきで、"
+"その一部はメイン *FIRST* サイトへのゲートウェイページであるべきです。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:110
+msgid ""
+"See the :ref:`contrib/style_guide/style-guide:links` section of the Style"
+" Guide. There is information about how to create links in RST content "
+"including good link text which helps users decide whether they want to "
+"follow the link."
+msgstr ""
+"スタイルガイドの :ref:`contrib/style_guide/style-guide:links` セクションを参照してください。"
+"ユーザーがリンクをたどるかどうかを判断するのに役立つ適切なリンクテキストなど、"
+"RST コンテンツでのリンクの作成方法についての情報があります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:114
+msgid "Guideline 2.5 – Input Modalities"
+msgstr "ガイドライン 2.5 – 入力モダリティ"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:116
+msgid ""
+"Make it easier for users to operate functionality through various inputs "
+"beyond keyboard."
+msgstr "キーボード以外のさまざまな入力手段を通じて機能を操作しやすくしてください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:120
+msgid ""
+"We might want to enhance functionality for mobile users and other forms "
+"of input. But we need to be careful not to introduce problems. For "
+"example, important content in a tooltip that only shows with mouse hover "
+"and is not keyboard accessible or accessible on a mobile device."
+msgstr ""
+"モバイルユーザーやその他の入力形式に対して機能を強化したい場合があります。"
+"ただし、問題を引き起こさないよう注意が必要です。例えば、マウスホバーでのみ表示され、"
+"キーボードアクセスやモバイルデバイスからのアクセスができないツールチップ内の重要なコンテンツなどです。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:125
+msgid "Principle 3 – Understandable"
+msgstr "原則3 – 理解可能"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:127
+msgid ""
+"Information and the operation of the user interface must be "
+"understandable."
+msgstr "情報およびユーザーインターフェースの操作は理解できるものでなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:130
+msgid "Guideline 3.1 – Readable"
+msgstr "ガイドライン 3.1 – 読みやすい"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:132
+msgid "Make text content readable and understandable."
+msgstr "テキストコンテンツを読みやすく理解しやすいものにしてください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:136
+msgid ""
+"Plain language means communicating in a way that's clear, "
+"straightforward, and easy to understand. It helps audiences "get" what "
+"you're saying immediately. See https://evolvingweb.com/blog/plain-"
+"language-guide-how-write-inclusive-digital-content-2024."
+msgstr ""
+"平易な言葉とは、明確で率直で理解しやすい方法でコミュニケーションすることです。"
+"読者がすぐに内容を「理解」するのに役立ちます。詳細は https://evolvingweb.com/blog/plain-"
+"language-guide-how-write-inclusive-digital-content-2024 をご覧ください。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:137
+msgid ""
+"Some FTC Docs pages have acronyms and excess punctuation that screen "
+"readers had trouble with. Revising the text to make it more accessible "
+"would make it more readable and understandable for all users."
+msgstr ""
+"一部の FTC Docs ページには、スクリーンリーダーが読み上げに苦労する略語や過剰な句読点があります。"
+"よりアクセシブルになるようテキストを修正することで、すべてのユーザーにとって読みやすく理解しやすくなります。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:138
+msgid ""
+"It's OK to discuss a complex subject, but given the wide audience for FTC"
+" Docs content authors should consider perhaps a simplified introduction "
+"or summary that builds in complexity and/or add links to background "
+"information."
+msgstr ""
+"複雑なテーマを扱うことは問題ありませんが、FTC Docs の幅広い読者を考慮して、コンテンツ作成者は"
+"複雑さを段階的に積み上げた簡略化された導入やサマリーを検討し、または背景情報へのリンクを追加することを"
+"検討すべきです。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:141
+msgid "Principle 4 – Robust"
+msgstr "原則4 – 堅牢"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:143
+msgid ""
+"Content must be robust enough that it can be interpreted by a wide "
+"variety of user agents, including assistive technologies."
+msgstr "コンテンツは、支援技術を含む多様なユーザーエージェントによって解釈できるほど堅牢でなければなりません。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:145
+msgid ""
+"This success criterion is primarily for Web authors who develop or script"
+" their own user interface components. For example, standard HTML controls"
+" already meet this success criterion when used according to "
+"specification."
+msgstr ""
+"この達成基準は主に、独自のユーザーインターフェースコンポーネントを開発またはスクリプトするウェブ作成者向けです。"
+"例えば、標準的な HTML コントロールは仕様に従って使用した場合、すでにこの達成基準を満たしています。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:147
+msgid ""
+"Counter example: use of Sphinx primary grids is a problem because they "
+"create 'fake' buttons that screen readers have problems with."
+msgstr ""
+"反例：Sphinx の primary grids の使用は問題があります。スクリーンリーダーが対応に苦慮する「偽の」ボタンを作成するためです。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:151
+msgid ""
+"Content authors may wish to take care not to use Sphinx or Read the Docs "
+"feature that result in accessibility problems."
+msgstr "コンテンツ作成者は、アクセシビリティの問題を引き起こす Sphinx や Read the Docs の機能を使用しないよう注意することを推奨します。"
+
+#: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:153
+msgid ""
+"They should also review their changes in desktop and mobile views and the"
+" generated PDFs of FTC Docs content."
+msgstr "また、デスクトップおよびモバイルビュー、および FTC Docs コンテンツの生成された PDF で変更内容を確認することも推奨します。"
+
