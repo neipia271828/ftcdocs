@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/ftc_docs/form/form.rst:2
 msgid "Site Feedback Form"
-msgstr ""
+msgstr "サイトフィードバックフォーム"
 
 #: ../../source/ftc_docs/form/form.rst:4
 msgid ""
@@ -30,6 +30,8 @@ msgid ""
 "Docs). Please fill out the form below and we will try our best to "
 "incorporate your feedback into the documentation."
 msgstr ""
+"このサイト（*FIRST* Tech Challenge Docs）に関するご意見をお聞かせください。"
+"下のフォームにご記入いただければ、できる限りドキュメントに反映するよう努めます。"
 
 #: ../../source/ftc_docs/form/form.rst:9
 msgid ""
@@ -38,10 +40,16 @@ msgid ""
 "Badger <https://privacybadger.org/>`_ may require site exceptions for "
 "\"Microsoft Forms\" in order to correctly load the feedback form content."
 msgstr ""
+"下のフォームが表示されない場合は、ブラウザの拡張機能でブロックされたコンテンツに関する"
+"メッセージを確認してください。`Privacy Badger <https://privacybadger.org/>`_ などの拡張機能では、"
+"フィードバックフォームを正しく読み込むために「Microsoft Forms」のサイト例外設定が"
+"必要な場合があります。"
 
 #: ../../source/ftc_docs/form/form.rst:21
 msgid ""
 "`Feedback Form "
 "<https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhAgmZzMhzQVAmDwiemnaV_BURUdFOTk2NEwxSUJHM0FYUTlIR0JVMzkzUi4u>`_"
 msgstr ""
+"`フィードバックフォーム "
+"<https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhAgmZzMhzQVAmDwiemnaV_BURUdFOTk2NEwxSUJHM0FYUTlIR0JVMzkzUi4u>`_"
 

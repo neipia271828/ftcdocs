@@ -22,17 +22,19 @@ msgstr ""
 
 #: ../../source/404.rst:-1 ../../source/404.rst:7
 msgid "Page not found"
-msgstr ""
+msgstr "ページが見つかりません"
 
 #: ../../source/404.rst:-1
 msgid "The official home of FIRST Tech Challenge Documentation."
-msgstr ""
+msgstr "FIRST Tech Challenge ドキュメンテーションの公式サイト。"
 
 #: ../../source/404.rst:9
 msgid ""
 "Unfortunately we couldn't find the content you were looking for. Try "
 "using the sidebar menu links or search box."
 msgstr ""
+"申し訳ありませんが、お探しのコンテンツが見つかりませんでした。"
+"サイドバーメニューのリンクまたは検索ボックスをお試しください。"
 
 #: ../../source/404.rst:11
 msgid ""
@@ -40,4 +42,7 @@ msgid ""
 "moved to the `FTC Docs Archive <https://ftc-"
 "docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>`__."
 msgstr ""
+"TensorFlow と *FIRST* 機械学習ツールチェーンのコンテンツは "
+"`FTC Docs アーカイブ <https://ftc-"
+"docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>`__ に移動しました。"
 

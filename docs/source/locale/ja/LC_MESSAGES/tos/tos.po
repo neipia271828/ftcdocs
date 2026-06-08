@@ -22,27 +22,27 @@ msgstr ""
 
 #: ../../source/tos/tos.rst:4
 msgid "Terms of Service"
-msgstr ""
+msgstr "利用規約"
 
 #: ../../source/tos/tos.rst:7
 msgid "Agreement to Terms"
-msgstr ""
+msgstr "規約への同意"
 
 #: ../../source/tos/tos.rst:9
 msgid ""
 "These Terms of Use constitute a legally binding agreement made between "
-"you, whether personally or on behalf of an entity (“you”) and *FIRST* "
-"(“Company”, “we”, “us”, or “our”), concerning your access to and use of "
+"you, whether personally or on behalf of an entity ("you") and *FIRST* "
+"("Company", "we", "us", or "our"), concerning your access to and use of "
 "the `https://www.firstinspires.org/ <https://www.firstinspires.org/>`_ "
 "website as well as any other media form, media channel, mobile website or"
 " mobile application related, linked, or otherwise connected thereto "
-"(collectively, the “Site” or “Sites”). You agree that by accessing the "
+"(collectively, the "Site" or "Sites"). You agree that by accessing the "
 "Site, you have read, understood, and agreed to be bound by these Terms of"
 " Use. Supplemental terms and conditions or documents that may be posted "
 "on the Site from time to time are hereby expressly incorporated herein by"
 " reference. We reserve the right, in our sole discretion, to make changes"
 " or modifications to these Terms of Use at any time and for any reason. "
-"We will alert you about any changes by updating the “Last updated” date "
+"We will alert you about any changes by updating the "Last updated" date "
 "of these Terms of Use, and you waive any right to receive specific notice"
 " of each such change. It is your responsibility to periodically review "
 "these Terms of Use to stay informed of updates. You will be subject to, "
@@ -50,6 +50,18 @@ msgid ""
 "in any revised Terms of Use by your continued use of the Site after the "
 "date such revised Terms of Use are posted."
 msgstr ""
+"この利用規約は、個人または団体を代表するあなた（「利用者」）と *FIRST*（「当社」）との間で、"
+"`https://www.firstinspires.org/ <https://www.firstinspires.org/>`_ ウェブサイトおよび"
+"それに関連・リンク・接続したメディア形式、メディアチャネル、モバイルウェブサイト、"
+"モバイルアプリケーション（総称して「サイト」）へのアクセスと利用に関して締結される"
+"法的拘束力のある契約を構成します。サイトにアクセスすることにより、この利用規約を読み、"
+"理解し、これに拘束されることに同意したものとみなします。サイトに随時掲載される追加の"
+"条件・条件書またはドキュメントは、参照により本規約に明示的に組み込まれます。当社は、"
+"独自の裁量により、いつでも何らかの理由でこの利用規約を変更・修正する権利を留保します。"
+"変更については利用規約の「最終更新」日を更新することでお知らせし、各変更の個別通知を"
+"受け取る権利は放棄されます。最新情報を把握するために利用規約を定期的に確認することは"
+"利用者の責任です。改定された利用規約が掲載された後もサイトを継続して使用することにより、"
+"改定内容を認識し承諾したものとみなされます。"
 
 #: ../../source/tos/tos.rst:26
 msgid ""
@@ -62,6 +74,10 @@ msgid ""
 "responsible for compliance with local laws, if and to the extent local "
 "laws are applicable."
 msgstr ""
+"サイトで提供される情報は、その配布または使用が法律もしくは規制に反する、"
+"または当社に登録要件を課す可能性のある管轄区域または国の個人または団体への"
+"配布または使用を目的としたものではありません。そのような場所からサイトにアクセスすることを"
+"選択した者は自己の責任で行い、適用される限りにおいて現地法の遵守について単独で責任を負います。"
 
 #: ../../source/tos/tos.rst:33
 msgid ""
@@ -71,29 +87,42 @@ msgid ""
 "or guardian read and agree to these Terms of Use prior to your use of the"
 " Site."
 msgstr ""
+"居住する管轄区域において未成年者であるすべての利用者は、サイトを使用するために"
+"保護者の許可を得て直接監督下に置かれなければなりません。未成年者の場合は、"
+"サイトを使用する前に保護者がこの利用規約を読んで同意する必要があります。"
 
 #: ../../source/tos/tos.rst:39
 msgid "INTELLECTUAL PROPERTY RIGHTS"
-msgstr ""
+msgstr "知的財産権"
 
 #: ../../source/tos/tos.rst:41
 msgid ""
 "Unless otherwise indicated, the Site is the proprietary property of "
 "*FIRST* and all source code, databases, functionality, software, website "
 "designs, audio, video, text, photographs, and graphics on the Site "
-"(collectively, the “Content”) and the trademarks, service marks, and "
-"logos contained therein (the “Marks”) are owned or controlled by *FIRST* "
+"(collectively, the "Content") and the trademarks, service marks, and "
+"logos contained therein (the "Marks") are owned or controlled by *FIRST* "
 "or licensed to *FIRST*, and are protected by copyright and trademark laws"
 " and various other intellectual property rights and unfair competition "
 "laws of the United States, international copyright laws, and "
 "international conventions. The Content and the Marks are provided on the "
-"Site “AS IS” for your information and personal use only. Except as "
+"Site "AS IS" for your information and personal use only. Except as "
 "expressly provided in these Terms of Use, no part of the Site and no "
 "Content or Marks may be copied, reproduced, aggregated, republished, "
 "uploaded, posted, publicly displayed, encoded, translated, transmitted, "
 "distributed, sold, licensed, or otherwise exploited for any commercial "
 "purpose whatsoever, without our express prior written permission."
 msgstr ""
+"別途指定がない限り、サイトは *FIRST* の独占的財産であり、サイト上のすべての"
+"ソースコード、データベース、機能、ソフトウェア、ウェブサイトデザイン、音声、映像、"
+"テキスト、写真、グラフィック（総称して「コンテンツ」）およびそれに含まれる商標、"
+"サービスマーク、ロゴ（「マーク」）は *FIRST* が所有・管理またはライセンスを受けており、"
+"著作権法、商標法、その他の知的財産権法、米国の不正競争防止法、国際著作権法、"
+"国際条約によって保護されています。コンテンツとマークは情報提供および個人使用のみを目的として"
+"「現状のまま」サイト上で提供されます。この利用規約に明示的に規定されている場合を除き、"
+"当社の事前書面による明示的な許可なしに、サイトのいかなる部分も、またコンテンツやマークも"
+"商業目的でコピー、複製、集約、再公開、アップロード、投稿、公開表示、エンコード、翻訳、"
+"送信、配布、販売、ライセンス供与、その他の方法で利用することはできません。"
 
 #: ../../source/tos/tos.rst:54
 msgid ""
@@ -103,10 +132,13 @@ msgid ""
 "solely for your personal, non-commercial use. We reserve all rights not "
 "expressly granted to you to the Site, the Content and the Marks."
 msgstr ""
+"サイトを使用する資格がある場合、個人的・非商業的使用のみを目的として、サイトにアクセスして"
+"使用し、適切にアクセスしたコンテンツの一部をダウンロードまたは印刷するための限定ライセンスが"
+"付与されます。サイト、コンテンツ、マークに関して明示的に付与されていない権利はすべて留保されます。"
 
 #: ../../source/tos/tos.rst:60
 msgid "USER REPRESENTATIONS"
-msgstr ""
+msgstr "利用者の表明"
 
 #: ../../source/tos/tos.rst:62
 msgid ""
@@ -126,10 +158,19 @@ msgid ""
 "suspend or terminate your account and refuse any and all current or "
 "future use of the Site (or any portion thereof)."
 msgstr ""
+"サイトを使用することにより、利用者は以下を表明・保証します：（1）提出するすべての登録情報は"
+"真実、正確、最新かつ完全である；（2）そのような情報の正確性を維持し、必要に応じて登録情報を"
+"速やかに更新する；（3）この利用規約を遵守する法的能力を有し、同意する；（4）居住する管轄区域で"
+"未成年者ではないか、未成年者の場合はサイト使用の保護者の許可を得ており、保護者がこの利用規約を"
+"読んで同意している；（5）ボット、スクリプトその他の手段による自動化または非人間的手段でサイトに"
+"アクセスしない；（6）違法または無許可の目的でサイトを使用しない；（7）サイトの使用が適用される"
+"法律または規制に違反しない。虚偽、不正確、最新でない、または不完全な情報を提供した場合、"
+"当社はアカウントを一時停止または終了し、現在または将来のサイト（またはその一部）の使用を"
+"拒否する権利を有します。"
 
 #: ../../source/tos/tos.rst:76
 msgid "USER REGISTRATION"
-msgstr ""
+msgstr "利用者登録"
 
 #: ../../source/tos/tos.rst:78
 msgid ""
@@ -145,10 +186,17 @@ msgid ""
 "(GDPR), and those residing in the United Kingdom under the United Kingdom"
 " General Data Protection Regulation (UK GDPR)."
 msgstr ""
+"*FIRST* のウェブサイトを使用してプログラムに登録する場合、パスワードを秘密に保ち、"
+"アカウントとパスワードのすべての使用について責任を負うことに同意します。"
+"当社は独自の裁量により、選択したユーザー名が不適切、わいせつ、またはその他不適当と判断した場合、"
+"そのユーザー名を削除・回収・変更する権利を留保します。*FIRST* は、COPPA の精神に則り欧州連合外に"
+"居住する13歳未満の子どものプライバシー保護、欧州連合一般データ保護規則（GDPR）に基づく"
+"欧州連合居住者、および英国一般データ保護規則（UK GDPR）に基づく英国居住者のプライバシー保護を"
+"選択しています。"
 
 #: ../../source/tos/tos.rst:88
 msgid "PROHIBITED ACTIVITIES"
-msgstr ""
+msgstr "禁止行為"
 
 #: ../../source/tos/tos.rst:90
 msgid ""
@@ -157,23 +205,25 @@ msgid ""
 "with any commercial endeavors except those that are specifically endorsed"
 " or approved by *FIRST*."
 msgstr ""
+"当社がサイトを提供する目的以外の目的でサイトにアクセスまたは使用することはできません。"
+"サイトは、*FIRST* が特に承認または許可した商業活動を除き、商業活動に関連して使用することはできません。"
 
 #: ../../source/tos/tos.rst:94
 msgid "As a user of the Site, you agree not to:"
-msgstr ""
+msgstr "サイトの利用者として、以下を行わないことに同意します："
 
 #: ../../source/tos/tos.rst:96
 msgid ""
 "Systematically retrieve data or other content from the Site to create or "
 "compile, directly or indirectly, a collection, compilation, database, or "
 "directory without written permission from us."
-msgstr ""
+msgstr "当社の書面による許可なく、サイトからデータやコンテンツを体系的に取得してコレクション、編集物、データベース、ディレクトリを直接・間接的に作成・編集する。"
 
 #: ../../source/tos/tos.rst:97
 msgid ""
 "Trick, defraud, or mislead us and other users, especially in any attempt "
 "to learn sensitive account information such as user passwords."
-msgstr ""
+msgstr "当社や他の利用者を騙したり、詐欺を働いたり、特にユーザーパスワードなどの機密アカウント情報を取得しようとして誤解させる。"
 
 #: ../../source/tos/tos.rst:98
 msgid ""
@@ -181,66 +231,66 @@ msgid ""
 "features of the Site, including features that prevent or restrict the use"
 " or copying of any Content or enforce limitations on the use of the Site "
 "and/or the Content contained therein."
-msgstr ""
+msgstr "コンテンツの使用や複製を防止・制限する機能やサイトおよびコンテンツの使用制限を執行する機能を含む、サイトのセキュリティ関連機能を迂回、無効化、またはその他の方法で妨害する。"
 
 #: ../../source/tos/tos.rst:99
 msgid "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Site."
-msgstr ""
+msgstr "当社の意見として、当社やサイトを中傷、信用を傷つけ、またはその他の方法で損害を与える。"
 
 #: ../../source/tos/tos.rst:100
 msgid ""
 "Use any information obtained from the Site in order to harass, abuse, or "
 "harm another person."
-msgstr ""
+msgstr "サイトから取得した情報を使用して他者を嫌がらせ、虐待、または害を与える。"
 
 #: ../../source/tos/tos.rst:101
 msgid ""
 "Make improper use of our support services or submit false reports of "
 "abuse or misconduct."
-msgstr ""
+msgstr "当社のサポートサービスを不正使用したり、虚偽の不正行為報告を提出する。"
 
 #: ../../source/tos/tos.rst:102
 msgid ""
 "Use the Site in a manner inconsistent with any applicable laws or "
 "regulations."
-msgstr ""
+msgstr "適用される法律または規制に矛盾する方法でサイトを使用する。"
 
 #: ../../source/tos/tos.rst:103
 msgid ""
 "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan "
 "horses, or other material, including excessive use of capital letters and"
 " spamming (continuous posting of repetitive text), that interferes with "
-"any party’s uninterrupted use and enjoyment of the Site or modifies, "
+"any party's uninterrupted use and enjoyment of the Site or modifies, "
 "impairs, disrupts, alters, or interferes with the use, features, "
 "functions, operation, or maintenance of the Site."
-msgstr ""
+msgstr "ウイルス、トロイの木馬、その他の素材（大文字の過剰使用やスパム行為を含む）をアップロードまたは送信（またはその試み）して、いかなる当事者のサイトの継続的使用・享受を妨害したり、サイトの使用、機能、運営、保守を変更、損傷、中断、改変、または妨害する。"
 
 #: ../../source/tos/tos.rst:104
 msgid ""
 "Engage in any automated use of the system, such as using scripts to send "
 "comments or messages, or using any data mining, robots, or similar data "
 "gathering and extraction tools."
-msgstr ""
+msgstr "スクリプトを使用してコメントやメッセージを送信したり、データマイニング、ロボット、その他類似のデータ収集・抽出ツールを使用するなど、システムの自動使用を行う。"
 
 #: ../../source/tos/tos.rst:105
 msgid "Delete the copyright or other proprietary rights notice from any Content."
-msgstr ""
+msgstr "コンテンツから著作権またはその他の所有権に関する表示を削除する。"
 
 #: ../../source/tos/tos.rst:106
 msgid "Sell or otherwise transfer your profile."
-msgstr ""
+msgstr "プロフィールを売却またはその他の方法で譲渡する。"
 
 #: ../../source/tos/tos.rst:107
 msgid ""
 "Interfere with, disrupt, or create an undue burden on the Site or the "
 "networks or services connected to the Site."
-msgstr ""
+msgstr "サイトまたはサイトに接続されたネットワークやサービスを妨害、中断、または過度の負荷をかける。"
 
 #: ../../source/tos/tos.rst:108
 msgid ""
 "Attempt to bypass any measures of the Site designed to prevent or "
 "restrict access to the Site, or any portion of the Site."
-msgstr ""
+msgstr "サイトまたはサイトの一部へのアクセスを防止または制限するために設計されたサイトの措置を迂回しようとする。"
 
 #: ../../source/tos/tos.rst:109
 msgid ""
@@ -249,11 +299,11 @@ msgid ""
 "including without limitation, any spider, robot, cheat utility, scraper, "
 "or offline reader that accesses the Site, or using or launching any "
 "unauthorized script or other software."
-msgstr ""
+msgstr "標準的な検索エンジンまたはインターネットブラウザの使用による場合を除き、サイトにアクセスするスパイダー、ロボット、チートユーティリティ、スクレイパー、オフラインリーダーを含む自動システムを使用、起動、開発、または配布したり、無許可のスクリプトまたはその他のソフトウェアを使用または起動する。"
 
 #: ../../source/tos/tos.rst:110
 msgid "Use a buying agent or purchasing agent to make purchases on the Site."
-msgstr ""
+msgstr "サイトで購入するために購買代理人または購入代理人を使用する。"
 
 #: ../../source/tos/tos.rst:111
 msgid ""
@@ -261,18 +311,18 @@ msgid ""
 "and/or email addresses of users by electronic or other means for the "
 "purpose of sending unsolicited email, or creating user accounts by "
 "automated means or under false pretenses."
-msgstr ""
+msgstr "迷惑メール送信目的で電子的またはその他の手段で利用者のユーザー名やメールアドレスを収集すること、または自動化された手段や偽りの名目でユーザーアカウントを作成することを含む、サイトの無断使用を行う。"
 
 #: ../../source/tos/tos.rst:112
 msgid ""
 "Use the Site as part of any effort to compete with us or otherwise use "
 "the Site and/or the Content for any revenue-generating endeavor or "
 "commercial enterprise."
-msgstr ""
+msgstr "当社との競争を目的としてサイトを使用したり、収益を生む取り組みや商業目的でサイトおよびコンテンツを使用する。"
 
 #: ../../source/tos/tos.rst:115
 msgid "USER GENERATED CONTRIBUTIONS"
-msgstr ""
+msgstr "ユーザー作成コンテンツ"
 
 #: ../../source/tos/tos.rst:117
 msgid ""
@@ -280,17 +330,22 @@ msgid ""
 "display, transmit, perform, publish, distribute, or broadcast content and"
 " materials to us or on the Site, including but not limited to text, "
 "writings, video, audio, photographs, graphics, comments, suggestions, or "
-"personal information or other material (collectively, “Contributions”). "
+"personal information or other material (collectively, "Contributions"). "
 "Contributions may be viewable by other users of the Site and through "
 "third-party websites. As such, any Contributions you transmit may be "
 "treated as non-confidential and non-proprietary."
 msgstr ""
+"サイトでは、テキスト、文章、動画、音声、写真、グラフィック、コメント、提案、個人情報その他の素材"
+"（総称して「投稿コンテンツ」）を含むコンテンツや素材を当社またはサイト上で作成、提出、投稿、表示、"
+"送信、実行、公開、配布、放送する機会が提供される場合があります。投稿コンテンツはサイトの他の利用者や"
+"サードパーティのウェブサイトから閲覧できる場合があります。そのため、送信された投稿コンテンツは"
+"非機密・非専有として扱われる場合があります。"
 
 #: ../../source/tos/tos.rst:124
 msgid ""
 "When you create or make available any Contributions, you thereby "
 "represent and warrant that:"
-msgstr ""
+msgstr "投稿コンテンツを作成または公開する際、利用者は以下を表明・保証します："
 
 #: ../../source/tos/tos.rst:126
 msgid ""
@@ -299,7 +354,7 @@ msgid ""
 "and will not infringe the proprietary rights, including but not limited "
 "to the copyright, patent, trademark, trade secret, or moral rights of any"
 " third party."
-msgstr ""
+msgstr "投稿コンテンツの作成、配布、送信、公開表示、実行、およびアクセス、ダウンロード、複製は、第三者の著作権、特許、商標、営業秘密、著作者人格権を含む独占的権利を侵害しておらず、また将来も侵害しない。"
 
 #: ../../source/tos/tos.rst:127
 msgid ""
@@ -307,7 +362,7 @@ msgid ""
 "consents, releases, and permissions to use and to authorize us, the Site,"
 " and other users of the Site to use your Contributions in any manner "
 "contemplated by the Site and these Terms of Use."
-msgstr ""
+msgstr "利用者は投稿コンテンツの作成者・所有者であるか、サイトおよびこの利用規約が想定するいかなる方法においても当社、サイト、およびサイトの他の利用者が投稿コンテンツを使用することを許可するための必要なライセンス、権利、同意、許諾を有している。"
 
 #: ../../source/tos/tos.rst:128
 msgid ""
@@ -316,87 +371,87 @@ msgid ""
 "name or likeness of each and every such identifiable individual person to"
 " enable inclusion and use of your Contributions in any manner "
 "contemplated by the Site and these Terms of Use."
-msgstr ""
+msgstr "投稿コンテンツに含まれる識別可能な各個人から、サイトおよびこの利用規約が想定するいかなる方法においても投稿コンテンツを含め使用できるよう、その氏名または肖像を使用するための書面による同意、許諾を取得している。"
 
 #: ../../source/tos/tos.rst:129
 msgid "Your Contributions are not false, inaccurate, or misleading."
-msgstr ""
+msgstr "投稿コンテンツは虚偽、不正確、または誤解を招くものではない。"
 
 #: ../../source/tos/tos.rst:130
 msgid ""
 "Your Contributions are not unsolicited or unauthorized advertising, "
 "promotional materials, pyramid schemes, chain letters, spam, mass "
 "mailings, or other forms of solicitation."
-msgstr ""
+msgstr "投稿コンテンツは未承諾または無許可の広告、宣伝素材、ネズミ講、チェーンレター、スパム、大量メール、その他の勧誘行為ではない。"
 
 #: ../../source/tos/tos.rst:131
 msgid ""
 "Your Contributions are not obscene, lewd, lascivious, filthy, violent, "
 "harassing, libelous, slanderous, or otherwise objectionable (as "
 "determined by us)."
-msgstr ""
+msgstr "投稿コンテンツはわいせつ、淫らで、不道徳で、不潔で、暴力的で、嫌がらせ的で、名誉毀損的、中傷的、またはその他当社が判断する不適切なものではない。"
 
 #: ../../source/tos/tos.rst:132
 msgid ""
 "Your Contributions do not ridicule, mock, disparage, intimidate, or abuse"
 " anyone."
-msgstr ""
+msgstr "投稿コンテンツは誰かを嘲笑、揶揄、中傷、脅迫、または虐待するものではない。"
 
 #: ../../source/tos/tos.rst:133
 msgid ""
 "Your Contributions do not advocate the violent overthrow of any "
 "government or incite, encourage, or threaten physical harm against "
 "another."
-msgstr ""
+msgstr "投稿コンテンツはいかなる政府の暴力的転覆を主張したり、他者への身体的危害を扇動、奨励、または脅迫するものではない。"
 
 #: ../../source/tos/tos.rst:134
 msgid "Your Contributions do not violate any applicable law, regulation, or rule."
-msgstr ""
+msgstr "投稿コンテンツは適用される法律、規制、ルールに違反しない。"
 
 #: ../../source/tos/tos.rst:135
 msgid ""
 "Your Contributions do not violate the privacy or publicity rights of any "
 "third party."
-msgstr ""
+msgstr "投稿コンテンツは第三者のプライバシーまたはパブリシティの権利を侵害しない。"
 
 #: ../../source/tos/tos.rst:136
 msgid ""
 "Your Contributions do not contain any material that solicits personal "
 "information from anyone under the age of 18 or exploits people under the "
 "age of 18 in a sexual or violent manner."
-msgstr ""
+msgstr "投稿コンテンツは18歳未満の者から個人情報を勧誘したり、18歳未満の者を性的または暴力的に搾取する素材を含まない。"
 
 #: ../../source/tos/tos.rst:137
 msgid ""
 "Your Contributions do not violate any applicable law concerning child "
 "pornography, or otherwise intended to protect the health or well-being of"
 " minors."
-msgstr ""
+msgstr "投稿コンテンツは児童ポルノに関する適用法、またはその他未成年者の健康や福祉を保護することを目的とした法律に違反しない。"
 
 #: ../../source/tos/tos.rst:138
 msgid ""
 "Your Contributions do not include any offensive comments that are "
 "connected to race, national origin, gender, sexual preference, or "
 "physical handicap."
-msgstr ""
+msgstr "投稿コンテンツは人種、出身国、性別、性的嗜好、身体障害に関連する不快なコメントを含まない。"
 
 #: ../../source/tos/tos.rst:139
 msgid ""
 "Your Contributions do not otherwise violate, or link to material that "
 "violates, any provision of these Terms of Use, or any applicable law or "
 "regulation."
-msgstr ""
+msgstr "投稿コンテンツはその他この利用規約の条項または適用される法律もしくは規制に違反せず、またそれに違反する素材へのリンクを含まない。"
 
 #: ../../source/tos/tos.rst:141
 msgid ""
 "Any use of the Site in violation of the foregoing violates these Terms of"
 " Use and may result in, among other things, termination, or suspension of"
 " your rights to use the Site."
-msgstr ""
+msgstr "上記に違反するサイトの使用はこの利用規約に違反し、サイトの使用権の終了または停止を招く場合があります。"
 
 #: ../../source/tos/tos.rst:145
 msgid "CONTRIBUTION LICENSE"
-msgstr ""
+msgstr "投稿コンテンツのライセンス"
 
 #: ../../source/tos/tos.rst:147
 msgid ""
@@ -414,6 +469,14 @@ msgid ""
 "distribution may occur in any media formats and through any media "
 "channels."
 msgstr ""
+"サイトの任意の部分に投稿コンテンツを投稿することにより、利用者は *FIRST* に対して、"
+"商業目的、広告目的、その他の目的のために当該投稿コンテンツ（利用者の画像や音声を含む）を"
+"ホスト、使用、複製、開示、公開、放送、タイトル変更、アーカイブ、保存、キャッシュ、"
+"公開実演、公開表示、再フォーマット、翻訳、送信、抜粋（全部または一部）、配布し、"
+"派生著作物を作成し、または他の著作物に組み込む、制限なし、無制限、取り消し不能、永続的、"
+"非独占的、譲渡可能、ロイヤリティフリー、完全有償の世界的権利とライセンスを付与し、"
+"そのような権利を付与する権利を有することを表明・保証します。また、これらのサブライセンスを"
+"付与・許可します。使用と配布はあらゆるメディア形式およびメディアチャネルを通じて行われる場合があります。"
 
 #: ../../source/tos/tos.rst:157
 msgid ""
@@ -422,6 +485,9 @@ msgid ""
 " franchise name, as applicable, and any of the trademarks, service marks,"
 " trade names, logos, and personal and commercial images you provide."
 msgstr ""
+"このライセンスは、現在既知または今後開発されるあらゆる形式、メディア、技術に適用され、"
+"該当する場合には利用者の氏名、会社名、フランチャイズ名、および提供される商標、"
+"サービスマーク、商号、ロゴ、個人・商業画像の使用を含みます。"
 
 #: ../../source/tos/tos.rst:162
 msgid ""
@@ -431,19 +497,26 @@ msgid ""
 "and (3) to pre-screen or remove any Contributions at any time and for any"
 " reason, without notice."
 msgstr ""
+"当社は独自の裁量により、（1）投稿コンテンツを編集、削除、またはその他の方法で変更する；"
+"（2）投稿コンテンツをサイト上のより適切な場所に再分類する；"
+"（3）通知なしにいつでも何らかの理由で投稿コンテンツを事前審査または削除する権利を有します。"
 
 #: ../../source/tos/tos.rst:168
 msgid "THIRD-PARTY WEBSITE AND CONTENT"
-msgstr ""
+msgstr "サードパーティのウェブサイトとコンテンツ"
 
 #: ../../source/tos/tos.rst:170
 msgid ""
 "The Site may contain (or you may be sent via the Site) links to other "
-"websites (“Third-Party Websites”) as well as articles, photographs, text,"
+"websites ("Third-Party Websites") as well as articles, photographs, text,"
 " graphics, pictures, designs, music, sound, video, information, "
 "applications, software, and other content or items belonging to or "
-"originating from third parties (“Third-Party Content”)."
+"originating from third parties ("Third-Party Content")."
 msgstr ""
+"サイトには、他のウェブサイト（「サードパーティウェブサイト」）へのリンク、および"
+"第三者に属するまたは第三者から提供される記事、写真、テキスト、グラフィック、画像、デザイン、"
+"音楽、音声、動画、情報、アプリケーション、ソフトウェア、その他のコンテンツや項目"
+"（「サードパーティコンテンツ」）が含まれる場合があります（またはサイトを通じて送信される場合があります）。"
 
 #: ../../source/tos/tos.rst:175
 msgid ""
@@ -461,6 +534,14 @@ msgid ""
 "Content, you do so at your own risk, and you should be aware these Terms "
 "of Use no longer govern."
 msgstr ""
+"このようなサードパーティウェブサイトおよびサードパーティコンテンツは当社によって正確性、"
+"適切性、完全性について調査、監視、確認されておらず、当社はサイトを通じてアクセスされる"
+"サードパーティウェブサイトや、サイトに掲載、提供、またはインストールされるサードパーティコンテンツ"
+"（その内容、正確性、不快性、意見、信頼性、プライバシーポリシーなど）について責任を負いません。"
+"サードパーティウェブサイトやコンテンツの組み込み、リンク、使用・インストールの許可は、"
+"当社による承認または推奨を意味しません。サイトを離れてサードパーティウェブサイトにアクセスしたり、"
+"サードパーティコンテンツを使用・インストールすることを選択した場合、自己の責任で行い、"
+"この利用規約が適用されなくなることをご認識ください。"
 
 #: ../../source/tos/tos.rst:186
 msgid ""
@@ -471,10 +552,14 @@ msgid ""
 "by you or harm caused to you relating to or resulting in any way from any"
 " Third-Party Content or any contact with Third-Party Websites."
 msgstr ""
+"サイトからアクセスするウェブサイトや、サイトから使用・インストールするアプリケーションに関連する"
+"プライバシーおよびデータ収集の慣行を含む適用される規約とポリシーを確認してください。"
+"また、サードパーティコンテンツまたはサードパーティウェブサイトとの接触に関連して生じた"
+"損害について当社を免責するものとします。"
 
 #: ../../source/tos/tos.rst:193
 msgid "MAINTENANCE OF SITES"
-msgstr ""
+msgstr "サイトの維持管理"
 
 #: ../../source/tos/tos.rst:195
 msgid ""
@@ -492,10 +577,17 @@ msgid ""
 "in a manner designed to protect our rights and property and to facilitate"
 " the proper functioning of the Site."
 msgstr ""
+"当社は、義務ではなく権利として、（1）この利用規約違反についてサイトを監視する；"
+"（2）独自の裁量で法律またはこの利用規約に違反する者に対し、当該利用者を法執行当局に"
+"報告することを含む適切な法的措置を取る；（3）独自の裁量で、投稿コンテンツの一部または全部を"
+"拒否、アクセス制限、利用制限、または（技術的に実現可能な範囲で）無効化する；"
+"（4）独自の裁量で、通知や責任なしに、サイズが過大またはシステムに負荷をかけるすべての"
+"ファイルやコンテンツをサイトから削除または無効化する；（5）当社の権利と財産を保護し、"
+"サイトの適正機能を促進するようにサイトを管理する権利を留保します。"
 
 #: ../../source/tos/tos.rst:206
 msgid "PRIVACY POLICY"
-msgstr ""
+msgstr "プライバシーポリシー"
 
 #: ../../source/tos/tos.rst:208
 msgid ""
@@ -510,17 +602,25 @@ msgid ""
 "`https://www.firstinspires.org/about/privacy-policy "
 "<https://www.firstinspires.org/about/privacy-policy>`_"
 msgstr ""
+"*FIRST* はあなたのプライバシーを真剣に考えています。非営利団体として、また使命を持つ"
+"青少年支援組織として、私たちは誰にサービスを提供しているか、プログラムがどのように機能しているかを"
+"理解し、楽しく exciting で人生を変える体験に参加したいすべての青少年に *FIRST* を届けるという"
+"目標を達成するために改善を続ける必要があります。そのため、青少年支援非営利組織としての目標と"
+"責任を果たしていることを確認するために、特定のデータを収集する必要があります。"
+"プライバシーポリシーはこちらをご確認ください："
+"`https://www.firstinspires.org/about/privacy-policy "
+"<https://www.firstinspires.org/about/privacy-policy>`_"
 
 #: ../../source/tos/tos.rst:217
 msgid "COPYRIGHT INFRINGEMENTS"
-msgstr ""
+msgstr "著作権侵害"
 
 #: ../../source/tos/tos.rst:219
 msgid ""
 "*FIRST* respects the intellectual property rights of others. If you "
 "believe that any material available on or through the Site infringes upon"
 " any copyright you own or control, please immediately notify us using the"
-" contact information provided below (a “Notification”). A copy of your "
+" contact information provided below (a "Notification"). A copy of your "
 "Notification will be sent to the person who posted or stored the material"
 " addressed in the Notification. Please be advised that pursuant to "
 "applicable law you may be held liable for damages if you make material "
@@ -529,10 +629,16 @@ msgid ""
 "copyright, you should consider contacting an attorney prior to submitting"
 " a Notification."
 msgstr ""
+"*FIRST* は他者の知的財産権を尊重しています。サイト上またはサイトを通じて提供される素材が"
+"あなたが所有または管理する著作権を侵害していると思われる場合は、以下の連絡先情報を使用して"
+"直ちに通知してください（「通知」）。通知のコピーは通知で指摘された素材を投稿または保存した"
+"人物に送付されます。通知で重要な虚偽の申告を行った場合、適用法に基づき損害賠償責任を"
+"負う可能性があることをご了承ください。サイト上またはサイトがリンクする素材があなたの著作権を"
+"侵害しているかどうかわからない場合は、通知を提出する前に弁護士に相談することをお勧めします。"
 
 #: ../../source/tos/tos.rst:229
 msgid "TERM AND TERMINATION"
-msgstr ""
+msgstr "期間と終了"
 
 #: ../../source/tos/tos.rst:231
 msgid ""
@@ -547,6 +653,12 @@ msgid ""
 "DELETE YOUR ACCOUNT AND ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY"
 " TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION."
 msgstr ""
+"この利用規約は、サイトを使用している間、完全に有効です。この利用規約の他の条項を制限することなく、"
+"当社は独自の裁量により、通知または責任なしに、この利用規約に含まれる表明、保証、誓約の違反または"
+"適用される法律もしくは規制の違反を含む理由または無理由で、いかなる者に対しても（特定の"
+"IP アドレスのブロックを含む）サイトへのアクセスと使用を拒否する権利を留保します。"
+"当社は独自の裁量により、警告なしにいつでもサイトの使用・参加を終了させ、または投稿した"
+"アカウントとコンテンツ・情報を削除する場合があります。"
 
 #: ../../source/tos/tos.rst:243
 msgid ""
@@ -558,10 +670,14 @@ msgid ""
 "action, including without limitation pursuing civil, criminal, and "
 "injunctive redress."
 msgstr ""
+"何らかの理由でアカウントを終了または停止した場合、本名、偽名、借名、または第三者の代理で"
+"行動している場合であっても第三者の名義で新しいアカウントを登録・作成することは禁止されます。"
+"アカウントの終了または停止に加えて、当社は民事、刑事、差止命令による救済を含む適切な"
+"法的措置を取る権利を留保します。"
 
 #: ../../source/tos/tos.rst:250
 msgid "MODIFICATIONS AND INTERRUPTIONS"
-msgstr ""
+msgstr "変更と中断"
 
 #: ../../source/tos/tos.rst:252
 msgid ""
@@ -573,6 +689,11 @@ msgid ""
 "party for any modification, price change, suspension, or discontinuance "
 "of the Site."
 msgstr ""
+"当社は独自の裁量により、通知なしにいつでも何らかの理由でサイトのコンテンツを変更、修正、"
+"削除する権利を留保します。ただし、サイト上の情報を更新する義務はありません。また、"
+"通知なしにいつでもサイトの全部または一部を修正または廃止する権利を留保します。"
+"サイトの変更、価格変更、一時停止、または廃止について、当社は利用者または第三者に"
+"対して責任を負いません。"
 
 #: ../../source/tos/tos.rst:258
 msgid ""
@@ -588,10 +709,17 @@ msgid ""
 "support the Site or to supply any corrections, updates, or releases in "
 "connection therewith."
 msgstr ""
+"当社はサイトが常時利用可能であることを保証できません。ハードウェア、ソフトウェア、その他の問題や"
+"サイト関連のメンテナンスが必要な場合があり、その結果、中断、遅延、またはエラーが生じることがあります。"
+"当社は通知なしにいつでも何らかの理由でサイトを変更、修正、更新、一時停止、廃止、またはその他の"
+"方法で変更する権利を留保します。サイトのダウンタイムや廃止中にサイトにアクセスまたは使用できない"
+"ことによる損失、損害、不便について当社は一切責任を負わないことに同意します。この利用規約のいかなる"
+"内容も、当社がサイトを維持・サポートし、関連する修正、更新、リリースを提供することを義務付けるものと"
+"解釈されるべきではありません。"
 
 #: ../../source/tos/tos.rst:268
 msgid "GOVERNING LAW"
-msgstr ""
+msgstr "準拠法"
 
 #: ../../source/tos/tos.rst:270
 msgid ""
@@ -600,10 +728,12 @@ msgid ""
 "agreements made and to be entirely performed within the State of New "
 "Hampshire, without regard to its conflict of law principles."
 msgstr ""
+"この利用規約およびサイトの使用は、法の抵触に関する原則に関わらず、ニューハンプシャー州内で"
+"締結され完全に履行される契約に適用されるニューハンプシャー州法に準拠し、それに従って解釈されます。"
 
 #: ../../source/tos/tos.rst:275
 msgid "CORRECTIONS"
-msgstr ""
+msgstr "訂正"
 
 #: ../../source/tos/tos.rst:277
 msgid ""
@@ -613,10 +743,13 @@ msgid ""
 "correct any errors, inaccuracies, or omissions and to change or update "
 "the information on the Site at any time, without prior notice."
 msgstr ""
+"サイト上の説明、価格、提供状況、その他の情報に誤字、不正確、または漏れが含まれている場合があります。"
+"当社は、事前通知なしにいつでも誤り、不正確な情報、漏れを訂正し、サイト上の情報を変更・更新する"
+"権利を留保します。"
 
 #: ../../source/tos/tos.rst:284
 msgid "DISCLAIMER"
-msgstr ""
+msgstr "免責事項"
 
 #: ../../source/tos/tos.rst:286
 msgid ""
@@ -626,7 +759,7 @@ msgid ""
 "IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, "
 "WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS "
 "FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR "
-"REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT "
+"REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE'S CONTENT "
 "OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO "
 "LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES"
 " OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY"
@@ -648,10 +781,24 @@ msgid ""
 "PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD "
 "USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE."
 msgstr ""
+"サイトは「現状のまま」「利用可能な状態で」提供されます。サイトおよびサービスの使用は利用者自身の"
+"リスクで行うものとします。法律で認められる最大限の範囲において、当社はサイトおよびその使用に関する"
+"商品性、特定目的への適合性、非侵害の黙示的保証を含む一切の明示的・黙示的保証を否認します。"
+"当社はサイトのコンテンツまたはサイトにリンクされたウェブサイトのコンテンツの正確性や完全性について"
+"いかなる保証または表明も行わず、（1）コンテンツおよび素材の誤り、ミス、不正確；（2）サイトへの"
+"アクセスおよび使用から生じるいかなる性質の人身傷害または財産損害；（3）安全なサーバーへの"
+"無断アクセスまたは使用および保存された個人・財務情報；（4）サイトへの送受信の中断または停止；"
+"（5）第三者がサイトを通じて送信する可能性のあるバグ、ウイルス、トロイの木馬など；（6）"
+"サイトを通じて投稿、送信、提供されるコンテンツの使用から生じるいかなる種類の損失または損害について"
+"一切の責任を負いません。当社はサイトを通じて第三者が宣伝または提供する製品・サービス、"
+"ハイパーリンクされたウェブサイト、バナーその他の広告に表示されるウェブサイトやモバイルアプリについて"
+"保証、推奨、保証、または責任を負わず、利用者とサードパーティの製品・サービス提供者間の"
+"取引の監視に当事者となったり責任を負うことはありません。あらゆる媒体または環境での製品・サービスの"
+"購入と同様に、最善の判断を使用し、適切な場合は注意を払ってください。"
 
 #: ../../source/tos/tos.rst:316
 msgid "LIMITATIONS OF LIABILITY"
-msgstr ""
+msgstr "責任の制限"
 
 #: ../../source/tos/tos.rst:318
 msgid ""
@@ -662,17 +809,21 @@ msgid ""
 "USE OF THE SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH "
 "DAMAGES."
 msgstr ""
+"当社の役員、従業員、代理人は、当社がそのような損害の可能性を告知されていた場合であっても、"
+"サイトの使用から生じる逸失利益、収益損失、データ損失、その他の損害を含む直接的、間接的、"
+"結果的、典型的、付随的、特別、懲罰的損害について、利用者または第三者に対して一切責任を"
+"負いません。"
 
 #: ../../source/tos/tos.rst:326
 msgid "INDEMNIFICATION"
-msgstr ""
+msgstr "補償"
 
 #: ../../source/tos/tos.rst:328
 msgid ""
 "You agree to defend, indemnify, and hold us harmless, including our "
 "subsidiaries, affiliates, and all of our respective officers, agents, "
 "partners, and employees, from and against any loss, damage, liability, "
-"claim, or demand, including reasonable attorneys’ fees and expenses, made"
+"claim, or demand, including reasonable attorneys' fees and expenses, made"
 " by any third party due to or arising out of: (1) your Contributions; (2)"
 " use of the Site; (3) breach of these Terms of Use; (4) any breach of "
 "your representations and warranties set forth in these Terms of Use; (5) "
@@ -686,10 +837,19 @@ msgid ""
 " you of any such claim, action, or proceeding which is subject to this "
 "indemnification upon becoming aware of it."
 msgstr ""
+"利用者は、（1）投稿コンテンツ；（2）サイトの使用；（3）この利用規約の違反；"
+"（4）この利用規約に定める表明・保証の違反；（5）知的財産権を含む第三者の権利の侵害；"
+"（6）サイトを通じて接続した他のサイト利用者への明らかな有害行為、に起因または関連して"
+"第三者が行った、合理的な弁護士費用を含む損失、損害、責任、請求、要求から、当社の子会社、"
+"関連会社、役員、代理人、パートナー、従業員を含む当社を弁護、補償、免責することに同意します。"
+"上記にかかわらず、当社は利用者の費用負担で、補償が必要な事項の独占的防御と管理を引き受ける"
+"権利を留保し、利用者はそのような請求の防御において当社に協力することに同意します。"
+"当社はそのような補償の対象となる請求、訴訟、または手続きを知った時点で合理的な努力をもって"
+"利用者に通知します。"
 
 #: ../../source/tos/tos.rst:342
 msgid "CALIFORNIA USERS AND RESIDENTS"
-msgstr ""
+msgstr "カリフォルニア州の利用者および居住者"
 
 #: ../../source/tos/tos.rst:344
 msgid ""
@@ -699,10 +859,13 @@ msgid ""
 "Market Blvd., Suite N 112, Sacramento, California 95834 or by telephone "
 "at (800) 952-5210 or (916) 445-1254."
 msgstr ""
+"当社への苦情が満足のいく形で解決されない場合は、カリフォルニア州消費者問題局消費者サービス部門の"
+"苦情支援部（1625 North Market Blvd., Suite N 112, Sacramento, California 95834）に書面で、"
+"または電話（(800) 952-5210 または (916) 445-1254）でご連絡ください。"
 
 #: ../../source/tos/tos.rst:350
 msgid "CONTACT US"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: ../../source/tos/tos.rst:352
 msgid ""
@@ -712,20 +875,23 @@ msgid ""
 "of any of our Sites, or your dealings with any of our Sites, contact us "
 "via email privacy@firstinspires.org or by sending a letter to:"
 msgstr ""
+"*FIRST* には *FIRST* を代表し、調査活動、苦情処理、データ侵害通知を主導するデータガバナンスチームがあります。"
+"この利用規約、当社のサイトの慣行、またはサイトとのやり取りについてご質問がある場合は、"
+"メール privacy@firstinspires.org または以下の住所への書面でお問い合わせください："
 
 #: ../../source/tos/tos.rst:357
 msgid "*FIRST*"
-msgstr ""
+msgstr "*FIRST*"
 
 #: ../../source/tos/tos.rst:358
 msgid "200 Bedford Street"
-msgstr ""
+msgstr "200 Bedford Street"
 
 #: ../../source/tos/tos.rst:359
 msgid "Manchester, NH 03101"
-msgstr ""
+msgstr "Manchester, NH 03101"
 
 #: ../../source/tos/tos.rst:360
 msgid "Or you may call us at (800) 871-8326 or (603) 666-3906."
-msgstr ""
+msgstr "(800) 871-8326 または (603) 666-3906 にお電話いただくこともできます。"
 

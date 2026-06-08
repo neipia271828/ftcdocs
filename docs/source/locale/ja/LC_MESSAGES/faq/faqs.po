@@ -22,19 +22,19 @@ msgstr ""
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common FTC Team FAQs"
-msgstr ""
+msgstr "FTC チームのよくある質問"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common questions asked by FIRST Tech Challenge teams answered"
-msgstr ""
+msgstr "FIRST Tech Challenge チームからよく寄せられる質問への回答"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, FAQ"
-msgstr ""
+msgstr "FTC Docs、FIRST Tech Challenge、FTC、FAQ"
 
 #: ../../source/faq/faqs.rst:7
 msgid "Common Team FAQs"
-msgstr ""
+msgstr "チームのよくある質問"
 
 #: ../../source/faq/faqs.rst:9
 msgid ""
@@ -45,40 +45,46 @@ msgid ""
 "Live Chat or ask game specific questions on the `Game Q&A <https://ftc-"
 "qa.firstinspires.org/>`_ ."
 msgstr ""
+"チーム登録から競技、審査まで、チーム活動の様々な側面に関するクイック回答をお探しの方は、"
+"これらの公式 Q&A を参考にシーズンを乗り切ってください。さらなる説明が必要な場合は "
+"https://www.firstinspires.org/ からライブチャットをご利用いただくか、"
+"ゲーム固有の質問は `ゲーム Q&A <https://ftc-qa.firstinspires.org/>`_ でお尋ねください。"
 
 #: ../../source/faq/faqs.rst:15
 msgid "Dashboard/Registration FAQs"
-msgstr ""
+msgstr "ダッシュボード・登録 FAQ"
 
 #: ../../source/faq/faqs.rst:22
 msgid ""
 "Each team is required to have two YPP screened lead coaches to see the "
 "Invite Youth Member contact option"
-msgstr ""
+msgstr "「Invite Youth Member」の連絡オプションを表示するには、各チームに YPP 審査済みのリードコーチが2名必要です"
 
 #: ../../source/faq/faqs.rst:26
 msgid ""
 "Pitsco submits payments to us electronically. This process can take 24-48"
 " hours to complete."
-msgstr ""
+msgstr "Pitsco は電子的に支払いを送信します。このプロセスには24〜48時間かかる場合があります。"
 
 #: ../../source/faq/faqs.rst:29
 msgid "System FAQs"
-msgstr ""
+msgstr "システム FAQ"
 
 #: ../../source/faq/faqs.rst:36
 msgid "Lead Coach 1 & 2"
-msgstr ""
+msgstr "リードコーチ 1 ＆ 2"
 
 #: ../../source/faq/faqs.rst:40
 msgid ""
 "https://ftc-events.firstinspires.org/ is the source for FIRST-official "
 "team, events and event results information for *FIRST* Tech Challenge"
 msgstr ""
+"https://ftc-events.firstinspires.org/ は *FIRST* Tech Challenge の"
+"FIRST 公式チーム・イベント・イベント結果情報のソースです"
 
 #: ../../source/faq/faqs.rst:43
 msgid "Judging FAQs"
-msgstr ""
+msgstr "審査 FAQ"
 
 #: ../../source/faq/faqs.rst:50
 msgid ""
@@ -86,6 +92,9 @@ msgid ""
 " who want to participate in the presentation. Please note that at some "
 "events, the Portfolio is collected when the team checks in for the event."
 msgstr ""
+"チームはロボット、ポートフォリオ、およびプレゼンテーションに参加したいチームメンバーを"
+"できるだけ多く連れてきてください。イベントによっては、チームがイベントにチェックインする際に"
+"ポートフォリオが収集される場合があることにご注意ください。"
 
 #: ../../source/faq/faqs.rst:55
 msgid ""
@@ -94,6 +103,9 @@ msgid ""
 "Structured interview and does not include the team's performance in "
 "follow-up Pit interviews or their Portfolio."
 msgstr ""
+"審査員はチームの構造化インタビューが終了した直後にフィードバックフォームに記入します。"
+"フィードバックは最初の構造化インタビューに限定され、その後のピットインタビューやポートフォリオでの"
+"チームのパフォーマンスは含まれません。"
 
 #: ../../source/faq/faqs.rst:60
 msgid ""
@@ -102,10 +114,12 @@ msgid ""
 "enter the room. The judges will begin to ask the team questions at the "
 "beginning of the interview."
 msgstr ""
+"チームは5分間のプレゼンテーションを準備する必要はありませんが、部屋に入る際にプレゼンテーションが"
+"ないことを審査員に伝えてください。審査員はインタビューの冒頭からチームへの質問を始めます。"
 
 #: ../../source/faq/faqs.rst:66
 msgid "Competition FAQs"
-msgstr ""
+msgstr "競技 FAQ"
 
 #: ../../source/faq/faqs.rst:73
 msgid ""
@@ -120,6 +134,13 @@ msgid ""
 "inspection checklist, you can generally determine what you're doing based"
 " on the checklist."
 msgstr ""
+"競技マニュアルに従い、インスペクション中は少なくとも1名の生徒が立ち会う必要があります。"
+"ただし、インスペクターはロボットの機械的・電気的コンポーネントについて質問します。"
+"理想的には、そのような質問に答えられるチームメンバーが1名以上いることが望ましいです。"
+"また、特定のルール（サイズなど）への準拠を示すためにロボットとドライバーステーションを"
+"起動する必要がある場合もあります。ゲームパッドを使ってメカニズムを操作したり、"
+"ロボットをスタート設定に置く必要がある場合はドライブチームのメンバーが必要になることがあります。"
+"セルフインスペクションチェックリストを参照すると、チェックリストに基づいて何をすべきかがわかります。"
 
 #: ../../source/faq/faqs.rst:82
 msgid ""
@@ -129,24 +150,31 @@ msgid ""
 "or field staff there will not be grounds for a replay. A malfunctioning "
 "robot typically does not provide grounds for a replay."
 msgstr ""
+"試合の再試合が認められる状況は限られています。再試合が認められる条件とプロセスについては"
+"競技マニュアルをご確認ください。通常、フィールドやフィールドスタッフに問題が生じない限り、"
+"再試合の根拠はありません。ロボットの誤作動は通常、再試合の根拠にはなりません。"
 
 #: ../../source/faq/faqs.rst:88
 msgid ""
 "The situation was different. If necessary, teams can talk with the head "
 "referee in the competition area Question Box."
 msgstr ""
+"状況が異なっていました。必要であれば、チームは競技エリアのクエスチョンボックスで"
+"チーフレフェリーと話し合うことができます。"
 
 #: ../../source/faq/faqs.rst:92
 msgid ""
 "Teams can go the Question Box so they can discuss this issue with the "
 "head referee. No photographs or videos will be reviewed."
 msgstr ""
+"チームはクエスチョンボックスに行き、チーフレフェリーとこの問題について話し合うことができます。"
+"写真や動画は審査されません。"
 
 #: ../../source/faq/faqs.rst:96
 msgid ""
 "Teams can work with the event FTA or Event Director if they have "
 "questions about the WiFi environment."
-msgstr ""
+msgstr "WiFi 環境について質問がある場合は、イベントの FTA またはイベントディレクターと連絡を取ることができます。"
 
 #: ../../source/faq/faqs.rst:100
 msgid ""
@@ -158,10 +186,15 @@ msgid ""
 " Competition Manual for more information about key volunteer roles, "
 "tournament operations, and how to use the Question Box."
 msgstr ""
+"試合結果について質問があるチームは、生徒代表1名をクエスチョンボックスに送り、"
+"チーフレフェリーと話し合ってください（この会話のために試合を中断しないでください）。"
+"審判員がミスを認めた場合は修正できます。審判員がスコアに自信を持っている場合は、"
+"チームはその判断を受け入れてください。主要なボランティアの役割、大会運営、"
+"クエスチョンボックスの使い方については競技マニュアルをご確認ください。"
 
 #: ../../source/faq/faqs.rst:105
 msgid "Technology FAQs"
-msgstr ""
+msgstr "技術 FAQ"
 
 #: ../../source/faq/faqs.rst:112
 msgid ""
@@ -170,8 +203,11 @@ msgid ""
 "community place to ask questions that is monitored by a variety of "
 "knowledgeable folks who can likely help you with your questions!"
 msgstr ""
+"サポートを求めるのに最適な場所は `ftc-community プラットフォーム "
+"<https://ftc-community.firstinspires.org>`__ です。ftc-community プラットフォームは"
+"質問を投稿できるコミュニティの場であり、様々な知識豊富な方々が質問に答えてくれます！"
 
 #: ../../source/faq/faqs.rst:118
 msgid "Reviewed by *FIRST* Tech Challenge Game Design Committee"
-msgstr ""
+msgstr "*FIRST* Tech Challenge ゲームデザイン委員会監修"
 
