@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/sponsors/discounts/discounts.rst:2
 msgid "*FIRST* Tech Challenge Team Discounts"
-msgstr ""
+msgstr "*FIRST* Tech Challenge チーム割引"
 
 #: ../../source/sponsors/discounts/discounts.rst:4
 msgid ""
@@ -33,23 +33,27 @@ msgid ""
 "or a season-specific or team-specific promo code. Read details below for "
 "each vendor for more information."
 msgstr ""
+"*FIRST* Tech Challenge チームであることの特典として、*FIRST* プログラムの一部のベンダーや"
+"スポンサーが製品の割引を提供しています。これらの割引は特定のカテゴリの製品に適用されるものや"
+"サイト全体に適用されるものがあり、申請プロセスやシーズン固有・チーム固有のプロモーションコードが"
+"必要な場合もあります。各ベンダーの詳細については下記をご覧ください。"
 
 #: ../../source/sponsors/discounts/discounts.rst:12
 msgid "Team Grant Opportunities"
-msgstr ""
+msgstr "チームグラント機会"
 
 #: ../../source/sponsors/discounts/discounts.rst:22
 #: ../../source/sponsors/discounts/discounts.rst:44
 msgid "**What**:"
-msgstr ""
+msgstr "**内容**："
 
 #: ../../source/sponsors/discounts/discounts.rst:24
 msgid "FIRST Tech Challenge Team Grants"
-msgstr ""
+msgstr "FIRST Tech Challenge チームグラント"
 
 #: ../../source/sponsors/discounts/discounts.rst:26
 msgid "**Expires**: See each individual grant opportunity."
-msgstr ""
+msgstr "**有効期限**：各グラント機会をご確認ください。"
 
 #: ../../source/sponsors/discounts/discounts.rst:28
 msgid ""
@@ -57,30 +61,33 @@ msgid ""
 "<https://www.firstinspires.org/programs/team-grant-opportunities>`_ and "
 "see if you're eligible!"
 msgstr ""
+"**申請方法**：`現在利用可能なチームグラントの一覧 "
+"<https://www.firstinspires.org/programs/team-grant-opportunities>`_ を確認し、"
+"資格があるか確認してください！"
 
 #: ../../source/sponsors/discounts/discounts.rst:34
 msgid "*FIRST* Storefront"
-msgstr ""
+msgstr "*FIRST* ストアフロント"
 
 #: ../../source/sponsors/discounts/discounts.rst:46
 msgid ""
 "All *FIRST* Tech Challenge Teams are eligible for discounts on control "
 "equipment, electronics, and starter kits."
-msgstr ""
+msgstr "すべての *FIRST* Tech Challenge チームはコントロール機器、電子部品、スターターキットの割引を受ける資格があります。"
 
 #: ../../source/sponsors/discounts/discounts.rst:48
 msgid "Teams are limited to one purchase per item per category each season."
-msgstr ""
+msgstr "チームは各シーズン、各カテゴリのアイテムにつき1回の購入に限定されます。"
 
 #: ../../source/sponsors/discounts/discounts.rst:50
 msgid ""
 "**Expires**: Good for the current *FIRST* Tech Challenge competition "
 "season."
-msgstr ""
+msgstr "**有効期限**：現在の *FIRST* Tech Challenge 競技シーズン中有効。"
 
 #: ../../source/sponsors/discounts/discounts.rst:52
 msgid "**Promo Code**: N/A"
-msgstr ""
+msgstr "**プロモーションコード**：なし"
 
 #: ../../source/sponsors/discounts/discounts.rst:54
 msgid ""
@@ -88,4 +95,7 @@ msgid ""
 "<https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-"
 "options.pdf>`_ for instructions on how to purchase discounted parts."
 msgstr ""
+"**使用方法**：割引パーツの購入方法については `Kit of Parts PDF "
+"<https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-"
+"options.pdf>`_ をご参照ください。"
 

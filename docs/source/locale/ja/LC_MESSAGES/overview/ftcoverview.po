@@ -22,15 +22,17 @@ msgstr ""
 
 #: ../../source/overview/ftcoverview.rst:2
 msgid "About the *FIRST* Tech Challenge"
-msgstr ""
+msgstr "*FIRST* Tech Challenge について"
 
 #: ../../source/overview/ftcoverview.rst:4
 msgid ""
-"It’s way more than building robots. *FIRST* Tech Challenge teams (up to "
+"It's way more than building robots. *FIRST* Tech Challenge teams (up to "
 "15 team members, grades 7-12) are challenged to design, build, program, "
 "and operate robots to compete in a head-to-head challenge in an alliance "
 "format."
 msgstr ""
+"ロボットを作るだけにとどまりません。*FIRST* Tech Challenge のチーム（最大15名、中学1年〜高校3年）は、"
+"アライアンス形式の対戦形式でロボットを設計・製作・プログラム・操作することに挑戦します。"
 
 #: ../../source/overview/ftcoverview.rst:8
 msgid ""
@@ -38,6 +40,8 @@ msgid ""
 "practice engineering principles, while realizing the value of hard work, "
 "innovation, and working as a team."
 msgstr ""
+"大人のコーチやメンターに導かれながら、生徒たちは STEM スキルを磨き、工学の原則を実践し、"
+"努力・イノベーション・チームワークの価値を体得していきます。"
 
 #: ../../source/overview/ftcoverview.rst:12
 msgid ""
@@ -47,22 +51,28 @@ msgid ""
 " community outreach to earn specific awards. Participants are encouraged "
 "to explore future education, enlistment, and other employment pathways."
 msgstr ""
+"ロボットキットは毎年再利用でき、グラフィカルなプログラミングから Java ベースまで様々なレベルで"
+"コーディングできます。チームはロボットの設計・製作、資金調達、チームブランドのデザイン・マーケティング、"
+"地域へのアウトリーチを行い、特定のアワードを目指します。"
+"参加者は将来の進学・入隊・その他のキャリアパスを探求することが奨励されています。"
 
 #: ../../source/overview/ftcoverview.rst:21
 msgid ""
 "Each season concludes with regional championship events and an exciting "
 "|text|_."
-msgstr ""
+msgstr "各シーズンは地区チャンピオンシップイベントと exciting な |text|_ で締めくくられます。"
 
 #: ../../source/overview/ftcoverview.rst:29
 msgid ""
 "`About FIRST Tech Challenge (2021) "
 "<https://www.youtube.com/embed/y5NPp_5KHuk>`__"
 msgstr ""
+"`FIRST Tech Challenge について（2021年） "
+"<https://www.youtube.com/embed/y5NPp_5KHuk>`__"
 
 #: ../../source/overview/ftcoverview.rst:38
 msgid "Start a *FIRST* Tech Challenge Team"
-msgstr ""
+msgstr "*FIRST* Tech Challenge チームを始めよう"
 
 #: ../../source/overview/ftcoverview.rst:40
 msgid ""
@@ -71,6 +81,9 @@ msgid ""
 "exciting field game and complete the specific season challenge. The robot"
 " game changes every season and is always a blast!"
 msgstr ""
+"*FIRST* Tech Challenge のチームは再利用可能なパーツキットを使ってロボットを設計・製作し、"
+"共通のゲームルールの中で exciting なフィールドゲームをプレーし、そのシーズン固有のチャレンジを"
+"クリアするために競い合います。ロボットゲームは毎シーズン変わり、常に楽しいものです！"
 
 #: ../../source/overview/ftcoverview.rst:45
 msgid ""
@@ -80,6 +93,9 @@ msgid ""
 "*FIRST* Tech Challenge welcomes every student, with or without special "
 "skills."
 msgstr ""
+"生徒も大人のチームメンバーも、プログラミング、電子工学、金属加工、グラフィックデザイン、"
+"ウェブ制作、スピーチ、映像制作など、自分が持つスキルを何でも活かすことが奨励されています。"
+"*FIRST* Tech Challenge は、特別なスキルの有無に関わらず、すべての生徒を歓迎します。"
 
 #: ../../source/overview/ftcoverview.rst:50
 msgid ""
@@ -87,14 +103,16 @@ msgid ""
 "school programming, learn more about *FIRST* Class Pack, a flexible "
 "implementation option for up to 24 students."
 msgstr ""
+"*FIRST* を授業や放課後活動に取り入れたい方は、最大24名の生徒に対応した柔軟な実施オプション"
+"「*FIRST* Class Pack」について詳しくご覧ください。"
 
 #: ../../source/overview/ftcoverview.rst:57
 msgid "Continue on to learn about the |text2|_"
-msgstr ""
+msgstr "|text2|_ について続けて学びましょう"
 
 #: ../../source/overview/ftcoverview.rst:63
 msgid "About *FIRST* Tech Challenge Kahoot"
-msgstr ""
+msgstr "*FIRST* Tech Challenge Kahoot について"
 
 #: ../../source/overview/ftcoverview.rst:65
 msgid ""
@@ -105,4 +123,9 @@ msgid ""
 "Challenge `Kahoot <https://create.kahoot.it/course/f79560a1-df68-44dd-"
 "bbef-d8c9bf5a27f5>`__."
 msgstr ""
+"これは知識をテストし深めるための楽しいセルフペースの *FIRST* Tech Challenge "
+"`Kahoot <https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ です。"
+"*FIRST* Tech Challenge の様々な側面と *FIRST* のコアバリューを "
+"*FIRST* Tech Challenge `Kahoot <https://create.kahoot.it/course/f79560a1-df68-44dd-"
+"bbef-d8c9bf5a27f5>`__ で学びましょう。"
 

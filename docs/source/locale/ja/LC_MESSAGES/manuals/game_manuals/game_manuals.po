@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/manuals/game_manuals/game_manuals.rst:2
 msgid "Competition Manual"
-msgstr ""
+msgstr "競技マニュアル"
 
 #: ../../source/manuals/game_manuals/game_manuals.rst:4
 msgid ""
@@ -30,4 +30,6 @@ msgid ""
 "page <https://ftc-resources.firstinspires.org/files/ftc/game>`__ on the "
 "*FIRST* Website."
 msgstr ""
+"競技マニュアルは *FIRST* ウェブサイトの `ゲーム・シーズン資料ページ "
+"<https://ftc-resources.firstinspires.org/files/ftc/game>`__ でご確認いただけます。"
 
