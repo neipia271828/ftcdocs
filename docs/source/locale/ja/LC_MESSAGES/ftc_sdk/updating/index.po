@@ -22,45 +22,45 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating REV Hardware Client"
-msgstr ""
+msgstr "REV Hardware Client のアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating Driver Station App"
-msgstr ""
+msgstr "Driver Station アプリのアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating Robot Controller App"
-msgstr ""
+msgstr "Robot Controller アプリのアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating Driver Hub OS"
-msgstr ""
+msgstr "Driver Hub OS のアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating Control Hub OS"
-msgstr ""
+msgstr "Control Hub OS のアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:14
 msgid "Updating Hub Firmware"
-msgstr ""
+msgstr "ハブファームウェアのアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:-1
 msgid "Updating Components of the FTC Control System"
-msgstr ""
+msgstr "FTC コントロールシステムのコンポーネントのアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:-1
 msgid ""
 "A comprhensive guide to updating key components of the FIRST Tech "
 "Challenge Control System"
-msgstr ""
+msgstr "FIRST Tech Challenge コントロールシステムの主要コンポーネントのアップデートに関する包括的なガイド"
 
 #: ../../source/ftc_sdk/updating/index.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, Control System, update"
-msgstr ""
+msgstr "FTC Docs、FIRST Tech Challenge、FTC、コントロールシステム、アップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:7
 msgid "Updating Components of the Control System"
-msgstr ""
+msgstr "コントロールシステムのコンポーネントのアップデート"
 
 #: ../../source/ftc_sdk/updating/index.rst:9
 msgid ""
@@ -68,4 +68,6 @@ msgid ""
 "periodically receive updates.  Teams should make sure to update each "
 "component of the Control System to the latest released version."
 msgstr ""
+"*FIRST* Tech Challenge コントロールシステムの特定のコンポーネントは定期的にアップデートを受け取ります。"
+"チームはコントロールシステムの各コンポーネントを最新リリースバージョンにアップデートするようにしてください。"
 

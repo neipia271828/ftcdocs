@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:2
 msgid "SOLIDWORKS® CAD Resources"
-msgstr ""
+msgstr "SOLIDWORKS® CAD リソース"
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:4
 msgid ""
@@ -32,10 +32,14 @@ msgid ""
 "Lifecycle Management (PLM), collaboration, community, and Cloud CAD Apps "
 "to all *FIRST* teams. Enhance collaborative robot design with your team."
 msgstr ""
+"15年以上にわたり、Dassault Systèmes は SOLIDWORKS® で *FIRST®* チームにソフトウェアを提供してきました。"
+"また、PLM（製品ライフサイクル管理）、コラボレーション、コミュニティ、クラウド CAD アプリを"
+"すべての *FIRST* チームに提供する技術プラットフォーム 3DEXPERIENCE® も導入しています。"
+"チームとのコラボレーティブなロボット設計を強化しましょう。"
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:11
 msgid "Obtaining SOLIDWORKS® Software"
-msgstr ""
+msgstr "SOLIDWORKS® ソフトウェアの入手方法"
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:13
 msgid ""
@@ -44,10 +48,13 @@ msgid ""
 "Visit https://www.solidworks.com/product/students/first-robotics-students"
 " to learn how to set up an account."
 msgstr ""
+"Dassault Systèmes はすべての *FIRST* チームに一部のソフトウェアを提供しています。"
+"クラウドベースおよびデスクトップベースのツールの両方を提供しています。"
+"アカウントの設定方法については https://www.solidworks.com/product/students/first-robotics-students を参照してください。"
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:16
 msgid "SOLIDWORKS® Training Videos"
-msgstr ""
+msgstr "SOLIDWORKS® トレーニング動画"
 
 #: ../../source/cad_resources/solidworks/solidworks.rst:18
 msgid ""
@@ -56,4 +63,7 @@ msgid ""
 "<https://eduspace.3ds.com/CompanionManager/public/#/>`__, which manages "
 "access through your 3DEXPERIENCE ID."
 msgstr ""
+"クラウドベースおよびデスクトップベースのツール両方の学習コンテンツは、"
+"3DEXPERIENCE ID でアクセスを管理する `3DS オンライン学習ポータル "
+"<https://eduspace.3ds.com/CompanionManager/public/#/>`__ で管理されています。"
 

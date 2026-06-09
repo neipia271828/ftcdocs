@@ -23,15 +23,15 @@ msgstr ""
 #: ../../source/control_hard_compon/ds_components/index.rst:-1
 #: ../../source/control_hard_compon/ds_components/index.rst:7
 msgid "Driver Station Overview"
-msgstr ""
+msgstr "Driver Station 概要"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:-1
 msgid "An overview of the various components of the FTC Driver Station"
-msgstr ""
+msgstr "FTC Driver Station の各種コンポーネントの概要"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, DS"
-msgstr ""
+msgstr "FTC Docs, FIRST Tech Challenge, DS"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:9
 msgid ""
@@ -45,33 +45,39 @@ msgid ""
 "recommended for teams to use for component management and transportation."
 " See the Competition Manual for more information on *OPERATOR CONSOLES*."
 msgstr ""
+"これらの画像は、Driver Station を構成するために一般的に使用されるコンポーネントの基本的な接続図を示しています。"
+"これらのコンポーネントは通常、*FIRST* ストアフロントの「制御・通信」キットから購入されます。"
+"これらの構成はサンプル接続を示すものであり、コンポーネントを接続する唯一の方法を表すものではありません。"
+"また、これらの画像はコンポーネントの管理・輸送にチームが使用を推奨される "
+"`Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_ の使用を表すものでもありません。"
+"*OPERATOR CONSOLES* の詳細については競技マニュアルを参照してください。"
 
 #: ../../source/control_hard_compon/ds_components/index.rst
 msgid "Driver Station"
-msgstr ""
+msgstr "Driver Station"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:24
 msgid ":download:`Driver Station C1 - Basic Config<files/C1.pdf>`"
-msgstr ""
+msgstr ":download:`Driver Station C1 - 基本構成<files/C1.pdf>`"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:26
 msgid "Driver Station Image"
-msgstr ""
+msgstr "Driver Station 画像"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:30
 #: ../../source/control_hard_compon/ds_components/index.rst:40
 msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
-msgstr ""
+msgstr "図は FRC チーム 3161 および Stefen Acepcion のご厚意により提供"
 
 #: ../../source/control_hard_compon/ds_components/index.rst
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:34
 msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
-msgstr ""
+msgstr ":download:`ライセンスと帰属<../license/sa_license.pdf>`"
 
 #: ../../source/control_hard_compon/ds_components/index.rst:36
 msgid "License Info"
-msgstr ""
+msgstr "ライセンス情報"
 

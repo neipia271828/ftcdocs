@@ -22,37 +22,37 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:2
 msgid "Servos"
-msgstr ""
+msgstr "サーボ"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:11
 msgid "REV Smart Robot Servo (SRS)"
-msgstr ""
+msgstr "REV Smart Robot Servo (SRS)"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:15
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:22
 msgid "REV-41-1097"
-msgstr ""
+msgstr "REV-41-1097"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:28
 msgid "goBILDA Dual Mode Servo"
-msgstr ""
+msgstr "goBILDA デュアルモードサーボ"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:32
 msgid "2000-0025-0504"
-msgstr ""
+msgstr "2000-0025-0504"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:39
 msgid "GB 2000-0025-0504"
-msgstr ""
+msgstr "GB 2000-0025-0504"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:45
 msgid "Hitec Conventional Servo"
-msgstr ""
+msgstr "Hitec 標準サーボ"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:49
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:56
 msgid "W39197"
-msgstr ""
+msgstr "W39197"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:58
 msgid ""
@@ -68,16 +68,21 @@ msgid ""
 "servos, including quantity and mechanical power. Please see the "
 "Competition Manual for details."
 msgstr ""
+"サーボはパルス幅変調（PWM）信号を入力として受け取り、内蔵コントローラーの助けを借りて入力信号に基づいて直線または回転運動を生成するデバイスです。"
+"サーボは REV Hub（Control Hub または Expansion Hub）が生成する入力信号を受け取ることができ、Hub 自体は 5V の電力と制限された電流を供給します"
+"（詳細は REV ドキュメントを参照）。"
+"REV Servo Power Module (SPM) などのサーボ電力インジェクターを使用して、1デバイスあたり最大6台のサーボに供給電力を最大 6V まで強化できます。"
+"*FIRST* Tech Challenge のロボットはサーボに関して数量や機械出力などの制限を受けます。詳細は競技マニュアルを参照してください。"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:69
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:71
 msgid ""
 ":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:servo ports>`"
-msgstr ""
+msgstr ":ref:`ポート概要 <control_hard_compon/rc_components/hub/ports/ch-ports:servo ports>`"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:72
 msgid ""
@@ -85,6 +90,7 @@ msgid ""
 "<hardware_and_software_configuration/connecting_devices/connecting_servo"
 "/connecting-servo:connecting a servo to the hub>`"
 msgstr ""
+":ref:`サーボの接続 <hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo:connecting a servo to the hub>`"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:73
 msgid ""
@@ -92,6 +98,7 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_servo"
 "/configuring-servo:configuring a servo>`"
 msgstr ""
+":ref:`サーボの設定 <hardware_and_software_configuration/configuring/configuring_servo/configuring-servo:configuring a servo>`"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:74
 msgid ""
@@ -99,4 +106,5 @@ msgid ""
 "<control_hard_compon/rc_components/power_distr/power-distr:rev servo "
 "power module>`"
 msgstr ""
+":ref:`REV Servo Power Module <control_hard_compon/rc_components/power_distr/power-distr:rev servo power module>`"
 
