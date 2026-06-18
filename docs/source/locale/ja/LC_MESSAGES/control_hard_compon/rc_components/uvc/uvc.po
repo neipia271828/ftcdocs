@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:2
 msgid "UVC Webcam"
-msgstr ""
+msgstr "UVC ウェブカメラ"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:4
 msgid ""
@@ -36,36 +36,41 @@ msgid ""
 " directly to the REV Control Hub or to the Robot Control system via a USB"
 " hub."
 msgstr ""
+"ウェブカメラは周囲の環境の視覚的な画像を提供するデバイスです。"
+"UVC（USB Video Class）は、ウェブカメラやデジタルカメラなどの USB デバイスが特別なドライバーなしにコンピューターにビデオをストリーミングできるようにする規格です。"
+"*FIRST* Tech Challenge での使用には、市販の既製品（COTS）の "
+"USB Video Class `(UVC) <https://www.usb.org/document-library/video-class-v15-document-set>`_ "
+"互換カメラを使用する必要があります。このデバイスは REV Control Hub に直接接続するか、USB ハブを介してロボット制御システムに接続できます。"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:18
 msgid "Budget Webcam"
-msgstr ""
+msgstr "低価格ウェブカメラ"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:22
 msgid "Example budget UVC webcam"
-msgstr ""
+msgstr "低価格 UVC ウェブカメラの例"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:30
 msgid ":ref:`logitech_c270_label`"
-msgstr ""
+msgstr ":ref:`logitech_c270_label`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:36
 msgid "Mid-range Webcam"
-msgstr ""
+msgstr "ミドルレンジウェブカメラ"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:40
 msgid "Example mid-range UVC webcam"
-msgstr ""
+msgstr "ミドルレンジ UVC ウェブカメラの例"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:48
 msgid ":ref:`logitech_c920_label`"
-msgstr ""
+msgstr ":ref:`logitech_c920_label`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:50
 msgid ""
 "Webcams are intended to be used in computer vision related tasks. Example"
 " use cases for a webcam are:"
-msgstr ""
+msgstr "ウェブカメラはコンピュータービジョン関連のタスクでの使用を目的としています。使用例としては以下が挙げられます："
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:53
 msgid ""
@@ -73,6 +78,8 @@ msgid ""
 "<../../../apriltag/understanding_apriltag_detection_values/understanding-"
 "apriltag-detection-values>` an AprilTag,"
 msgstr ""
+"AprilTag の "
+":doc:`検出 <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>`、"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:54
 msgid ""
@@ -80,16 +87,21 @@ msgid ""
 "<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
 "localization>` on the field,"
 msgstr ""
+"フィールド上のロボットの "
+":doc:`位置 <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` "
+"の特定、"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:55
 msgid ""
 "using OpenCV to :doc:`detect colors or shapes "
 "<../../../color_processing/index>` of game elements."
 msgstr ""
+"OpenCV を使用したゲーム要素の "
+":doc:`色や形状の検出 <../../../color_processing/index>`。"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:58
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:60
 msgid ""
@@ -97,6 +109,8 @@ msgid ""
 "<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
 "webcams>` known to be compatible with VisionPortal."
 msgstr ""
+"VisionPortal との互換性が確認されているウェブカメラの "
+":doc:`一覧 <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`。"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:61
 msgid ""
@@ -105,6 +119,7 @@ msgid ""
 "/configuring-uvc-camera:configuring an external uvc camera and a powered "
 "usb hub>`"
 msgstr ""
+":ref:`給電 USB ハブ経由での UVC カメラ接続 <hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera:configuring an external uvc camera and a powered usb hub>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:62
 msgid ""
@@ -113,16 +128,17 @@ msgid ""
 "/configuring-external-webcam:configuring an external webcam with a "
 "control hub>`"
 msgstr ""
+":ref:`REV Control Hub への UVC カメラ直接接続 <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:configuring an external webcam with a control hub>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:63
 msgid ""
 ":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:USB Ports>`"
-msgstr ""
+msgstr ":ref:`USB ポート概要 <control_hard_compon/rc_components/hub/ports/ch-ports:USB Ports>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:64
 msgid ""
 ":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision "
 "programming>`"
-msgstr ""
+msgstr ":ref:`FIRST Tech Challenge におけるビジョン <programming_resources/index:vision programming>`"
 

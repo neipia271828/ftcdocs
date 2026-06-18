@@ -22,23 +22,23 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:2
 msgid "Encoders (Rotation Counters)"
-msgstr ""
+msgstr "エンコーダー（回転カウンター）"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:11
 msgid "REV HD Hex Motor"
-msgstr ""
+msgstr "REV HD Hex モーター"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:21
 msgid "Built-in Encoder in the REV HD Hex Motor"
-msgstr ""
+msgstr "REV HD Hex モーター内蔵エンコーダー"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:27
 msgid "REV Through Bore Encoder"
-msgstr ""
+msgstr "REV Through Bore エンコーダー"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:37
 msgid "REV Through Bore Encoder, in incremental mode."
-msgstr ""
+msgstr "REV Through Bore エンコーダー（インクリメンタルモード）"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:39
 msgid ""
@@ -53,14 +53,21 @@ msgid ""
 "its starting position and the the exact angle the shaft is currently at "
 "relative to a \"zero\" position."
 msgstr ""
+"エンコーダーは軸周りの回転変位を測定するデバイスです。"
+"*FIRST* Tech Challenge の公認モーターのほとんどには、REV Hub と互換性のある直交エンコーダーが内蔵されています。"
+"上図のような REV Through Bore エンコーダーなどの独立したインクリメンタルエンコーダーを使用することも可能です。"
+"インクリメンタルエンコーダーはシャフトの部分回転ごとに「ティック」を送出することで動作します。"
+"1回転あたりのティック数の詳細はメーカーのウェブサイトで確認できます。"
+"アブソリュートエンコーダーは、シャフトの開始位置からの変位と、「ゼロ」位置を基準とした現在の正確な角度を示すことができます。"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:51
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:53
 msgid ""
 ":ref:`Encoder Port Overview <control_hard_compon/rc_components/hub/ports"
 "/exh-ports:encoder ports>`"
 msgstr ""
+":ref:`エンコーダーポート概要 <control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"
 

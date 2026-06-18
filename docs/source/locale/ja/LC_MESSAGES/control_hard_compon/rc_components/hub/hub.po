@@ -22,23 +22,23 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:2
 msgid "REV Hubs"
-msgstr ""
+msgstr "REV Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:4
 msgid "The REV Hubs are the core control units of a *FIRST* Tech Challenge robot."
-msgstr ""
+msgstr "REV Hub は *FIRST* Tech Challenge ロボットの中核となる制御ユニットです。"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:7
 msgid "Control Hub"
-msgstr ""
+msgstr "Control Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:14
 msgid "REV-31-1595"
-msgstr ""
+msgstr "REV-31-1595"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:19
 msgid "REV Control Hub (REV-31-1595)"
-msgstr ""
+msgstr "REV Control Hub (REV-31-1595)"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:21
 msgid ""
@@ -49,18 +49,21 @@ msgid ""
 "able to control hardware devices but is not able to to interpret and run "
 "the SDK."
 msgstr ""
+"REV Control Hub は、REV Expansion Hub と内蔵 Android ドーターボードを組み合わせたものです。"
+"これにより、ロボットのすべてのハードウェアコンポーネントを制御し、実際のロボットソフトウェアも実行できます。"
+"これは、ハードウェアデバイスの制御のみ可能で SDK の解釈・実行はできない REV Expansion Hub とは対照的です。"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:28
 msgid "Expansion Hub"
-msgstr ""
+msgstr "Expansion Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:35
 msgid "REV-31-1153"
-msgstr ""
+msgstr "REV-31-1153"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:40
 msgid "REV Expansion Hub (REV-31-1153)"
-msgstr ""
+msgstr "REV Expansion Hub (REV-31-1153)"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:42
 msgid ""
@@ -77,4 +80,11 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_dual_hubs"
 "/configuring-dual-hubs:using two expansion hubs>`."
 msgstr ""
+"REV Expansion Hub は、ロボットのすべてのハードウェアコンポーネントを制御するために使用するハブです。"
+"Android デバイスから送られるコマンドを受け取り、実際に実行します。"
+"モーターを動かしたい場合、Expansion Hub がモーターを動かす命令を受け取り、適切な方法でモーターに電力を送ります。"
+"ただし、それをいつ行うかは Expansion Hub には分からず、そこで Android デバイスが役割を果たします。"
+"このデバイスは USB で接続された従来の Android スマートフォン、または Control Hub 内の内蔵デバイスのいずれかです。"
+"複数の Hub を使用する場合、``RS485`` または USB で接続できます。"
+"詳細は :ref:`こちら <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` を参照してください。"
 

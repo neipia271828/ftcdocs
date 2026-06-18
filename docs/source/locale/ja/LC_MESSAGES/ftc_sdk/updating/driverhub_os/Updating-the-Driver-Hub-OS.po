@@ -24,69 +24,83 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:28
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:33
 msgid "Updating the Driver Hub OS"
-msgstr ""
+msgstr "Driver Hub OS のアップデート"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:4
 msgid ""
-"An Operating System (OS) is software that supports a computer’s basic "
+"An Operating System (OS) is software that supports a computer's basic "
 "functions, such as scheduling tasks, executing applications, and "
 "controlling peripherals. This must sometimes be updated on the **REV "
 "Driver Hub**. While this OS update is not specifically part of the "
 ":doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK "
 "requires these updates for the Driver Hub in order to perform correctly."
 msgstr ""
+"オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、"
+"周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。"
+"**REV Driver Hub** でこの OS を更新する必要がある場合があります。"
+"この OS アップデートは :doc:`ソフトウェア開発キット（SDK）</ftc_sdk/overview/index>` の"
+"一部ではありませんが、SDK が正しく動作するために Driver Hub にはこれらのアップデートが必要です。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:11
 msgid "Here are two methods for updating the Driver Hub OS:"
-msgstr ""
+msgstr "Driver Hub OS をアップデートする2つの方法を紹介します："
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:13
 msgid "REV Hardware Client (RHC)"
-msgstr ""
+msgstr "REV Hardware Client (RHC)"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:14
 msgid "Software Manager on Driver Hub"
-msgstr ""
+msgstr "Driver Hub のソフトウェアマネージャー"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:16
 msgid ""
-"More info about updating the Driver Hub OS is `at REV Robotics’ excellent"
+"More info about updating the Driver Hub OS is `at REV Robotics' excellent"
 " documentation site <https://docs.revrobotics.com/duo-control/managing-"
 "the-control-system/updating-the-driver-hub>`__."
 msgstr ""
+"Driver Hub OS のアップデートの詳細は `REV Robotics の優れたドキュメントサイト "
+"<https://docs.revrobotics.com/duo-control/managing-"
+"the-control-system/updating-the-driver-hub>`__ をご覧ください。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
-msgstr ""
+msgstr "方法 1 - REV Hardware Client (RHC) - Windows コンピューター専用"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:21
 msgid ""
 "Turn on the Driver Hub. Plug it directly into a computer running the REV "
 "Hardware Client, with a USB-C data cable."
-msgstr ""
+msgstr "Driver Hub をオンにしてください。USB-C データケーブルで REV Hardware Client が動作しているコンピューターに直接接続してください。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:24
 msgid ""
-"Click the Driver Hub’s large icon/rectangle. Under “Driver Hub Operating "
-"System”, see the current/latest mismatch, if any (yellow oval, below)."
+"Click the Driver Hub's large icon/rectangle. Under "Driver Hub Operating "
+"System", see the current/latest mismatch, if any (yellow oval, below)."
 msgstr ""
+"Driver Hub の大きなアイコン/四角形をクリックしてください。「Driver Hub Operating System」の下で、"
+"現在のバージョンと最新バージョンの不一致（あれば）を確認してください（下の黄色の楕円）。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:35
 msgid ""
 "Confirm the Latest Version in the drop-down menu, if any. Then click the "
-"blue rectangle, labeled “Update” when applicable. The speed of this "
+"blue rectangle, labeled "Update" when applicable. The speed of this "
 "update is improved, since :doc:`in Updating the REV Hardware Client "
 "</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
 "required update file was previously downloaded."
 msgstr ""
+"ドロップダウンメニューで最新バージョン（あれば）を確認してください。次に、該当する場合は「Update」と"
+"ラベルされた青い四角形をクリックしてください。:doc:`REV Hardware Client のアップデート "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で"
+"必要なアップデートファイルが事前にダウンロードされているため、このアップデートは高速です。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:43
-msgid "Done! The Driver Hub’s OS is now updated."
-msgstr ""
+msgid "Done! The Driver Hub's OS is now updated."
+msgstr "完了！Driver Hub の OS がアップデートされました。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
 msgid "Method 2 - Software Manager"
-msgstr ""
+msgstr "方法 2 - ソフトウェアマネージャー"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:47
 msgid ""
@@ -94,24 +108,28 @@ msgid ""
 "can automatically update the Driver Hub OS (and other related software). "
 "It requires only an internet connection."
 msgstr ""
+"REV Driver Hub には「ソフトウェアマネージャー」という組み込みアプリがあり、Driver Hub OS"
+"（およびその他の関連ソフトウェア）を自動的にアップデートできます。インターネット接続のみが必要です。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:51
 msgid ""
-"Close all apps, and open the Driver Hub’s Wi-Fi menu (in Settings, or "
+"Close all apps, and open the Driver Hub's Wi-Fi menu (in Settings, or "
 "swipe down twice from top of home screen). Temporarily connect the Driver"
 " Hub to the internet via Wi-Fi."
 msgstr ""
+"すべてのアプリを閉じ、Driver Hub の Wi-Fi メニューを開いてください（設定から、またはホーム画面の"
+"上部から2回下にスワイプ）。Driver Hub を一時的に Wi-Fi 経由でインターネットに接続してください。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:55
 msgid ""
 "Open the Software Manager app at the Driver Hub home screen (left image, "
 "below)."
-msgstr ""
+msgstr "Driver Hub のホーム画面でソフトウェアマネージャーアプリを開いてください（下の左の画像）。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:58
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:63
 msgid "Updating the Software Manager"
-msgstr ""
+msgstr "ソフトウェアマネージャーのアップデート"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:65
 msgid ""
@@ -120,6 +138,9 @@ msgid ""
 "perform the updates, including the Driver Hub Operating System (OS) if "
 "needed."
 msgstr ""
+"ソフトウェアマネージャーは必要なアップデートを自動的に確認し、結果を表示します（上の右の画像）。"
+"必要に応じて Driver Hub オペレーティングシステム（OS）を含むアップデートを実行するために"
+"グレーのボタンをタップしてください。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:71
 msgid ""
@@ -127,14 +148,18 @@ msgid ""
 "Driver Hub, the tools available in this tutorial do not accept providing "
 "this file for updating the OS."
 msgstr ""
+"REV Robotics は Driver Hub のダウンロード可能な OS イメージファイルを提供していますが、"
+"このチュートリアルで利用可能なツールはこのファイルを OS のアップデートに使用することをサポートしていません。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:75
 msgid ""
-"When all is complete, “Forget” the Wi-Fi network used for internet "
+"When all is complete, "Forget" the Wi-Fi network used for internet "
 "access. Now the Driver Hub is ready for regular competition use."
 msgstr ""
+"すべて完了したら、インターネットアクセスに使用した Wi-Fi ネットワークを「削除」してください。"
+"これで Driver Hub は通常の競技使用の準備ができました。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:78
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr ""
+msgstr "ご質問、コメント、修正は westsiderobotics@verizon.net まで"
 
